@@ -214,7 +214,7 @@ watch-files: true
 #   => redis     Uses Redis pub-sub to push changes. Your server connection info must be configured
 #                below.
 #   => auto      Attempts to automatically setup a messaging service using redis or sql.
-messaging-service: auto
+messaging-service: pluginmsg
 
 # If LuckPerms should automatically push updates after a change has been made with a command.
 auto-push-updates: true
