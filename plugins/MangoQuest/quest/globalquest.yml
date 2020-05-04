@@ -31,8 +31,6 @@ Quests:
     Version: 1587335982635
     Requirements:
       Level: 0
-      Quest:
-      - newbie1
       Money: 0.0
     TriggerEvents:
       TRIGGER_ON_TAKE:
