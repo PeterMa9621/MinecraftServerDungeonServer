@@ -20,7 +20,7 @@ settings:
   user-cache-size: 1000
   netty-threads: 4
   timeout-time: 60
-  restart-on-crash: true
+  restart-on-crash: false
   restart-script: ./start.sh
   moved-too-quickly-multiplier: 10.0
   log-villager-deaths: true
