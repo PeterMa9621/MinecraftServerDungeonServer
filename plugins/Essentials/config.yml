@@ -79,7 +79,7 @@ teleport-safety: true
 force-disable-teleport-safety: false
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 0
+teleport-cooldown: 2
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
 teleport-delay: 0
@@ -310,7 +310,7 @@ pastebin-createkit: false
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
-  #- color
+  - color
   #- balance
   #- buy
   #- sell
@@ -486,7 +486,7 @@ max-fly-speed: 0.8
 max-walk-speed: 0.8
 
 #Set the maximum amount of mail that can be sent within a minute.
-mails-per-minute: 1000
+mails-per-minute: 100
 
 # Set the maximum time /tempban can be used for in seconds.
 # Set to -1 to disable, and essentials.tempban.unlimited can be used to override.
@@ -527,7 +527,8 @@ world-time-permissions: false
 # Note: If you have a command that starts with ^, then you can escape it using backslash (\). e.g. \^command: 123
 command-cooldowns:
 #  feed: 100 # 100 second cooldown on /feed command
-#  '*': 5 # 5 Second cooldown on all commands
+# 5 Second cooldown on all commands
+  '*': 3
 
 # Whether command cooldowns should be persistent past server shutdowns
 command-cooldown-persistence: true
@@ -600,9 +601,10 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 3
-  vip: 5
-  staff: 10
+  default: 2
+  vip1: 4
+  vip2: 6
+  vip3: 8
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.
@@ -626,7 +628,7 @@ max-projectile-speed: 8
 # For more information, visit http://wiki.ess3.net/wiki/Essentials_Economy
 
 # Defines the balance with which new players begin. Defaults to 0.
-starting-balance: 0
+starting-balance: 100
 
 # worth-# defines the value of an item when it is sold to the server via /sell.
 # These are now defined in worth.yml
@@ -678,7 +680,7 @@ minimum-pay-amount: 0.001
 ############################################################
 
 # Show other plugins commands in help.
-non-ess-in-help: true
+non-ess-in-help: false
 
 # Hide plugins which do not give a permission.
 # You can override a true value here for a single plugin by adding a permission to a user/group.
@@ -708,11 +710,11 @@ chat:
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
   # For EssentialsX changes, take a look at the EssentialsX wiki: https://github.com/EssentialsX/Essentials/wiki
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
+  format: '<{DISPLAYNAME}>:&r {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
-  group-formats:
+  #group-formats:
   #  default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
   #  admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
 
@@ -739,20 +741,20 @@ protect:
     flint-fire: false
     lightning-fire-spread: true
     portal-creation: false
-    tnt-explosion: false
+    tnt-explosion: true
     tnt-playerdamage: false
-    tnt-minecart-explosion: false
+    tnt-minecart-explosion: true
     tnt-minecart-playerdamage: false
     fireball-explosion: false
-    fireball-fire: false
+    fireball-fire: true
     fireball-playerdamage: false
-    witherskull-explosion: false
-    witherskull-playerdamage: false
-    wither-spawnexplosion: false
-    wither-blockreplace: false
+    witherskull-explosion: true
+    witherskull-playerdamage: true
+    wither-spawnexplosion: true
+    wither-blockreplace: true
     creeper-explosion: false
     creeper-playerdamage: false
-    creeper-blockdamage: false
+    creeper-blockdamage: true
     enderdragon-blockdamage: true
     enderman-pickup: false
     villager-death: false
@@ -766,7 +768,7 @@ protect:
       # Prevent villagers becoming zombie villagers.
       zombie-villager: false
       # Prevent zombie villagers being cured.
-      villager: false
+      villager: true
       # Prevent villagers becoming witches when struck by lightning.
       witch: false
       # Prevent pigs becoming zombie pigmen when struck by lightning.
@@ -788,9 +790,9 @@ protect:
       enderman: false
       cave_spider: false
       silverfish: false
-      blaze: false
+      blaze: fal
       magma_cube: false
-      ender_dragon: false
+      ender_dragon: true
       pig: false
       sheep: false
       cow: false
@@ -801,12 +803,13 @@ protect:
       snowman: false
       ocelot: false
       iron_golem: false
-      villager: false
+      villager: true
       wither: false
       bat: false
       witch: false
       horse: false
       phantom: false
+      wandering_trader: true
 
   # Maximum height the creeper should explode. -1 allows them to explode everywhere.
   # Set prevent.creeper-explosion to true, if you want to disable creeper explosions.
@@ -912,7 +915,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: '&d欢迎 {DISPLAYNAME}&d 进入服务器!'
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
@@ -928,7 +931,7 @@ newbies:
 # Set this to lowest, if you want Multiverse to handle the respawning.
 # Set this to high, if you want EssentialsSpawn to handle the respawning.
 # Set this to highest, if you want to force EssentialsSpawn to handle the respawning.
-respawn-listener-priority: high
+respawn-listener-priority: lowest
 
 # What priority should we use for handling spawning on joining the server?
 # See respawn-listener-priority for possible values.
