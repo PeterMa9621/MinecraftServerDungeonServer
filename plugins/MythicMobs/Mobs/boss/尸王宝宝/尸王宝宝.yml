@@ -13,7 +13,7 @@ shiwangbaobao:
   Modules:
     ThreatTable: true
   Options:
-    Despawn: false
+    Despawn: true
     AlwaysShowName: true
     KnockbackResistance: 0.1
     PreventOtherDrops: true

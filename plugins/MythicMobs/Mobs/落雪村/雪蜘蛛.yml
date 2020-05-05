@@ -8,6 +8,7 @@
     FollowRange: 10
     AlwaysShowName: true
     PreventOtherDrops: true
+    Despawn: false
   AITargetSelectors:
   - 0 clear
   - 1 attacker
@@ -29,6 +30,7 @@
     FollowRange: 10
     AlwaysShowName: true
     PreventOtherDrops: true
+    Despawn: false
   AITargetSelectors:
   - 0 clear
   - 1 attacker
@@ -50,6 +52,7 @@
     FollowRange: 10
     AlwaysShowName: true
     PreventOtherDrops: true
+    Despawn: false
   AITargetSelectors:
   - 0 clear
   - 1 attacker

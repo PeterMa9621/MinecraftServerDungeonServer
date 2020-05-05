@@ -9,6 +9,7 @@
     PreventOtherDrops: true
     AlwaysShowName: true
     MovementSpeed: 0.32
+    Despawn: false
   AITargetSelectors:
   - 0 clear
   - 1 attacker

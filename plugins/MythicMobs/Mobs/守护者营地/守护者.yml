@@ -12,6 +12,7 @@
     MovementSpeed: 0.25
     PreventOtherDrops: true
     FollowRange: 20
+    Despawn: true
   BossBar:
     Enabled: true
     Title: '&2守护者'

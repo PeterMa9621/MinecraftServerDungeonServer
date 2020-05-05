@@ -7,7 +7,7 @@ xuemo:
   Modules:
     ThreatTable: true
   Options:
-    Despawn: false
+    Despawn: true
     AlwaysShowName: true
     KnockbackResistance: 0.6
     MovementSpeed: 0.35

@@ -13,7 +13,6 @@ lieyanwang:
   Modules:
     ThreatTable: true
   Options:
-    Despawn: false
     AlwaysShowName: true
     KnockbackResistance: 0.1
     PreventOtherDrops: true

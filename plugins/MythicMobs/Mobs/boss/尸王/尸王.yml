@@ -76,7 +76,7 @@ shiwang:
   #- summon{type=彩蛋蝙蝠;a=5;r=1} @Self ~onDeath
   Options:
     #Size: 10
-    Despawn: false
+    Despawn: true
     MovementSpeed: 0.3
     PreventOtherDrops: true
     AlwaysShowName: true
