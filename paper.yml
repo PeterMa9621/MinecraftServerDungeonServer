@@ -34,7 +34,7 @@ settings:
   incoming-packet-spam-threshold: 300
   suggest-player-names-when-null-tab-completions: true
   async-chunks:
-    enable: true
+    enable: false
     load-threads: -1
   velocity-support:
     enabled: false
