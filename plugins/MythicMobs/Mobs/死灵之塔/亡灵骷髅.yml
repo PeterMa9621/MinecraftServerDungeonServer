@@ -2,7 +2,7 @@
   Type: SKELETON
   Display: '&5亡灵骷髅 &c1级 &c惧怕弓箭'
   Health: 110
-  Damage: 4
+  Damage: 20
   Armor: 10
   Equipment:
   - gutou:0
@@ -40,7 +40,7 @@
   Type: SKELETON
   Display: '&5亡灵骷髅 &c2级 &c惧怕弓箭'
   Health: 120
-  Damage: 5
+  Damage: 22
   Armor: 10
   Equipment:
   - gutou:0
@@ -78,7 +78,7 @@
   Type: SKELETON
   Display: '&5亡灵骷髅 &c3级 &c惧怕弓箭'
   Health: 130
-  Damage: 6
+  Damage: 24
   Armor: 10
   Equipment:
   - gutou:0
@@ -116,7 +116,7 @@
   Type: SKELETON
   Display: '&5亡灵骷髅 &c1级 &c惧怕近战'
   Health: 70
-  Damage: 10
+  Damage: 20
   Armor: 10
   Equipment:
   - gutou:0
@@ -154,7 +154,7 @@
   Type: SKELETON
   Display: '&5亡灵骷髅 &c2级 &c惧怕近战'
   Health: 80
-  Damage: 5
+  Damage: 22
   Armor: 11
   Equipment:
   - gutou:0
@@ -192,7 +192,7 @@
   Type: SKELETON
   Display: '&5亡灵骷髅 &c3级 &c惧怕近战'
   Health: 90
-  Damage: 5
+  Damage: 24
   Armor: 12
   Equipment:
   - gutou:0

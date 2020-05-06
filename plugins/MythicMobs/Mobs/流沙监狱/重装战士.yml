@@ -2,19 +2,44 @@
   Type: PIG_ZOMBIE
   Display: '&2重装战士'
   Health: 150
-  Damage: 5
+  Damage: 8
   Armor: 6
   Modules:
     ThreatTable: true
   Options:
     AlwaysShowName: true
     KnockbackResistance: 0.6
-    MovementSpeed: 0.2
+    MovementSpeed: 0.25
     PreventOtherDrops: true
   AITargetSelectors:
   - 0 clear
-  - 1 attacker
-  - 2 players
+  - 1 players
+  - 2 attacker
+  DamageModifiers:
+  - PROJECTILE 2.5
+  Equipment:
+  - tie4:4
+  - tie3:3
+  - tie2:2
+  - tie1:1
+  
+重装战士T:
+  Type: PIG_ZOMBIE
+  Display: '&2重装战士'
+  Health: 150
+  Damage: 8
+  Armor: 6
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.6
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
   DamageModifiers:
   - PROJECTILE 2.5
   Equipment:

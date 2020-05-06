@@ -4,9 +4,9 @@
 流放者:
   Type: Stray
   Display: '&e&l流放者'
-  Health: 150
-  Damage: 12
-  Riding: 流放者坐骑
+  Health: 300
+  Damage: 30
+  Armor: 5
   Modules:
     ThreatTable: true
   AITargetSelectors:
@@ -14,9 +14,8 @@
   - 1 attacker
   - 2 players
   Skills:
-  #- potion{type=WEAKNESS;duration=200;lvl=1} @Target ~onAttack
-  #- effect:particlering{particle=flame;radius=2;points=32;amount=2;hS=1;vS=0} @Self
-  - remove @MIR{r=5;t=流放者坐骑} ~onDeath
+  - summon{m=追逐者;a=2;r=5} @self ~onSpawn 1
+  - potion{type=WEAKNESS;duration=200;lvl=1} @Target ~onAttack 0.3
   Equipment:
   - tie4:4
   - huangjin3:3
@@ -29,7 +28,7 @@
 流放者坐骑:
   Type: CAVE_SPIDER
   Display: '&e流放者坐骑'
-  Health: 40
+  Health: 80
   Damage: 4
   Armor: 1
   Modules:

@@ -1,14 +1,15 @@
 ﻿追逐者:
   Type: ZOMBIE
   Display: '&2追逐者'
-  Health: 70
-  Damage: 9
+  Health: 90
+  Damage: 30
   Modules:
     ThreatTable: true
   Options:
     AlwaysShowName: true
     MovementSpeed: 0.5
     PreventOtherDrops: true
+    PreventSunburn: true
   AITargetSelectors:
   - 0 clear
   - 1 attacker

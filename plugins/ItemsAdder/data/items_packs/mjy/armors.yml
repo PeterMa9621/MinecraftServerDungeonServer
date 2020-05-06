@@ -868,3 +868,87 @@ items:
         armorToughness: 2
         maxHealth: 1
     level: 8
+  liusha_head:
+    display_name: '&e流沙头盔'
+    permission: liusha_head
+    lore:
+    - '&6流沙监狱的追逐者'
+    - '&6收藏的宝贝！'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: 968b06
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 5.5
+        armorToughness: 3
+        maxHealth: 2.5
+    level: 20
+  liusha_chest:
+    display_name: '&e流沙盔甲'
+    permission: liusha_chest
+    lore:
+    - '&6流沙监狱的追逐者'
+    - '&6收藏的宝贝！'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: 968b06
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 10.5
+        armorToughness: 3
+        maxHealth: 5.5
+    level: 20
+  liusha_leg:
+    display_name: '&e流沙护腿'
+    permission: liusha_leg
+    lore:
+    - '&6流沙监狱的追逐者'
+    - '&6收藏的宝贝！'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: 968b06
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 8.5
+        armorToughness: 3
+        maxHealth: 4.5
+    level: 20
+  liusha_feet:
+    display_name: '&e流沙战靴'
+    permission: liusha_feet
+    lore:
+    - '&6流沙监狱的追逐者'
+    - '&6收藏的宝贝！'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: 968b06
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 5.5
+        armorToughness: 3
+        maxHealth: 3.5
+    level: 20
