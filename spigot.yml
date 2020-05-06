@@ -27,7 +27,7 @@ settings:
   moved-wrongly-threshold: 0.0625
   attribute:
     maxHealth:
-      max: 2048.0
+      max: 20480.0
     movementSpeed:
       max: 2048.0
     attackDamage:
