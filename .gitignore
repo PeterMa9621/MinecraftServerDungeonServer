@@ -50,7 +50,9 @@ plugins/Essentials/warps/
 plugins/Essentials/usermap.csv
 plugins/Essentials/spawn.yml
 plugins/HolographicDisplays/database.yml
-plugins/ItemsAdder/storage/
+plugins/ItemsAdder/storage/cache
+plugins/ItemsAdder/storage/players
+plugins/ItemsAdder/storage/regions_data
 plugins/LibsDisguises/GameProfiles/
 plugins/LibsDisguises/SavedDisguises/
 plugins/LibsDisguises/Skins/
@@ -106,3 +108,5 @@ plugins/ItemsAdder/config.yml
 plugins/MultiChat/namedata.dat
 
 runDev.bat
+
+plugins/ItemsAdder/storage/data.yml

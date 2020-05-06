@@ -116,6 +116,54 @@ recipes:
     anjin_boots:
       ingredient: mjy:huangshuijing
       item: mjy:anjin_boots
+    liusha_head:
+      ingredient: mjy:huangshuijing
+      item: mjy:liusha_head
+    liusha_chest:
+      ingredient: mjy:huangshuijing
+      item: mjy:liusha_chest
+    liusha_leg:
+      ingredient: mjy:huangshuijing
+      item: mjy:liusha_leg
+    liusha_feet:
+      ingredient: mjy:huangshuijing
+      item: mjy:liusha_feet
+    siling_head:
+      ingredient: mjy:huangshuijing
+      item: mjy:siling_head
+    siling_chest:
+      ingredient: mjy:huangshuijing
+      item: mjy:siling_chest
+    siling_leg:
+      ingredient: mjy:huangshuijing
+      item: mjy:siling_leg
+    siling_feet:
+      ingredient: mjy:huangshuijing
+      item: mjy:siling_feet
+    baofeng_head:
+      ingredient: mjy:huangshuijing
+      item: mjy:baofeng_head
+    baofeng_chest:
+      ingredient: mjy:huangshuijing
+      item: mjy:baofeng_chest
+    baofeng_leg:
+      ingredient: mjy:huangshuijing
+      item: mjy:baofeng_leg
+    baofeng_feet:
+      ingredient: mjy:huangshuijing
+      item: mjy:baofeng_feet
+    longgu_head:
+      ingredient: mjy:huangshuijing
+      item: mjy:longgu_head
+    longgu_chest:
+      ingredient: mjy:huangshuijing
+      item: mjy:longgu_chest
+    longgu_leg:
+      ingredient: mjy:huangshuijing
+      item: mjy:longgu_leg
+    longgu_feet:
+      ingredient: mjy:huangshuijing
+      item: mjy:longgu_feet
 items:
   rongyan_head:
     display_name: 熔岩头盔
@@ -872,8 +920,7 @@ items:
     display_name: '&e流沙头盔'
     permission: liusha_head
     lore:
-    - '&6流沙监狱的追逐者'
-    - '&6收藏的宝贝！'
+    - '&6死灵法师遗留下来的宝贝'
     resource:
       generate: true
     durability:
@@ -893,8 +940,7 @@ items:
     display_name: '&e流沙盔甲'
     permission: liusha_chest
     lore:
-    - '&6流沙监狱的追逐者'
-    - '&6收藏的宝贝！'
+    - '&6死灵法师遗留下来的宝贝'
     resource:
       generate: true
     durability:
@@ -914,8 +960,7 @@ items:
     display_name: '&e流沙护腿'
     permission: liusha_leg
     lore:
-    - '&6流沙监狱的追逐者'
-    - '&6收藏的宝贝！'
+    - '&6死灵法师遗留下来的宝贝'
     resource:
       generate: true
     durability:
@@ -935,8 +980,7 @@ items:
     display_name: '&e流沙战靴'
     permission: liusha_feet
     lore:
-    - '&6流沙监狱的追逐者'
-    - '&6收藏的宝贝！'
+    - '&6死灵法师遗留下来的宝贝'
     resource:
       generate: true
     durability:
@@ -952,3 +996,255 @@ items:
         armorToughness: 3
         maxHealth: 3.5
     level: 20
+  siling_head:
+    display_name: '&e死灵头盔'
+    permission: siling_head
+    lore:
+    - '&6死灵法师遗留下来的宝贝'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: ed6d28
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 6
+        armorToughness: 3
+        maxHealth: 2.5
+    level: 22
+  siling_chest:
+    display_name: '&e死灵盔甲'
+    permission: siling_chest
+    lore:
+    - '&6死灵法师遗留下来的宝贝'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: ed6d28
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 11
+        armorToughness: 3
+        maxHealth: 5.5
+    level: 22
+  siling_leg:
+    display_name: '&e死灵护腿'
+    permission: siling_leg
+    lore:
+    - '&6死灵法师遗留下来的宝贝'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: ed6d28
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 9
+        armorToughness: 3
+        maxHealth: 4.5
+    level: 22
+  siling_feet:
+    display_name: '&e死灵战靴'
+    permission: siling_feet
+    lore:
+    - '&6死灵法师遗留下来的宝贝'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: ed6d28
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 6
+        armorToughness: 3
+        maxHealth: 3.5
+    level: 22
+  baofeng_head:
+    display_name: '&e暴风头盔'
+    permission: baofeng_head
+    lore:
+    - '&6暴风城死亡战士拥有的头盔'
+    - '&6很强大但被诅咒了'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: b4cffa
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 8
+        armorToughness: 3
+        maxHealth: -1
+    level: 25
+  baofeng_chest:
+    display_name: '&e暴风盔甲'
+    permission: baofeng_chest
+    lore:
+    - '&6死灵法师遗留下来的宝贝'
+    - '&6很强大但被诅咒了'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: b4cffa
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 13
+        armorToughness: 3
+        maxHealth: -2
+    level: 25
+  baofeng_leg:
+    display_name: '&e暴风护腿'
+    permission: baofeng_leg
+    lore:
+    - '&6死灵法师遗留下来的宝贝'
+    - '&6很强大但被诅咒了'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: b4cffa
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 11
+        armorToughness: 3
+        maxHealth: -2
+    level: 25
+  baofeng_feet:
+    display_name: '&e暴风战靴'
+    permission: baofeng_feet
+    lore:
+    - '&6死灵法师遗留下来的宝贝'
+    - '&6很强大但被诅咒了'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: b4cffa
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 8
+        armorToughness: 3
+        maxHealth: -1
+    level: 25
+  longgu_head:
+    display_name: '&e龙骨头盔'
+    permission: longgu_head
+    lore:
+    - '&6用龙骨制作的头盔'
+    - '&6拥有增加攻击的特效'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: e3dac9
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        attackDamage: 0.5
+        armor: 6
+        armorToughness: 2
+        maxHealth: 1
+    level: 27
+  longgu_chest:
+    display_name: '&e龙骨盔甲'
+    permission: longgu_chest
+    lore:
+    - '&6用龙骨制作的头盔'
+    - '&6拥有增加攻击的特效'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: e3dac9
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        attackDamage: 0.5
+        armor: 11
+        armorToughness: 2
+        maxHealth: 2
+    level: 27
+  longgu_leg:
+    display_name: '&e龙骨护腿'
+    permission: longgu_leg
+    lore:
+    - '&6用龙骨制作的头盔'
+    - '&6拥有增加攻击的特效'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: e3dac9
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        attackDamage: 0.5
+        armor: 9
+        armorToughness: 2
+        maxHealth: 2
+    level: 27
+  longgu_feet:
+    display_name: '&e龙骨战靴'
+    permission: longgu_feet
+    lore:
+    - '&6用龙骨制作的头盔'
+    - '&6拥有增加攻击的特效'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: e3dac9
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        attackDamage: 0.5
+        armor: 16
+        armorToughness: 2
+        maxHealth: 1
+    level: 27
