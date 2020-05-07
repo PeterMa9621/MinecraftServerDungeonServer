@@ -2,7 +2,7 @@ diaolingqishi:
   Type: WITHER_SKELETON
   Display: '&a凋零骑士'
   Health: 100
-  Damage: 8
+  Damage: 13
   AITargetSelectors:
   - 0 clear
   - 1 players
@@ -25,8 +25,8 @@ diaolingqishi:
 diaolingwang:
   Type: WITHER_SKELETON
   Display: '&6凋零王'
-  Health: 600
-  Damage: 13
+  Health: 800
+  Damage: 16
   AITargetSelectors:
   - 0 clear
   - 1 players
@@ -58,8 +58,8 @@ diaolingwang:
 diaolingshibing:
   Type: SKELETON
   Display: '&2凋零士兵'
-  Health: 16
-  Damage: 6
+  Health: 40
+  Damage: 14
   AITargetSelectors:
   - 0 clear
   - 1 players
