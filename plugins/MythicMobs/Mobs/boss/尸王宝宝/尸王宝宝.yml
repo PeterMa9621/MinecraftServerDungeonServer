@@ -2,7 +2,7 @@ shiwangbaobao:
   Type: BABY_ZOMBIE
   Display: '&c尸王宝宝'
   Health: 1000
-  Damage: 15
+  Damage: 25
   Armor: 1
   BossBar:
     Enabled: true

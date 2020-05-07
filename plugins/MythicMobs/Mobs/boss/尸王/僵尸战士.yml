@@ -1,8 +1,8 @@
 ﻿jiangshizhanshi1:
   Type: ZOMBIE
   Display: '&3僵尸战士 &c1级'
-  Health: 60
-  Damage: 8
+  Health: 80
+  Damage: 11
   Modules:
     ThreatTable: true
   Options:
@@ -24,8 +24,8 @@
 jiangshizhanshi2:
   Type: ZOMBIE
   Display: '&3僵尸战士 &c2级'
-  Health: 80
-  Damage: 9
+  Health: 100
+  Damage: 14
   Modules:
     ThreatTable: true
   Options:
@@ -47,8 +47,8 @@ jiangshizhanshi2:
 jiangshizhanshi3:
   Type: ZOMBIE
   Display: '&3僵尸战士 &c3级'
-  Health: 100
-  Damage: 10
+  Health: 120
+  Damage: 17
   Modules:
     ThreatTable: true
   Options:
