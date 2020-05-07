@@ -4,7 +4,7 @@ leaveGroup:
     id: DIAMOND_SWORD
     model: 16
 groups:
-  group1:
+  shiwang:
     name: shiwang
     displayName: 尸王
     icon:
@@ -13,7 +13,7 @@ groups:
     day: 
     - 6
     time: '20:00'
-  group2:
+  diaolingwang:
     name: diaolingwang
     displayName: 凋零王
     day:
@@ -26,7 +26,7 @@ groups:
       id: WITHER_SKELETON_SKULL
     startGameCmd: dxl play diaolingwang
     time: '20:00'
-  group3:
+  shiwangbaobao:
     name: shiwangbaobao
     displayName: 尸王宝宝
     icon:
