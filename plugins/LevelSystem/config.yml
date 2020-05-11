@@ -1,5 +1,5 @@
 databaseName: minecraft
-
+maxExpPerMinute: 30
 bonusExpCard:
   normal:
     itemId: 'STICK'
