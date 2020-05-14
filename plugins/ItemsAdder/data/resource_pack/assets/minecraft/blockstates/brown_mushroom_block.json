@@ -379,6 +379,19 @@
     },
     {
       "when": {
+        "west": true,
+        "up": false,
+        "south": false,
+        "north": false,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "mjy:block/qianghuatai"
+      }
+    },
+    {
+      "when": {
         "west": false,
         "up": false,
         "south": true,
@@ -413,7 +426,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/qingshuijing_ore"
       }
     },
     {
@@ -426,7 +439,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/qianghuashi_ore"
       }
     },
     {
@@ -439,20 +452,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
-    },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": false,
-        "north": false,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/ronglianshi_ore"
       }
     },
     {
@@ -465,7 +465,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/jingangshi_ore"
       }
     },
     {
@@ -478,7 +478,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/xingyunbaoshi_ore"
       }
     },
     {
@@ -491,7 +491,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/huashi_ore"
       }
     },
     {
@@ -504,7 +504,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/baoshi_ore"
       }
     },
     {

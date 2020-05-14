@@ -12,6 +12,12 @@
         "custom_model_data": 2
       },
       "model": "itemsadder:block/customization_table"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "mjy:block/qianghuatai"
     }
   ]
 }

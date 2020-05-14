@@ -190,6 +190,13 @@ REDSTONE_ORE:
   itemsadder:spinel_ore: 2
   mjy:zishuijing_ore: 3
   mjy:huangshuijing_ore: 4
+  mjy:qingshuijing_ore: 5
+  mjy:qianghuashi_ore: 6
+  mjy:ronglianshi_ore: 7
+  mjy:jingangshi_ore: 8
+  mjy:xingyunbaoshi_ore: 9
+  mjy:huashi_ore: 10
+  mjy:baoshi_ore: 11
 DIAMOND_ORE:
   itemsadder:turquoise_ore: 1
   itemsadder:aqua_aura_ore: 2
@@ -202,6 +209,7 @@ END_STONE:
 SMITHING_TABLE:
   itemsadder:restoration_table: 1
   itemsadder:customization_table: 2
+  mjy:qianghuatai: 3
 DIRT:
   itemsadder:iron_dirt_ore: 1
   itemsadder:gold_dirt_ore: 2
@@ -240,6 +248,7 @@ POTION:
   itemsadder:strange_potion: 6
   itemsadder:antidote: 7
   itemsadder:bloody_mary: 8
+  mjy:nianheji: 9
 FISHING_ROD:
   itemsadder:black_fishing_rod: 1
   itemsadder:red_fishing_rod: 2
@@ -508,6 +517,17 @@ IRON_INGOT:
   itemsadder:end_ingot: 13
   itemsadder:knowledge_fragment: 14
   itemsadder:coal_nugget: 15
+  mjy:qianghuashi: 16
+  mjy:ronglianshisuikuai: 17
+  mjy:ronglianshi: 18
+  mjy:jingangshisuikuai: 19
+  mjy:jingangshi: 20
+  mjy:xingyunbaoshisuikuai: 21
+  mjy:xingyunbaoshi: 22
+  mjy:huashi: 23
+  mjy:baoshi: 24
+  mjy:jiandingbaoshi: 25
+  mjy:baoshisuikuai: 26
 SHIELD:
   itemsadder:ender_shield: 1
   itemsadder:obsidian_shield: 2
@@ -565,8 +585,10 @@ DIAMOND_PICKAXE:
   itemsadder:amethyst_pickaxe: 8
   itemsadder:bronze_pickaxe: 9
   itemsadder:demoniac_hammer: 10
+  mjy:qingshuijing_pickaxe: 11
 WOODEN_PICKAXE:
   itemsadder:crystal_pickaxe: 1
+  mjy:qingshuijing_hammer: 2
 DIAMOND_HOE:
   itemsadder:ruby_hoe: 1
   itemsadder:spinel_hoe: 2
@@ -713,3 +735,5 @@ FLINT:
 GLOWSTONE_DUST:
   mjy:zishuijing: 1
   mjy:huangshuijing: 2
+  mjy:qingshuijing: 3
+  mjy:qianghuashi: 4

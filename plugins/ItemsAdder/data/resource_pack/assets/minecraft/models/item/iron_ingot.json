@@ -93,6 +93,66 @@
         "custom_model_data": 15
       },
       "model": "itemsadder:auto_generated/coal_nugget"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "mjy:auto_generated/qianghuashi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "mjy:auto_generated/ronglianshisuikuai"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "mjy:auto_generated/ronglianshi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "mjy:auto_generated/jingangshisuikuai"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "mjy:auto_generated/jingangshi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "mjy:auto_generated/xingyunbaoshisuikuai"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "mjy:auto_generated/xingyunbaoshi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "mjy:auto_generated/baoshi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "mjy:auto_generated/jiandingbaoshi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "mjy:auto_generated/baoshisuikuai"
     }
   ]
 }
