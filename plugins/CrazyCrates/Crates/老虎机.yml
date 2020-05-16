@@ -1164,7 +1164,7 @@ Crate:
       Firework: false
       Glowing: false
       Commands:
-        - 'ph giveitem %Player% mjy:zishuijing'
+        - 'iagive %Player% mjy:zishuijing 8'
       Messages:
         - '&7恭喜！你获得了&f紫水晶&78个'
     87:
@@ -1176,6 +1176,6 @@ Crate:
       Firework: false
       Glowing: false
       Commands:
-        - 'ph giveitem %Player% mjy:huangshuijing'
+        - 'iagive %Player% mjy:huangshuijing 8'
       Messages:
         - '&7恭喜！你获得了&f黄水晶&78个'
