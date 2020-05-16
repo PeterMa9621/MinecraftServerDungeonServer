@@ -4,7 +4,7 @@ items:
   zishuijing_ore:
     enable: true
     display_name: 紫水晶矿石
-    permission: zishuijing_ore
+    permission: itemsadder.player
     resource:
       material: REDSTONE_ORE
       generate: true
@@ -27,7 +27,7 @@ items:
   huangshuijing_ore:
     enable: true
     display_name: 黄水晶矿石
-    permission: huangshuijing_ore
+    permission: itemsadder.player
     resource:
       material: REDSTONE_ORE
       generate: true
@@ -50,7 +50,7 @@ items:
   qingshuijing_ore:
     enable: true
     display_name: 青水晶矿石
-    permission: qingshuijing_ore
+    permission: itemsadder.player
     resource:
       material: REDSTONE_ORE
       generate: true
@@ -73,7 +73,7 @@ items:
   qianghuashi_ore:
     enable: true
     display_name: 强化石矿石
-    permission: qianghuashi_ore
+    permission: itemsadder.player
     resource:
       material: REDSTONE_ORE
       generate: true
@@ -91,7 +91,7 @@ items:
   ronglianshi_ore:
     enable: true
     display_name: 熔炼石矿石
-    permission: ronglianshi_ore
+    permission: itemsadder.player
     resource:
       material: REDSTONE_ORE
       generate: true
@@ -109,7 +109,7 @@ items:
   jingangshi_ore:
     enable: true
     display_name: 金刚石矿石
-    permission: jingangshi_ore
+    permission: itemsadder.player
     resource:
       material: REDSTONE_ORE
       generate: true
@@ -127,7 +127,7 @@ items:
   xingyunbaoshi_ore:
     enable: true
     display_name: 幸运宝石矿石
-    permission: xingyunbaoshi_ore
+    permission: itemsadder.player
     resource:
       material: REDSTONE_ORE
       generate: true
@@ -145,7 +145,7 @@ items:
   huashi_ore:
     enable: true
     display_name: 化石矿石
-    permission: huashi_ore
+    permission: itemsadder.player
     resource:
       material: REDSTONE_ORE
       generate: true
@@ -163,7 +163,7 @@ items:
   baoshi_ore:
     enable: true
     display_name: 宝石矿石
-    permission: baoshi_ore
+    permission: itemsadder.player
     resource:
       material: REDSTONE_ORE
       generate: true

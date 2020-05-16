@@ -302,7 +302,7 @@ items:
       - item/amethyst_prism.png
   fossil:
     display_name: 化石
-    permission: fossil
+    permission: itemsadder.player
     resource:
       material: IRON_INGOT
       generate: true

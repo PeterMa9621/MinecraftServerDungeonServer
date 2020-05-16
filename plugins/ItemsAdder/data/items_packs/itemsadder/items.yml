@@ -15,7 +15,7 @@ recipes:
         # item: itemsadder:empty_cup
         # amount: 1
     flour:
-      permission: itemsadder.flour
+      permission: itemsadder.player
       enabled: true
       pattern:
       - XXX
@@ -27,7 +27,7 @@ recipes:
         item: itemsadder:flour
         amount: 2
     dough:
-      permission: itemsadder.dough
+      permission: itemsadder.player
       enabled: true
       pattern:
       - XFX
@@ -386,7 +386,7 @@ recipes:
         # item: itemsadder:cup_of_hot_water
         # amount: 1
     plastic:
-      permission: itemsadder.plastic
+      permission: itemsadder.player
       ingredient:
         item: itemsadder:fossil
       machines:
@@ -408,7 +408,7 @@ items:
       - item/empty_cup.png
   flour:
     display_name: 面粉
-    permission: flour
+    permission: itemsadder.player
     resource:
       material: STICK
       generate: true
@@ -416,7 +416,7 @@ items:
       - item/flour.png
   dough:
     display_name: 面团
-    permission: dough
+    permission: itemsadder.player
     resource:
       material: STICK
       generate: true
@@ -452,7 +452,7 @@ items:
       - item/projectile.png
   plastic:
     display_name: 塑料
-    permission: plastic
+    permission: itemsadder.player
     resource:
       material: STICK
       generate: true

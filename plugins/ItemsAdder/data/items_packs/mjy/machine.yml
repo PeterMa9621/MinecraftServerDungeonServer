@@ -3,7 +3,7 @@ info:
 recipes:
   crafting_table:
     qianghuatai:
-      permission: mjy.qianghuatai
+      permission: itemsadder.player
       enabled: true
       pattern:
       - RRR
@@ -18,7 +18,7 @@ recipes:
 items:
   qianghuatai:
     display_name: 强化台
-    permission: qianghuatai
+    permission: itemsadder.player
     resource:
       material: SMITHING_TABLE
       generate: false

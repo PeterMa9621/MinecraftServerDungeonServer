@@ -3,7 +3,7 @@ info:
 items:
   zishuijing:
     display_name: '&f紫水晶'
-    permission: zishuijing
+    permission: itemsadder.player
     resource:
       material: GLOWSTONE_DUST
       generate: true
@@ -11,7 +11,7 @@ items:
       - item/mineral/zishuijing.png
   huangshuijing:
     display_name: '&f黄水晶'
-    permission: huangshuijing
+    permission: itemsadder.player
     resource:
       material: GLOWSTONE_DUST
       generate: true
@@ -19,7 +19,7 @@ items:
       - item/mineral/huangshuijing.png
   qingshuijing:
     display_name: '&f青水晶'
-    permission: qingshuijing
+    permission: itemsadder.player
     resource:
       material: GLOWSTONE_DUST
       generate: true
@@ -27,7 +27,7 @@ items:
       - item/mineral/qingshuijing.png
   qianghuashi:
     display_name: '&f强化石'
-    permission: qianghuashi
+    permission: itemsadder.player
     resource:
       material: IRON_INGOT
       generate: true
@@ -35,7 +35,7 @@ items:
       - item/mineral/qianghuashi.png
   ronglianshisuikuai:
     display_name: '&f熔炼石碎块'
-    permission: ronglianshisuikuai
+    permission: itemsadder.player
     resource:
       material: IRON_INGOT
       generate: true
@@ -43,7 +43,7 @@ items:
       - item/mineral/ronglianshisuikuai.png
   ronglianshi:
     display_name: '&f熔炼石'
-    permission: ronglianshi
+    permission: itemsadder.player
     resource:
       material: IRON_INGOT
       generate: true
@@ -51,7 +51,7 @@ items:
       - item/mineral/ronglianshi.png
   jingangshisuikuai:
     display_name: '&b金刚石碎块'
-    permission: jingangshisuikuai
+    permission: itemsadder.player
     resource:
       material: IRON_INGOT
       generate: true
@@ -59,7 +59,7 @@ items:
       - item/mineral/jingangshisuikuai.png
   jingangshi:
     display_name: '&b金刚石'
-    permission: jingangshi
+    permission: itemsadder.player
     resource:
       material: IRON_INGOT
       generate: true
@@ -67,7 +67,7 @@ items:
       - item/mineral/jingangshi.png
   xingyunbaoshisuikuai:
     display_name: '&b幸运宝石碎块'
-    permission: xingyunbaoshisuikuai
+    permission: itemsadder.player
     resource:
       material: IRON_INGOT
       generate: true
@@ -75,7 +75,7 @@ items:
       - item/mineral/xingyunbaoshisuikuai.png
   xingyunbaoshi:
     display_name: '&b幸运宝石'
-    permission: xingyunbaoshi
+    permission: itemsadder.player
     resource:
       material: IRON_INGOT
       generate: true
@@ -86,7 +86,7 @@ items:
     lore:
     - '&e[未鉴定]'
     - '&6一块看起来普通的石头'
-    permission: baoshi
+    permission: itemsadder.player
     resource:
       material: IRON_INGOT
       generate: true
@@ -102,7 +102,7 @@ items:
       - item/mineral/jiandingbaoshi.png
   baoshisuikuai:
     display_name: '&f宝石碎块'
-    permission: baoshisuikuai
+    permission: itemsadder.player
     resource:
       material: IRON_INGOT
       generate: true

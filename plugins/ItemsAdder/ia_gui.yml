@@ -52,6 +52,7 @@ categories:
   armors:
     enabled: true
     icon: "itemsadder:ruby_head"
+    permission: 'ia.menu.special'
     name: 'Armors'
     items:
       - "itemsadder:ruby_head"
@@ -92,6 +93,7 @@ categories:
   swords:
     enabled: true
     icon: "itemsadder:ruby_sword"
+    permission: 'ia.menu.special'
     name: 'Swords'
     items:
       - "itemsadder:ruby_sword"
@@ -126,6 +128,7 @@ categories:
   pickaxes:
     enabled: true
     icon: "itemsadder:ruby_pickaxe"
+    permission: 'ia.menu.special'
     name: 'Pickaxes'
     items:
       - "itemsadder:astral_pickaxe"
@@ -142,6 +145,7 @@ categories:
   axes:
     enabled: true
     icon: "itemsadder:ruby_axe"
+    permission: 'ia.menu.special'
     name: 'Axes'
     items:
       - "itemsadder:ruby_axe"
@@ -154,6 +158,7 @@ categories:
   hoes:
     enabled: true
     icon: "itemsadder:ruby_hoe"
+    permission: 'ia.menu.special'
     name: 'Hoes'
     items:
       - "itemsadder:ruby_hoe"
@@ -166,6 +171,7 @@ categories:
   shovels:
     enabled: true
     icon: "itemsadder:ruby_shovel"
+    permission: 'ia.menu.special'
     name: 'Shovels'
     items:
       - "itemsadder:ruby_shovel"
@@ -178,6 +184,7 @@ categories:
   fishing_rods:
     enabled: true
     icon: "itemsadder:red_fishing_rod"
+    permission: 'ia.menu.special'
     name: 'Fishing Rods'
     items:
       - "itemsadder:black_fishing_rod"
@@ -189,6 +196,7 @@ categories:
   shears:
     enabled: true
     icon: "itemsadder:red_shears"
+    permission: 'ia.menu.special'
     name: 'Shears'
     items:
       - "itemsadder:black_shears"
@@ -198,8 +206,9 @@ categories:
       - "itemsadder:purple_shears"
       - "itemsadder:cyan_shears"
   weapons:
-    enabled: false
+    enabled: true
     icon: "itemsadder:revolver"
+    permission: 'ia.menu.special'
     name: 'Weapons'
     items:
       - "itemsadder:projectile"
@@ -214,6 +223,7 @@ categories:
   shields:
     enabled: true
     icon: "itemsadder:ruby_shield"
+    permission: 'ia.menu.special'
     name: 'Shields'
     items:
       - "itemsadder:ender_shield"
@@ -227,6 +237,7 @@ categories:
   bows:
     enabled: true
     icon: "itemsadder:red_bow"
+    permission: 'ia.menu.special'
     name: 'Bows'
     items:
       - "itemsadder:astral_bow"
@@ -240,6 +251,7 @@ categories:
   eatables:
     enabled: true
     icon: "itemsadder:pizza"
+    permission: 'ia.menu.special'
     name: 'Food'
     items:
       - "itemsadder:pizza"
@@ -288,6 +300,7 @@ categories:
   drinks:
     enabled: true
     icon: "itemsadder:cola"
+    permission: 'ia.menu.special'
     name: 'Drinks'
     items:
       - "itemsadder:cola"
@@ -297,6 +310,7 @@ categories:
   vegetables:
     enabled: true
     icon: "itemsadder:tomato"
+    permission: 'ia.menu.special'
     name: 'Vegetables and Fruit'
     items:
       - "itemsadder:tomato"
@@ -309,6 +323,7 @@ categories:
   seeds:
     enabled: true
     icon: "itemsadder:tomato_seeds"
+    permission: 'ia.menu.special'
     name: 'Seeds'
     items:
       - "itemsadder:tomato_seeds"
@@ -320,6 +335,7 @@ categories:
   fishes:
     enabled: true
     icon: "itemsadder:blue_parrotfish"
+    permission: 'ia.menu.special'
     name: 'Fishes'
     items:
       - "itemsadder:blue_parrotfish"
@@ -330,6 +346,7 @@ categories:
   potions:
     enabled: true
     icon: "itemsadder:diamonds_finder_potion"
+    permission: 'ia.menu.special'
     name: 'Potions'
     items:
       - "itemsadder:diamonds_finder_potion"
@@ -339,6 +356,7 @@ categories:
   furnitures:
     enabled: true
     icon: "itemsadder:old_clock"
+    permission: 'ia.menu.special'
     name: 'Furnitures'
     items:
       - "itemsadder:old_clock"
@@ -361,6 +379,7 @@ categories:
   paintings:
     enabled: true
     icon: "itemsadder:painting_burst"
+    permission: 'ia.menu.special'
     name: 'Paintings'
     items:
       - "itemsadder:painting_burst"
@@ -375,6 +394,7 @@ categories:
   chairs:
     enabled: true
     icon: "itemsadder:simple_chair"
+    permission: 'ia.menu.special'
     name: 'Chairs'
     items:
       - "itemsadder:simple_chair"
@@ -417,6 +437,7 @@ categories:
   hats:
     enabled: true
     icon: "itemsadder:deadmau5_hat"
+    permission: 'ia.menu.special'
     name: 'Hats'
     items:
       - "itemsadder:deadmau5_hat"
@@ -434,6 +455,7 @@ categories:
   wearables:
     enabled: true
     icon: "itemsadder:demoniac_red_wings"
+    permission: 'ia.menu.special'
     name: 'Wearables'
     items:
       - "itemsadder:demoniac_red_wings"
@@ -454,6 +476,7 @@ categories:
   machines:
     enabled: true
     icon: "itemsadder:energy_extractor"
+    permission: 'ia.menu.special'
     name: 'Machines'
     items:
       - "itemsadder:energy_extractor"
@@ -465,6 +488,7 @@ categories:
   blocks:
     enabled: true
     icon: "itemsadder:ruby_block"
+    permission: 'ia.menu.special'
     name: 'Blocks'
     items:
       - "itemsadder:ruby_block"
@@ -485,6 +509,7 @@ categories:
   ores:
     enabled: true
     icon: "itemsadder:ruby_ore"
+    permission: 'ia.menu.special'
     name: 'Ores'
     items:
       - "itemsadder:ruby_ore"
@@ -503,6 +528,7 @@ categories:
   minerals:
     enabled: true
     icon: "itemsadder:ruby"
+    permission: 'ia.menu.special'
     name: 'Minerals'
     items:
       - "itemsadder:ruby"
@@ -523,12 +549,14 @@ categories:
   instruments:
     enabled: true
     icon: "itemsadder:guitar_sword"
+    permission: 'ia.menu.special'
     name: 'Instruments'
     items:
       - "itemsadder:guitar_sword"
   various:
     enabled: true
     icon: "itemsadder:empty_cup"
+    permission: 'ia.menu.special'
     name: 'Items and ingredients'
     items:
       - "itemsadder:drink_glass"
@@ -559,6 +587,7 @@ categories:
   alchemy:
     enabled: true
     icon: "itemsadder:arcane_ring"
+    permission: 'ia.menu.special'
     name: 'Alchemy items'
     items:
       - "itemsadder:philosopher_stone"
@@ -586,6 +615,7 @@ categories:
   musicdiscs:
     enabled: true
     icon: "itemsadder:music_disc_electric_keys"
+    permission: 'ia.menu.special'
     name: 'Music Discs'
     items:
       - "itemsadder:music_disc_electric_keys"
@@ -594,6 +624,7 @@ categories:
   throwables:
     enabled: true
     icon: "itemsadder:grenade"
+    permission: 'ia.menu.special'
     name: 'Throwables'
     items:
       - "itemsadder:grenade"
@@ -602,6 +633,7 @@ categories:
   books:
     enabled: true
     icon: "itemsadder:mysterious_book"
+    permission: 'ia.menu.special'
     name: 'Books'
     items:
       - "itemsadder:mysterious_book"
@@ -611,6 +643,7 @@ categories:
     enabled: true
     icon: "itemsadder:white_go_cart"
     name: 'Vehicles'
+    permission: 'ia.menu.special'
     items:
       - "itemsadder:shopping_cart"
       - "itemsadder:white_go_cart"
@@ -754,6 +787,7 @@ categories:
     icon: "itemsadder:ruby_block"
     name: 'All'
     show_all_items: true
+    permission: 'ia.menu.special'
     hide_items:
       - "mcicons:icon_left_grey"
       - "mcicons:icon_left_blue"
@@ -788,3 +822,44 @@ categories:
       - "itemsadder:white_ring"
       - "itemsadder:golden_ring"
       - "itemsadder:marriage_ring"
+  better_weapon:
+    enabled: true
+    icon: "mjy:baoshi"
+    name: '&5强化系统物品'
+    permission: 'ia.menu.player'
+    items:
+      - "mjy:qingshuijing"
+      - "mjy:qingshuijing_ore"
+      - "mjy:qingshuijing_pickaxe"
+      - "mjy:qingshuijing_hammer"
+      - "mjy:qianghuatai"
+      - "mjy:qianghuashi"
+      - "mjy:qianghuashi_ore"
+      - "mjy:ronglianshisuikuai"
+      - "mjy:ronglianshi"
+      - "mjy:ronglianshi_ore"
+      - "mjy:jingangshisuikuai"
+      - "mjy:jingangshi"
+      - "mjy:jingangshi_ore"
+      - "mjy:xingyunbaoshisuikuai"
+      - "mjy:xingyunbaoshi"
+      - "mjy:xingyunbaoshi_ore"
+      - "mjy:baoshisuikuai"
+      - "mjy:baoshi"
+      - "mjy:baoshi_ore"
+      - "itemsadder:fossil"
+      - "mjy:huashi_ore"
+      - "mjy:nianheji"
+      - "itemsadder:plastic"
+      - "itemsadder:dough"
+      - "itemsadder:flour"
+  custom_weapon:
+    enabled: true
+    icon: "mjy:zishuijing"
+    name: '&5武器系统物品'
+    permission: 'ia.menu.player'
+    items:
+      - "mjy:zishuijing"
+      - "mjy:huangshuijing"
+      - "mjy:zishuijing_ore"
+      - "mjy:huangshuijing_ore"

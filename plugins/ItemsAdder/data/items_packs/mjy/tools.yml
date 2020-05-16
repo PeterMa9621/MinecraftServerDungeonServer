@@ -3,7 +3,7 @@ info:
 recipes:
   crafting_table:
     qingshuijing_pickaxe:
-      permission: mjy.qingshuijing_pickaxe
+      permission: itemsadder.player
       durability:
         max_custom_durability: 364
       enabled: true
@@ -18,7 +18,7 @@ recipes:
         item: mjy:qingshuijing_pickaxe
         amount: 1
     qingshuijing_hammer:
-      permission: mjy.qingshuijing_hammer
+      permission: itemsadder.player
       enabled: true
       pattern:
       - DDD
@@ -40,7 +40,7 @@ recipes:
 items:
   qingshuijing_pickaxe:
     display_name: '&f青水晶镐'
-    permission: qingshuijing_pickaxe
+    permission: itemsadder.player
     resource:
       material: DIAMOND_PICKAXE
       generate: true
@@ -48,7 +48,7 @@ items:
       - item/pickaxe/qingshuijing_pickaxe.png
   qingshuijing_hammer:
     display_name: '&f青水晶锤'
-    permission: qingshuijing_hammer
+    permission: itemsadder.player
     resource:
       material: WOODEN_PICKAXE
       generate: true

@@ -3,7 +3,7 @@ info:
 recipes:
   crafting_table:
     nianheji:
-      permission: mjy.nianheji
+      permission: itemsadder.player
       enabled: true
       pattern:
       - RRR
@@ -19,7 +19,7 @@ recipes:
 items:
   nianheji:
     display_name: '&f粘合剂'
-    permission: nianheji
+    permission: itemsadder.player
     resource:
       material: POTION
       generate: true
