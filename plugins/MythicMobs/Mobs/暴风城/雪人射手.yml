@@ -6,7 +6,7 @@
 ###   Contact: jaylawlMC@gmail.com                                     #
 ###                                                                    #
 ########################################################################
-xuerensheshou1:
+雪人射手1:
   Type: snowman
   Display: '&r雪人射手 &c1级'
   Health: 150
@@ -26,7 +26,7 @@ xuerensheshou1:
   - effect:particles{p=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:20 <50% 0.75
   - effect:particles{p=snowshovel;a=1;hS=0.5;vS=0.6;s=0;y=1} @self ~onTimer:20 0.89
 ########################################################################
-xuerensheshou2:
+雪人射手2:
   Type: snowman
   Display: '&r雪人射手 &c2级'
   Health: 180
@@ -46,7 +46,7 @@ xuerensheshou2:
   - effect:particles{p=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:20 <50% 0.75
   - effect:particles{p=snowshovel;a=1;hS=0.5;vS=0.6;s=0;y=1} @self ~onTimer:20 0.89
 ########################################################################
-xuerensheshou3:
+雪人射手3:
   Type: snowman
   Display: '&r雪人射手 &c3级'
   Health: 200

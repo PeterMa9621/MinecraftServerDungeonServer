@@ -16,3 +16,22 @@
     AlwaysShowName: true
     PreventMobKillDrops: true
     PreventOtherDrops: true
+
+暴风战士T:
+  Mobtype: POLAR_BEAR
+  Display: '&3&l暴风战士'
+  Faction: baofengcheng
+  Health: 350
+  Damage: 40
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Options:
+    FollowRange: 15
+    Despawn: true
+    AlwaysShowName: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
