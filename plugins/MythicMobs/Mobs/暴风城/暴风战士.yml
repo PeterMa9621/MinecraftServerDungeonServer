@@ -12,7 +12,7 @@
   - 2 players
   Options:
     FollowRange: 15
-    Despawn: true
+    Despawn: false
     AlwaysShowName: true
     PreventMobKillDrops: true
     PreventOtherDrops: true
@@ -31,7 +31,7 @@
   - 2 players
   Options:
     FollowRange: 15
-    Despawn: true
+    Despawn: false
     AlwaysShowName: true
     PreventMobKillDrops: true
     PreventOtherDrops: true

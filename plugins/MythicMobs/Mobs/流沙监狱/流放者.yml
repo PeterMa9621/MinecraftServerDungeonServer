@@ -23,6 +23,7 @@
   - tie1:1
   - tiejian:0
   Options:
+    Despawn: false
     AlwaysShowName: true
     PreventOtherDrops: true
 流放者坐骑:
@@ -34,6 +35,7 @@
   Modules:
     ThreatTable: true
   Options:
+    Despawn: false
     AlwaysShowName: true
     PreventOtherDrops: true
     #Angry: true
