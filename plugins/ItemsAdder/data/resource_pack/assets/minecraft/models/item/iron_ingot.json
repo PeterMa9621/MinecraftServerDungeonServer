@@ -153,6 +153,12 @@
         "custom_model_data": 26
       },
       "model": "mjy:auto_generated/baoshisuikuai"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "itemsadder:auto_generated/iron_plate"
     }
   ]
 }

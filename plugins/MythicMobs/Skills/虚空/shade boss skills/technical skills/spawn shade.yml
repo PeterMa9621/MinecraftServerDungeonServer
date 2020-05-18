@@ -1,0 +1,49 @@
+spawnshade:
+  Skills:
+  - throw{velocity=6;velocityY=3} @EIR{r=3}
+  - damage{a=12;i=true} @EIR{r=3}
+  - potion{t=DAMAGE_RESISTANCE;d=999999;l=10;force=true} @Self
+  - potion{t=SLOW;d=999999;l=10;force=true} @self
+  - effect:sound{s=entity.player.breath;v=1;p=0.5} @PIR{r=60}
+  - effect:sound{s=entity.guardian.ambient;v=1;p=0.5} @PIR{r=60}
+  - effect:sound{s=entity.vex.death;v=1;p=0.5} @PIR{r=60}
+  - effect:particlering{particle=dragonbreath;radius=1;points=24;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=dragonbreath;radius=2;points=32;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=dragonbreath;radius=3;points=48;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 40
+  - effect:glow{color=PURPLE;duration=110} @self
+  - potion{t=LEVITATION;d=70;l=2} @self
+  - projectile{onTick=SSpawnProTick;onHit=CSProHit;v=6;i=1;hR=1;vR=1;StopAtBlock=true;HitNonPlayers=true;g=0.3;vO=1} @ring{radius=30;points=8}
+  - skill{s=spawnshadetick}
+  - delay 10
+  - projectile{onTick=SSpawnProTick;onHit=SSpawnProHit;v=8;i=1;hR=1;vR=1;StopAtBlock=true;HitNonPlayers=true;g=0.3;vO=1} @ring{radius=30;points=16}
+  - skill{s=spawnshadetick}
+  - delay 10
+  - projectile{onTick=SSpawnProTick;onHit=SSpawnProHit;v=10;i=1;hR=1;vR=1;StopAtBlock=true;HitNonPlayers=true;g=0.3;vO=1} @ring{radius=30;points=24}
+  - skill{s=spawnshadetick}
+  - delay 10
+  - projectile{onTick=SSpawnProTick;onHit=SSpawnProHit;v=12;i=1;hR=1;vR=1;StopAtBlock=true;HitNonPlayers=true;g=0.3;vO=1} @ring{radius=30;points=32}
+  - skill{s=spawnshadetick}
+  - delay 40
+  - effect:sound{s=entity.guardian.death;v=1;p=0.5} @PIR{r=60}
+  - effect:sound{s=entity.wither.shoot;v=1;p=2} @PIR{r=60}
+  - effect:sound{s=block.end_portal.spawn;v=1;p=2} @PIR{r=60}
+  - leap{velocity=450} @NearestPlayer{r=60}
+  - potion{t=DAMAGE_RESISTANCE;d=1;l=0;force=true} @Self
+  - potion{t=SLOW;d=1;l=0;force=true} @self
+
+spawnshadetick:
+  Skills:
+  - effect:particles{particle=mobSpell;amount=64;hS=1;vS=1;speed=0.7;y=1.2;color=#bf00b9} @self
+  - effect:sound{s=item.totem.use;v=1;p=2} @PIR{r=60}
+  - effect:sound{s=entity.elder_guardian.ambient;v=1;p=2} @PIR{r=60}
+  - effect:sound{s=entity.evocation_illager.prepare_summon;v=1;p=2} @PIR{r=60}
+
+SSpawnProTick:
+  Skills:
+  - effect:particles{p=dragonbreath;amount=1;speed=0;hR=0.2;vR=0.2} @origin
+  - effect:particles{p=endRod;amount=1;speed=0;hR=0.2;vR=0.2} @origin
+SSpawnProHit:
+  Skills:
+  - damage{a=20;i=true} @EntitiesNearOrigin{r=3}
+  - effect:sound{s=block.end_portal_frame.fill;v=1;p=0.7}

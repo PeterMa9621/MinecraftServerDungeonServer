@@ -1,0 +1,18 @@
+﻿Abyra:
+  Type: ZOMBIE
+  Display: '油すまし'
+  Health: 100
+  Damage: 10
+  Faction: Abyrac
+  Equipment:
+  - JapanItem13:4
+  - Leather_chestplate:3
+  - air:2
+  - gold_boots:1
+  - stick:0
+  Options:
+    MovementSpeed: 0.3
+  Skills:
+   - potion{type=Blindness;duration=200;level=4}
+  Drops:
+  - blaze_powder 1-8 1

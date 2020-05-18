@@ -1,0 +1,33 @@
+﻿CreepyLumberjack:
+  Type: STRAY
+  Display: 'Creepy Lumberjack'
+  Health: 500
+  BossBar:
+   Enabled: true
+   Title: 'Creepy Lumberjack'
+   Range: 20
+   Color: Red
+   Style: SOLID
+  Damage: 10
+  Armor: 1
+  Faction: cl
+  Equipment:
+   - IRON_HELMET HEAD
+   - IRON_AXE HAND RIGHT
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+  Skills:
+  - sound{s=entity.skeleton_horse.death} @self ~OnTimer:200
+  - skill{s=CreepyLumberjackHurt} @PlayersInRadius{r=15}
+  - skill{s=CreepyLumberjackColor} @self 0.2
+  - skill{s=CreepyLumberjackHurtSky} @self 0.1
+  - skill{s=CreepyLumberjackBooom} @self 0.3
+########################################################################
+###                                                                    #
+###   BOSS PACK                                                        #
+###                                                                    #
+###   Created by AliAlibekov                                           #
+###   Yes yes Koterist, i'm did good))                                                                 #
+###                                                                    #
+########################################################################

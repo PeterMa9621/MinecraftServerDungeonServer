@@ -1,0 +1,21 @@
+﻿Baky:
+  Type: WOLF
+  Display: '獏'
+  Health: 1000
+  Damage: 10
+  Armor: 0
+  Faction: Bakyc
+  Skills:
+  - effect:sound{s=entity.wolf.hurt;v=1;p=0} @PlayersInRadius{r=35} ~onDamaged
+  - effect:sound{s=block.wolf.death;v=1;p=0} @PlayersInRadius{r=35} ~onDeath
+  - effect:sound{s=entity.wolf.ambient;v=1;p=0} @PlayersInRadius{r=35} ~onTimer:100
+  - effect:flames @self ~onTimer:5
+  - ignite{ticks=60} @trigger ~onAttack
+  - healpercent{m=0.2} @self ~onAttack
+  - potion{type=Blindness;duration=200;level=4}
+  - damage{amount=10}
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    MaxCombatDistance: 30
+    Silent: true

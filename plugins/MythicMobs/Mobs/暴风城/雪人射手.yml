@@ -9,60 +9,60 @@
 xuerensheshou1:
   Type: snowman
   Display: '&r雪人射手 &c1级'
-  Health: 50
+  Health: 150
+  Faction: baofengcheng
   Options:
-    FollowRange: 15
+    FollowRange: 25
     AlwaysShowName: true
     KnockbackResistance: 0.5
     Despawn: true
+    PreventOtherDrops: true
   Modules:
     ThreatTable: true
   AITargetSelectors:
-  - 0 ThreatHolder
-  - 1 attacker
-  - 2 players
+  - 0 players
   Skills:
-  - shoot{t=SNOWBALL;v=2;d=4} @target ~onTimer:45 1                # the "d" value in this line controls the damage done by the mob
+  - shoot{t=SNOWBALL;v=2;d=30} @target ~onTimer:45 1                # the "d" value in this line controls the damage done by the mob
   - effect:particles{p=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:20 <50% 0.75
   - effect:particles{p=snowshovel;a=1;hS=0.5;vS=0.6;s=0;y=1} @self ~onTimer:20 0.89
 ########################################################################
 xuerensheshou2:
   Type: snowman
   Display: '&r雪人射手 &c2级'
-  Health: 60
+  Health: 180
+  Faction: baofengcheng
   Options:
-    FollowRange: 15
+    FollowRange: 25
     AlwaysShowName: true
     KnockbackResistance: 0.5
     Despawn: true
+    PreventOtherDrops: true
   Modules:
     ThreatTable: true
   AITargetSelectors:
-  - 0 ThreatHolder
-  - 1 attacker
-  - 2 players
+  - 0 players
   Skills:
-  - shoot{t=SNOWBALL;v=2;d=5} @target ~onTimer:40 1                # the "d" value in this line controls the damage done by the mob
+  - shoot{t=SNOWBALL;v=2;d=32} @target ~onTimer:40 1                # the "d" value in this line controls the damage done by the mob
   - effect:particles{p=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:20 <50% 0.75
   - effect:particles{p=snowshovel;a=1;hS=0.5;vS=0.6;s=0;y=1} @self ~onTimer:20 0.89
 ########################################################################
 xuerensheshou3:
   Type: snowman
   Display: '&r雪人射手 &c3级'
-  Health: 70
+  Health: 200
+  Faction: baofengcheng
   Options:
-    FollowRange: 15
+    FollowRange: 25
     AlwaysShowName: true
     KnockbackResistance: 0.5
     Despawn: true
+    PreventOtherDrops: true
   Modules:
     ThreatTable: true
   AITargetSelectors:
-  - 0 ThreatHolder
-  - 1 attacker
-  - 2 players
+  - 0 players
   Skills:
-  - shoot{t=SNOWBALL;v=2;d=6} @target ~onTimer:35 1                # the "d" value in this line controls the damage done by the mob
+  - shoot{t=SNOWBALL;v=2;d=34} @target ~onTimer:35 1                # the "d" value in this line controls the damage done by the mob
   - effect:particles{p=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:20 <50% 0.75
   - effect:particles{p=snowshovel;a=1;hS=0.5;vS=0.6;s=0;y=1} @self ~onTimer:20 0.89
 ########################################################################

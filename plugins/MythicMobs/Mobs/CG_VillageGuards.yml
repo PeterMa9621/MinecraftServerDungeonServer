@@ -1,0 +1,198 @@
+VillageGuard:
+  Type: IRON_GOLEM
+  Display: 'Guard'
+  Damage: 6
+  Health: 50
+  Faction: VillageGuards
+  Disguise:
+    Type: PLAYER
+    Player: 'Guard'
+    Skin: 0cel0t
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 opendoors
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 otherfactionmonsters
+  Modules:
+    ThreatTable: false
+  Options:
+    AlwaysShowName: false
+    Despawn: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    MovementSpeed: 0.26
+    Silent: true
+  Skills:
+  - skill{s=CG_Equipment_I} @self ~onSpawn
+  - potion{type=SPEED;lvl=0;d=100;p=false} @self ~onEnterCombat
+  - skill{s=CG_VillageGuard_CallHelp} @trigger ~onDamaged
+  - skill{s=CG_VillageGuard_WideAttack} @targetlocation ~onAttack 0.2
+    
+VillageMarksman:
+  Type: IRON_GOLEM
+  Display: 'Guard Marksman'
+  Damage: 4
+  Health: 30
+  Faction: VillageGuards
+  Disguise:
+    Type: PLAYER
+    Player: 'Guard Marksman'
+    Skin: 0cel0t
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 opendoors
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 otherfactionmonsters
+  Modules:
+    ThreatTable: false
+  Options:
+    AlwaysShowName: false
+    Despawn: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    MovementSpeed: 0.25
+    Silent: true
+  Skills:
+  - skill{s=CG_Equipment_Ir} @self ~onSpawn
+  - potion{type=SPEED;lvl=0;d=100;p=false} @self ~onEnterCombat
+  - skill{s=CG_VillageGuard_CallHelp} @trigger ~onDamaged
+  - skill{s=CG_VillageMarksman_Shoot} @self ~onTimer:10
+    
+VillageMage:
+  Type: IRON_GOLEM
+  Display: 'Guard Mage'
+  Damage: 10
+  Health: 30
+  Faction: VillageGuards
+  Disguise:
+    Type: PLAYER
+    Player: 'Guard Mage'
+    Skin: zdog101
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 opendoors
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 otherfactionmonsters
+  Modules:
+    ThreatTable: false
+  Options:
+    AlwaysShowName: false
+    Despawn: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    MovementSpeed: 0.20
+    Silent: true
+  Skills:
+  - modifymobscore{objective=mana;action=set;value=10} ~onSpawn
+  - skill{s=CG_VillageMage_mana} @self ~onTimer:20
+  - skill{s=CG_Equipment_II} @self ~onSpawn
+  - potion{type=SPEED;lvl=0;d=100;p=false} @self ~onEnterCombat
+  - skill{s=CG_VillageGuard_CallHelp} @trigger ~onDamaged
+  - skill{s=CG_VillageGuard_MajorSpell} @target ~onTimer:20
+  - modifymobscore{objective=casting;action=set;value=0} ~onSpawn
+    
+VillageKnight:
+ Type: IRON_GOLEM
+ Display: 'Рыцарь'
+ Damage: 6
+ Health: 30
+ Faction: VillageGuards
+ Mount: VillageKnight_Mount
+ Disguise:
+   Type: PLAYER
+   Player: 'Рыцарь'
+   Skin: 0cel0t
+ AIGoalSelectors:
+ - 0 clear
+ - 1 meleeattack
+ - 2 float
+ - 3 opendoors
+ - 4 randomstroll
+ AITargetSelectors:
+ - 0 clear
+ - 1 hurtbytarget
+ - 2 otherfactionmonsters
+ Modules:
+   ThreatTable: false
+ Options:
+   AlwaysShowName: false
+   Despawn: true
+   PreventOtherDrops: true
+   PreventMobKillDrops: true
+   MovementSpeed: 0.25
+   Silent: true
+ Skills:
+ - skill{s=CG_Equipment_III} @self ~onSpawn
+ - potion{type=SLOW;lvl=2;d=10;p=false} @target ~onAttack 0.5
+ - skill{s=CG_VillageGuard_CallHelp} @trigger ~onDamaged
+ - skill{s=CG_VillageGuard_WideAttack} @targetlocation ~onAttack 0.3
+
+VillageCaptain:
+  Type: IRON_GOLEM
+  Display: 'Guard Captain'
+  Damage: 8
+  Health: 50
+  Faction: VillageGuards
+  Disguise:
+    Type: PLAYER
+    Player: 'Guard Captain'
+    Skin: pikachu23
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 opendoors
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 otherfactionmonsters
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: false
+    Despawn: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    MovementSpeed: 0.25
+    Silent: true
+  Skills:
+  - skill{s=CG_Equipment_III} @self ~onSpawn
+  - potion{type=SPEED;lvl=1;d=100;p=false} @self ~onEnterCombat
+  - potion{type=SLOW;lvl=2;d=20;p=false} @target ~onAttack 0.5
+  - skill{s=CG_VillageGuard_CallHelp} @trigger ~onDamaged
+  - skill{s=CG_VillageGuard_WideAttack} @targetlocation ~onAttack 0.4
+  - skill{s=CG_VillageGuard-Charge} @targetlocation ~onTimer:100
+
+VillageKnight_Mount:
+  Type: HORSE
+  Health: 40
+  Faction: VillageGuards
+  Options:
+    AlwaysShowName: false
+    Despawn: true
+    HorseArmor: iron
+    HorseStyle: WHITEFIELD
+    HorseColor: CHESTNUT
+    Tamed: true
+    Saddled: true
+    MovementSpeed: 0.30
+    PreventOtherDrops: true
+  Skills:
+  - potion{type=SPEED;lvl=0;d=300;p=false} @self ~onEnterCombat
+  - skill{s=CG_VillageGuard_CallHelp} @trigger ~onDamaged

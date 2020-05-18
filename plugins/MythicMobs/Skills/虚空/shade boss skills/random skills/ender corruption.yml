@@ -1,0 +1,69 @@
+endercorruption:
+  Cooldown: 70
+  Skills:
+  - potion{t=SLOW;d=999999;l=1;force=true} @self
+  - skill{s=preendercorruption;repeat=20;repeatInterval=2}
+  - delay 40
+  - throw{velocity=8;velocityY=4} @EIR{r=4}
+  - potion{t=DAMAGE_RESISTANCE;d=999999;l=10;force=true} @Self
+  - potion{t=SLOW;d=999999;l=10;force=true} @self
+  - effect:glow{color=DARK_PURPLE;duration=999999} @self
+  - disguise{d=ENDERMAN}
+  - effect:sound{s=entity.elder_guardian.curse;v=0.3;p=1.3} @PIR{r=60}
+  - effect:sound{s=entity.endermen.scream;v=1;p=1.3} @PIR{r=60}
+  - effect:particlering{particle=dragonbreath;radius=2;points=32;amount=1;hS=0.1;vS=0;y=1} @self
+  - delay 20
+  - skill{s=endercorruptiontick;repeat=3;repeatInterval=60}
+  - delay 240
+  - effect:itemspray{item=ender_pearl;amount=20;velocity=1;duration=20;r=0.5} @self 
+  - effect:sound{s=entity.illusion_illager.mirror_move;v=1;p=1.3} @PIR{r=60}
+  - undisguise @self
+  - effect:glow{color=DARK_PURPLE;duration=1} @self
+  - potion{t=DAMAGE_RESISTANCE;d=1;l=0;force=true} @Self
+  - potion{t=SLOW;d=1;l=0;force=true} @self
+
+preendercorruption:
+  Skills:
+  - effect:itemspray{item=ender_pearl;amount=4;velocity=1;duration=20;r=0.5} @self 
+  - effect:particles{particle=dragonbreath;amount=6;hS=0.4;vS=0.4;speed=0;y=0.7} @self
+  - effect:particles{particle=reddust;amount=6;hS=0.4;vS=0.4;speed=0;y=0.7;color=#bf00c2} @self
+  - effect:sound{s=entity.endermen.death;v=0.3;p=1.3} @PIR{r=60}
+  - effect:sound{s=block.enderchest.open;v=1;p=1.3} @PIR{r=60}
+
+endercorruptiontick:
+  Skills:
+  - effect:sound{s=entity.endermen.death;v=1;p=0.7} @PIR{r=60}
+  - effect:sound{s=block.enderchest.open;v=1;p=0.7} @PIR{r=60}
+  - skill{s=endercorruptiontickRED}
+  - projectile{onTick=EnCProTick;onHit=EnCProHit;v=20;i=1;hR=1;vR=1;StopAtBlock=true;HitNonPlayers=true;g=-0.15} @ring{radius=30;points=4}
+  - projectile{onTick=EnCProTick;onHit=EnCProHit;v=20;i=1;hR=1;vR=1;StopAtBlock=true;HitNonPlayers=true;HorizontalOffset=8;g=-0.15} @ring{radius=30;points=4}
+  - projectile{onTick=EnCProTick;onHit=EnCProHit;v=20;i=1;hR=1;vR=1;StopAtBlock=true;HitNonPlayers=true;HorizontalOffset=-8;g=-0.15} @ring{radius=30;points=4}
+  - projectile{onTick=EnCProTick;onHit=EnCProHit;v=20;i=1;hR=1;vR=1;StopAtBlock=true;HitNonPlayers=true;HorizontalOffset=16;g=-0.15} @ring{radius=30;points=4}
+  - projectile{onTick=EnCProTick;onHit=EnCProHit;v=20;i=1;hR=1;vR=1;StopAtBlock=true;HitNonPlayers=true;HorizontalOffset=-16;g=-0.15} @ring{radius=30;points=4}
+  - delay 40
+  - effect:sound{s=entity.endermen.scream;v=1;p=1.3} @PIR{r=60}
+  - effect:sound{s=entity.wither.shoot;v=0.3;p=1.3} @PIR{r=60}
+  - leap{velocity=350} @target
+
+EnCProTick:
+  Skills:
+  - effect:particles{p=dragonbreath;amount=1;speed=0;hR=0.2;vR=0.2} @origin
+  - effect:particles{p=reddust;amount=1;speed=0;hR=0.2;vR=0.2;color=#ffffff} @origin
+EnCProHit:
+  Skills:
+  - damage{a=18;i=true} @EntitiesNearOrigin{r=3}
+  - effect:sound{s=block.enderchest.close;v=1;p=2}
+
+endercorruptiontickRED:
+  Conditions:
+  - stance{stance=powerupshade} true
+  Skills:
+  - projectile{onTick=EnCProTickRED;onHit=EnCProHitRED;v=4;i=1;hR=0.5;vR=0.5;StopAtBlock=true;HitNonPlayers=true;hs=true} @ring{radius=64;points=32}
+
+EnCProTickRED:
+  Skills:
+  - effect:particles{p=reddust;amount=1;speed=0;hR=0.2;vR=0.2;color=#de0004} @origin
+EnCProHitRED:
+  Skills:
+  - damage{a=20;i=true} @EntitiesNearOrigin{r=3}
+  - effect:sound{s=entity.zombie.infect;v=1;p=0.7}

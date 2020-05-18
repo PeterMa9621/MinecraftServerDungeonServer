@@ -1,0 +1,71 @@
+mawsofthevoid1:
+  Cooldown: 1.5
+  Conditions:
+  - onground true
+  - crouching true
+  Skills:
+  - effect:sound{s=entity.evocation_fangs.attack;v=1;p=0.7} @Self
+  - delay 10
+  - effect:sound{s=entity.shulker.shoot;v=0.7;p=0.5} @Self
+  - projectile{onTick=MawsTick1;oe=MawsHit1;v=4;i=1;hR=0.5;vR=0.5;hs=false;StopAtBlock=false;HitNonPlayers=true;g=-0.3;mr=4} @Cone{angle=360;points=2;range=33;rotation=360}
+MawsTick1:
+  Skills:
+  - effect:particles{p=reddust;color=#000000;amount=6;speed=0;hS=0.1;vS=0.1} @origin
+
+MawsHit1:
+  Skills:
+  - damage{a=4;i=true} @EIR{r=3}
+
+mawsofthevoid2:
+  Cooldown: 1.5
+  Conditions:
+  - onground true
+  - crouching true
+  Skills:
+  - effect:sound{s=entity.evocation_fangs.attack;v=1;p=0.7} @Self
+  - delay 10
+  - effect:sound{s=entity.shulker.shoot;v=0.7;p=0.5} @Self
+  - projectile{onTick=MawsTick2;oe=MawsHit2;v=4;i=1;hR=0.5;vR=0.5;hs=false;StopAtBlock=false;HitNonPlayers=true;g=-0.3;mr=4} @Cone{angle=360;points=2;range=33;rotation=360}
+MawsTick2:
+  Skills:
+  - effect:particles{p=reddust;color=#000000;amount=6;speed=0;hS=0.1;vS=0.1} @origin
+
+MawsHit2:
+  Skills:
+  - damage{a=4;i=true} @EIR{r=3}
+
+mawsofthevoid3:
+  Cooldown: 1.5
+  Conditions:
+  - onground true
+  - crouching true
+  Skills:
+  - effect:sound{s=entity.evocation_fangs.attack;v=1;p=0.7} @Self
+  - delay 10
+  - effect:sound{s=entity.shulker.shoot;v=0.7;p=0.5} @Self
+  - projectile{onTick=MawsTick3;oe=MawsHit3;v=4;i=1;hR=0.5;vR=0.5;hs=false;StopAtBlock=false;HitNonPlayers=true;g=-0.3;mr=4} @Cone{angle=360;points=2;range=33;rotation=360}
+MawsTick3:
+  Skills:
+  - effect:particles{p=reddust;color=#000000;amount=6;speed=0;hS=0.1;vS=0.1} @origin
+
+MawsHit3:
+  Skills:
+  - damage{a=4;i=true} @EIR{r=3}
+
+mawsofthevoid4:
+  Cooldown: 1.5
+  Conditions:
+  - onground true
+  - crouching true
+  Skills:
+  - effect:sound{s=entity.evocation_fangs.attack;v=1;p=0.7} @Self
+  - delay 10
+  - effect:sound{s=entity.shulker.shoot;v=0.7;p=0.5} @Self
+  - projectile{onTick=MawsTick4;oe=MawsHit4;v=4;i=1;hR=0.5;vR=0.5;hs=false;StopAtBlock=false;HitNonPlayers=true;g=-0.3;mr=4} @Cone{angle=360;points=2;range=33;rotation=360}
+MawsTick4:
+  Skills:
+  - effect:particles{p=reddust;color=#000000;amount=6;speed=0;hS=0.1;vS=0.1} @origin
+
+MawsHit4:
+  Skills:
+  - damage{a=4;i=true} @EIR{r=3}

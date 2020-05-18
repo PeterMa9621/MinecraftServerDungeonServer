@@ -1,0 +1,19 @@
+﻿JapanMobs6:
+  Type: BABY_ZOMBIE
+  Display: '鎌鼬'
+  Health: 100
+  Damage: 10
+  Armor: 0
+  Faction: Mobs6
+  Equipment:
+  - JapanItem14:4
+  Skills:
+   - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+   - potion{type=Nausea;duration=200;level=4}
+   - damage{amount=10}
+   - delay 10
+   - potion{type=Levitation;duration=100;level=4}
+   - damage{amount=10}
+   - delay 10
+   - sound{s=entity.wolf.hurt} @self
+   - effect:flames @self ~onTimer:5

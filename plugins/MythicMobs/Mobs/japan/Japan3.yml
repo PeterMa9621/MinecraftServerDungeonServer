@@ -1,0 +1,16 @@
+﻿JapanMobs3:
+  Type: ZOMBIE
+  Display: '青坊主'
+  Health: 100
+  Damage: 10
+  Armor: 0
+  Faction: Mobs3
+  Equipment:
+  - JapanItem10:4
+  - iron_chestplate:3
+  - stick:0
+  Skills:
+   - sound{s=entity.drowned.hurt} @self
+   - shootpotion{type=Slowness;duration=200;level=4;velocity=5} @target
+   - pull{velocity=10} @target
+   

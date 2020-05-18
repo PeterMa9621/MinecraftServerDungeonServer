@@ -1,0 +1,55 @@
+CreepyLumberjackHurt:
+ Cooldown: 10
+ Skills:
+   - sound{s=entity.skeleton_horse.death} @self
+   - shootskull{y=1;v=4} @target
+   - sound{s=entity.blaze.death} @self
+   - delay 10
+   - shootskull{y=1;v=4} @target
+   - sound{s=entity.blaze.death} @self
+   - delay 10
+   - shootskull{y=1;v=4} @target
+   - sound{s=entity.blaze.death} @self 
+CreepyLumberjackColor:
+ Cooldown: 30
+ Skills:
+   - sound{s=entity.wolf.howl} @self
+   - summon{type=MINIMOBS;amount=2;radius=4} @PIR{r=20}
+   - potion{type=Blindness;lvl=2;duration=100} @PlayersInRadius{r=15}
+   - effect:particles{p=reddust;color=#ff0000;amount=3000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5}
+CreepyLumberjackBooom:
+ Cooldown: 20
+ Skills:
+   - effect:itemspray{item=iron_axe;amount=20;velocity=5;d=100;} @self
+   - throw{velocity=5;velocityY=5} @PIR{r=10}
+   - damage{a=10;i=false} @PIR{r=10}
+   - effect:particles{p=hugeexplode;a=5;vs=0.5;hs=0.5;s=0;y=1} @Self
+   - effect:sound{s=entity.generic.explode;v=2;p=0.5} @Self
+   - effect:sound{s=entity.generic.explode;v=2;p=1;repeat=7;repeatInterval=2} @Self
+   - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=1} @Self
+CreepyLumberjackHurtSky:
+ Cooldown: 10
+ Skills:
+   - effect:explosion @Self
+   - damage{amount=10} @PlayersInRadius{r=5}
+   - throw{velocity=15;velocityY=5} @PlayersInRadius{r=5}
+   - delay 10
+   - teleport @target
+   - delay 30
+   - throw{velocity=5;velocityY=5} @PIR{r=10}
+   - damage{a=10;i=false} @PIR{r=10}
+   - effect:particles{p=hugeexplode;a=5;vs=0.5;hs=0.5;s=0;y=1} @Self
+   - effect:sound{s=entity.generic.explode;v=2;p=0.5} @Self
+   - effect:sound{s=entity.generic.explode;v=2;p=1;repeat=7;repeatInterval=2} @Self
+   - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=1} @Self
+   - delay 2
+   - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=3} @Self
+   - delay 2
+   - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=5} @Self
+   - delay 2 
+   - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=7} @Self
+   - delay 2
+   - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=9} @Self
+   - delay 2
+   - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=11} @Self
+   

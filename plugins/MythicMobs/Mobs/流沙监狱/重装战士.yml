@@ -2,7 +2,7 @@
   Type: PIG_ZOMBIE
   Display: '&2重装战士'
   Health: 150
-  Damage: 8
+  Damage: 30
   Armor: 6
   Modules:
     ThreatTable: true
@@ -27,7 +27,7 @@
   Type: PIG_ZOMBIE
   Display: '&2重装战士'
   Health: 150
-  Damage: 8
+  Damage: 30
   Armor: 6
   Modules:
     ThreatTable: true

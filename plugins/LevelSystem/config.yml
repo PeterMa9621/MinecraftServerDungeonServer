@@ -31,7 +31,7 @@ bonusExpCard:
     - '&5右键使用'
     times: 3
     duration: 120
-maxLevel: 35
+maxLevel: 300
 chatPrefix: true
 formula:
   coefficient:
@@ -56,12 +56,12 @@ reward:
     command:
     - eco give %player% 200
   '5':
-    msg: '升级奖励:&2250金币'
+    msg: '升级奖励:&2250金币，经验加倍卡一张'
     command:
     - eco give %player% 250
     - ls give %player% normal 1
   '10':
-    msg: '升级奖励:&2500金币,九选一抽奖箱钥匙一把'
+    msg: '升级奖励:&2500金币,九选一抽奖箱钥匙一把，经验加倍卡一张'
     command:
     - eco give %player% 500
     - cc give p 九选一 1 %player%
@@ -91,6 +91,158 @@ reward:
     - cc give p 烟花 1 %player%
     - ls give %player% normal 1
   '35':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '40':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '50':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把,黑色恶魔翅膀一个'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+    - iagive %player% demoniac_black_wings 1
+  '60':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '70':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '80':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '90':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '100':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把,红色恶魔翅膀一个'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+    - iagive %player% demoniac_red_wings 1
+  '110':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '120':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '130':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '140':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '150':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '160':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '170':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '180':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '190':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '200':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '210':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '220':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '230':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '240':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '250':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '260':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '270':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '280':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '290':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '300':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '310':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '320':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%
+  '330':
     msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
     command:
     - eco give %player% 1000

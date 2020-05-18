@@ -363,12 +363,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 61
-      },
-      "model": "itemsadder:item/dark_throne"
-    },
-    {
-      "predicate": {
         "custom_model_data": 62
       },
       "model": "itemsadder:item/school_chair"

@@ -1,0 +1,35 @@
+﻿King:
+  Type: WITHER_SKELETON
+  Display: '&4 Andrey Великий'
+  Health: 1000
+  BossBar:
+   Enabled: true
+   Title: 'Эбать Андрей Великий'
+   Range: 20
+   Color: RED
+   Style: SOLID
+  Damage: 10
+  Faction: KnightHURT1
+  Equipment:
+   - KING1:4
+   - IRON_CHESTPLATE CHEST
+   - IRON_LEGGINGS LEGS
+   - IRON_BOOTS FEET
+   - IRON_SWORD HAND RIGHT
+   - SHIELD OFFHAND
+  Options:
+   MovementSpeed: 0.3
+  Skills:
+   - sound{s=entity.wither.hurt} @self
+   - skill{s=KnightHURT} @self 0.1
+   - skill{s=KnightSummon} @target >0 0.2
+   - skill{s=KnightSuper} @target ~OnTimer:200 
+   - skill{s=Effect} @target ~OnTimer:100
+########################################################################
+###                                                                    #
+###   BOSS PACK                                                        #
+###                                                                    #
+###   Created by AliAlibekov                                           #
+###                                                                    #
+###                                                                    #
+########################################################################  

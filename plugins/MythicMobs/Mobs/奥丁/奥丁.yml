@@ -1,0 +1,33 @@
+奥丁:
+  Type: SKELETON
+  Display: "&b奥丁"
+  Health: 1000
+  Damage: 80
+  Options:
+    MovementSpeed: 0
+    PreventSunburn: true
+    MaxCombatDistance: 16
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+  DamageModifiers:
+  - FALL 0
+  - LIGHTNING 0
+  Equipment:
+  - GOLDEN_HELMET HEAD
+  BossBar:
+    Enabled: true
+    Title: '&b&l奥丁'
+    Range: 16
+    Color: BLUE
+    Style: SEGMENTED_10
+  Disguise:
+    Type: Player
+    Player: Odin
+    Skin: odenl
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=OdinStart} ~onEnterCombat
+  - skill{s=OdinFight} ~onTimer:60
+  - jsonmessage{m="[{'text':'&4&l奥丁 >> 你没办法躲开我的!'}]"} @target =50%
+  - jsonmessage{m="[{'text':'&4&l奥丁 >> 让我来了结你吧!'}]"} @target =25%

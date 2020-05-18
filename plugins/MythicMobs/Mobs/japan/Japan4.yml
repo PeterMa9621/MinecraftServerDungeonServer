@@ -1,0 +1,16 @@
+﻿JapanMobs4:
+  Type: PIG_ZOMBIE
+  Display: 'Demons'
+  Health: 100
+  Damage: 20
+  Armor: 0
+  Faction: Mobs4
+  Equipment:
+  - JapanItem11:4
+  Skills:
+  - sound{s=entity.Elder_Guardian.Idle} @self
+  - shootskull{y=1;v=4} @target
+  - delay 10
+  - shootskull{y=1;v=4} @target
+  - delay 10
+  - shootskull{y=1;v=4} @target

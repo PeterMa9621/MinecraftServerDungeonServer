@@ -1,0 +1,21 @@
+﻿Japan1:
+  Type: BABY_ZOMBIE
+  Display: '油赤子'
+  Health: 100
+  Damage: 10
+  Faction: Japan1c
+  Equipment:
+  - JapanItem12:4
+  - iron_chestplate:3
+  - air:2
+  - gold_boots:1
+  - blaze_rod:0
+  Skills:
+  - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+  - ignite{t=630720000} @self ~onSpawn
+  - effect:flames @self ~onTimer:5 - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+  - effect:blockmask{m=netherrack;r=5} @self ~onTimer:1200

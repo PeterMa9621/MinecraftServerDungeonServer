@@ -1,189 +1,194 @@
 info:
   namespace: itemsadder
-# recipes:
-  # crafting_table:
-    # old_clock:
-      # permission: itemsadder.old_clock
-      # enabled: true
-      # pattern:
-      # - WCW
-      # - WGW
-      # - WWW
-      # ingredients:
-        # C: CLOCK
-        # W: LEGACY_WOOD
-        # G: GOLD_INGOT
-      # result:
-        # item: itemsadder:old_clock
-        # amount: 1
-    # opened_chest:
-      # permission: itemsadder.opened_chest
-      # enabled: true
-      # pattern:
-      # - XGX
-      # - XCX
-      # - XXX
-      # ingredients:
-        # C: CHEST
-        # G: GLASS
-      # result:
-        # item: itemsadder:opened_chest
-        # amount: 1
-    # computer_desk:
-      # permission: itemsadder.computer_desk
-      # enabled: true
-      # pattern:
-      # - XRX
-      # - WWW
-      # - SXS
-      # ingredients:
-        # R: REDSTONE
-        # W: OAK_PLANKS
-        # S: STICK
-      # result:
-        # item: itemsadder:computer_desk
-        # amount: 1
-    # table:
-      # permission: itemsadder.table
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - WWW
-      # - WXW
-      # ingredients:
-        # W: OAK_PLANKS
-      # result:
-        # item: itemsadder:table
-        # amount: 1
-    # lamp:
-      # permission: itemsadder.lamp
-      # enabled: true
-      # pattern:
-      # - QTQ
-      # - XSX
-      # - XSX
-      # ingredients:
-        # Q: QUARTZ_BLOCK
-        # T: TORCH
-        # S: STICK
-      # result:
-        # item: itemsadder:lamp
-        # amount: 1
-    # simple_chair:
-      # permission: itemsadder.simple_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PPP
-      # - SXS
-      # ingredients:
-        # W: LIGHT_BLUE_WOOL
-        # P: OAK_PLANKS
-        # S: STICK
-      # result:
-        # item: itemsadder:simple_chair
-        # amount: 1
-    # lava_lamp:
-      # permission: itemsadder.lava_lamp
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - XLX
-      # - XIX
-      # ingredients:
-        # L: LAVA_BUCKET
-        # I: itemsadder:iron_plate
-      # result:
-        # item: itemsadder:lava_lamp
-        # amount: 1
-      # return_items:
-        # replace:
-          # LAVA_BUCKET: BUCKET
-    # white_chair:
-      # permission: itemsadder.white_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PPP
-      # - SXS
-      # ingredients:
-        # W: WHITE_WOOL
-        # P: OAK_PLANKS
-        # S: STICK
-      # result:
-        # item: itemsadder:white_chair
-        # amount: 1
-    # glass_table:
-      # permission: itemsadder.glass_table
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - GGG
-      # - IXI
-      # ingredients:
-        # G: GLASS_PANE
-        # I: IRON_INGOT
-      # result:
-        # item: itemsadder:glass_table
-        # amount: 1
-    # computer_chair:
-      # permission: itemsadder.computer_chair
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - WWW
-      # - SXS
-      # ingredients:
-        # W: WHITE_WOOL
-        # S: STICK
-      # result:
-        # item: itemsadder:computer_chair
-        # amount: 1
-    # monitor:
-      # permission: itemsadder.monitor
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - POP
-      # - XIX
-      # ingredients:
-        # P: itemsadder:plastic_plate
-        # O: REDSTONE
-        # I: IRON_INGOT
-      # result:
-        # item: itemsadder:monitor
-        # amount: 1
-    # tv:
-      # permission: itemsadder.tv
-      # enabled: true
-      # pattern:
-      # - PPP
-      # - POP
-      # - XIX
-      # ingredients:
-        # P: itemsadder:plastic_plate
-        # O: REDSTONE
-        # I: IRON_INGOT
-      # result:
-        # item: itemsadder:tv
-        # amount: 1
-    # mini_fridge:
-      # permission: itemsadder.mini_fridge
-      # enabled: true
-      # pattern:
-      # - POP
-      # - ROB
-      # - POP
-      # ingredients:
-        # P: itemsadder:iron_plate
-        # B: STONE_BUTTON
-        # O: SNOW_BLOCK
-        # R: REDSTONE
-      # result:
-        # item: itemsadder:mini_fridge
-        # amount: 1
+recipes:
+  crafting_table:
+    old_clock:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WCW
+      - WGW
+      - WWW
+      ingredients:
+        C: CLOCK
+        W: LEGACY_WOOD
+        G: GOLD_INGOT
+      result:
+        item: itemsadder:old_clock
+        amount: 1
+    opened_chest:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - XGX
+      - XCX
+      - XXX
+      ingredients:
+        C: CHEST
+        G: GLASS
+      result:
+        item: itemsadder:opened_chest
+        amount: 1
+    computer_desk:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - XRX
+      - WWW
+      - SXS
+      ingredients:
+        R: REDSTONE_BLOCK
+        W: OAK_PLANKS
+        S: STICK
+      result:
+        item: itemsadder:computer_desk
+        amount: 1
+    table:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - QXB
+      - WWW
+      - WXW
+      ingredients:
+        W: OAK_PLANKS
+        Q: QUARTZ
+        B: BOOK
+      result:
+        item: itemsadder:table
+        amount: 1
+    lamp:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - QTQ
+      - XSX
+      - XSX
+      ingredients:
+        Q: QUARTZ_BLOCK
+        T: GLOWSTONE
+        S: STICK
+      result:
+        item: itemsadder:lamp
+        amount: 1
+    simple_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PPP
+      - SXS
+      ingredients:
+        W: LIGHT_BLUE_WOOL
+        P: OAK_PLANKS
+        S: STICK
+      result:
+        item: itemsadder:simple_chair
+        amount: 1
+    lava_lamp:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - XNX
+      - XLX
+      - III
+      ingredients:
+        L: LAVA_BUCKET
+        I: itemsadder:iron_plate
+        N: IRON_INGOT
+      result:
+        item: itemsadder:lava_lamp
+        amount: 1
+      return_items:
+        replace:
+          LAVA_BUCKET: BUCKET
+    white_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PPP
+      - SXS
+      ingredients:
+        W: WHITE_WOOL
+        P: OAK_PLANKS
+        S: STICK
+      result:
+        item: itemsadder:white_chair
+        amount: 1
+    glass_table:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - GGG
+      - XIX
+      - IXI
+      ingredients:
+        G: GLASS_PANE
+        I: IRON_INGOT
+      result:
+        item: itemsadder:glass_table
+        amount: 1
+    computer_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - SXS
+      - PPP
+      ingredients:
+        W: WHITE_WOOL
+        S: STICK
+        P: itemsadder:plastic
+      result:
+        item: itemsadder:computer_chair
+        amount: 1
+    monitor:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - III
+      - IOI
+      - PPP
+      ingredients:
+        P: itemsadder:plastic_plate
+        O: REDSTONE_BLOCK
+        I: itemsadder:iron_plate
+      result:
+        item: itemsadder:monitor
+        amount: 1
+    tv:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - III
+      - IOI
+      - PRP
+      ingredients:
+        P: itemsadder:plastic_plate
+        O: REDSTONE_BLOCK
+        I: itemsadder:iron_plate
+        R: IRON_BLOCK
+      result:
+        item: itemsadder:tv
+        amount: 1
+    mini_fridge:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - PPP
+      - ROB
+      - PPP
+      ingredients:
+        P: itemsadder:iron_plate
+        B: STONE_BUTTON
+        O: SNOW_BLOCK
+        R: REDSTONE
+      result:
+        item: itemsadder:mini_fridge
+        amount: 1
     # energy_extractor:
-      # permission: itemsadder.energy_extractor
+      # permission: itemsadder.player
       # enabled: true
       # pattern:
       # - DOD
@@ -197,7 +202,7 @@ info:
         # item: itemsadder:energy_extractor
         # amount: 1
     # energy_converter:
-      # permission: itemsadder.energy_converter
+      # permission: itemsadder.player
       # enabled: true
       # pattern:
       # - DOD
@@ -211,7 +216,7 @@ info:
         # item: itemsadder:energy_converter
         # amount: 1
     # vending_machine:
-      # permission: itemsadder.vending_machine
+      # permission: itemsadder.player
       # enabled: true
       # pattern:
       # - III
@@ -224,7 +229,7 @@ info:
         # item: itemsadder:vending_machine
         # amount: 1
     # coffee_machine:
-      # permission: itemsadder.coffee_machine
+      # permission: itemsadder.player
       # enabled: true
       # pattern:
       # - III
@@ -240,625 +245,655 @@ info:
       # return_items:
         # replace:
           # WATER_BUCKET: BUCKET
-    # painting_burst:
-      # permission: itemsadder.painting_burst
-      # enabled: true
-      # pattern:
-      # - LLL
-      # - BPW
-      # - BGY
-      # ingredients:
-        # P: PAINTING
-        # L: LIGHT_BLUE_DYE
-        # B: BROWN_DYE
-        # Y: YELLOW_DYE
-        # W: WHITE_DYE
-        # G: LIGHT_GRAY_DYE
-      # result:
-        # item: itemsadder:painting_burst
-        # amount: 1
-    # painting_courbet:
-      # permission: itemsadder.painting_courbet
-      # enabled: true
-      # pattern:
-      # - YLL
-      # - YPL
-      # - YGY
-      # ingredients:
-        # P: PAINTING
-        # L: LIGHT_BLUE_DYE
-        # Y: YELLOW_DYE
-        # G: LIME_DYE
-      # result:
-        # item: itemsadder:painting_courbet
-        # amount: 1
-    # painting_graham:
-      # permission: itemsadder.painting_graham
-      # enabled: true
-      # pattern:
-      # - WLW
-      # - WPW
-      # - WGW
-      # ingredients:
-        # P: PAINTING
-        # L: LIGHT_BLUE_DYE
-        # G: LIME_DYE
-        # W: WHITE_DYE
-      # result:
-        # item: itemsadder:painting_graham
-        # amount: 1
-    # painting_match:
-      # permission: itemsadder.painting_match
-      # enabled: true
-      # pattern:
-      # - WGG
-      # - WPG
-      # - WGG
-      # ingredients:
-        # P: PAINTING
-        # G: LIME_DYE
-        # W: WHITE_DYE
-      # result:
-        # item: itemsadder:painting_match
-        # amount: 1
-    # painting_pool:
-      # permission: itemsadder.painting_pool
-      # enabled: true
-      # pattern:
-      # - XEX
-      # - XPX
-      # - XXX
-      # ingredients:
-        # P: PAINTING
-        # E: ENDER_EYE
-      # result:
-        # item: itemsadder:painting_pool
-        # amount: 1
-    # painting_skull_and_roses:
-      # permission: itemsadder.painting_skull_and_roses
-      # enabled: true
-      # pattern:
-      # - XJX
-      # - IPI
-      # - XIX
-      # ingredients:
-        # P: PAINTING
-        # J: JACK_O_LANTERN
-        # I: IRON_INGOT
-      # result:
-        # item: itemsadder:painting_skull_and_roses
-        # amount: 1
-    # painting_stage:
-      # permission: itemsadder.painting_stage
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - SPS
-      # - SSS
-      # ingredients:
-        # P: PAINTING
-        # S: SANDSTONE
-      # result:
-        # item: itemsadder:painting_stage
-        # amount: 1
-    # painting_void:
-      # permission: itemsadder.painting_void
-      # enabled: true
-      # pattern:
-      # - CCC
-      # - CPC
-      # - CCC
-      # ingredients:
-        # P: PAINTING
-        # C: CYAN_DYE
-      # result:
-        # item: itemsadder:painting_void
-        # amount: 1
-    # painting_wanderer:
-      # permission: itemsadder.painting_wanderer
-      # enabled: true
-      # pattern:
-      # - BLB
-      # - BPB
-      # - OOO
-      # ingredients:
-        # P: PAINTING
-        # L: PURPLE_DYE
-        # B: BLACK_DYE
-        # O: ORANGE_DYE
-      # result:
-        # item: itemsadder:painting_wanderer
-        # amount: 1
-    # white_bar_chair:
-      # permission: itemsadder.white_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: WHITE_WOOL
-      # result:
-        # item: itemsadder:white_bar_chair
-        # amount: 1
-    # orange_bar_chair:
-      # permission: itemsadder.orange_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: ORANGE_WOOL
-      # result:
-        # item: itemsadder:orange_bar_chair
-        # amount: 1
-    # magenta_bar_chair:
-      # permission: itemsadder.magenta_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: MAGENTA_WOOL
-      # result:
-        # item: itemsadder:magenta_bar_chair
-        # amount: 1
-    # light_blue_bar_chair:
-      # permission: itemsadder.light_blue_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: LIGHT_BLUE_WOOL
-      # result:
-        # item: itemsadder:light_blue_bar_chair
-        # amount: 1
-    # yellow_bar_chair:
-      # permission: itemsadder.yellow_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: YELLOW_WOOL
-      # result:
-        # item: itemsadder:yellow_bar_chair
-        # amount: 1
-    # lime_bar_chair:
-      # permission: itemsadder.lime_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: LIME_WOOL
-      # result:
-        # item: itemsadder:lime_bar_chair
-        # amount: 1
-    # pink_bar_chair:
-      # permission: itemsadder.pink_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: PINK_WOOL
-      # result:
-        # item: itemsadder:pink_bar_chair
-        # amount: 1
-    # gray_bar_chair:
-      # permission: itemsadder.gray_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: GRAY_WOOL
-      # result:
-        # item: itemsadder:gray_bar_chair
-        # amount: 1
-    # light_gray_bar_chair:
-      # permission: itemsadder.light_gray_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: LIGHT_GRAY_WOOL
-      # result:
-        # item: itemsadder:light_gray_bar_chair
-        # amount: 1
-    # cyan_bar_chair:
-      # permission: itemsadder.cyan_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: CYAN_WOOL
-      # result:
-        # item: itemsadder:cyan_bar_chair
-        # amount: 1
-    # purple_bar_chair:
-      # permission: itemsadder.purple_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: PURPLE_WOOL
-      # result:
-        # item: itemsadder:purple_bar_chair
-        # amount: 1
-    # blue_bar_chair:
-      # permission: itemsadder.blue_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: BLUE_WOOL
-      # result:
-        # item: itemsadder:blue_bar_chair
-        # amount: 1
-    # brown_bar_chair:
-      # permission: itemsadder.brown_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: BROWN_WOOL
-      # result:
-        # item: itemsadder:brown_bar_chair
-        # amount: 1
-    # green_bar_chair:
-      # permission: itemsadder.green_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: GREEN_WOOL
-      # result:
-        # item: itemsadder:green_bar_chair
-        # amount: 1
-    # red_bar_chair:
-      # permission: itemsadder.red_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: RED_WOOL
-      # result:
-        # item: itemsadder:red_bar_chair
-        # amount: 1
-    # black_bar_chair:
-      # permission: itemsadder.black_bar_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - XBX
-      # - XXX
-      # ingredients:
-        # B: IRON_BLOCK
-        # W: BLACK_WOOL
-      # result:
-        # item: itemsadder:black_bar_chair
-        # amount: 1
-    # white_wood_chair:
-      # permission: itemsadder.white_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: WHITE_WOOL
-      # result:
-        # item: itemsadder:white_wood_chair
-        # amount: 1
-    # orange_wood_chair:
-      # permission: itemsadder.orange_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: ORANGE_WOOL
-      # result:
-        # item: itemsadder:orange_wood_chair
-        # amount: 1
-    # magenta_wood_chair:
-      # permission: itemsadder.magenta_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: MAGENTA_WOOL
-      # result:
-        # item: itemsadder:magenta_wood_chair
-        # amount: 1
-    # light_blue_wood_chair:
-      # permission: itemsadder.light_blue_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: LIGHT_BLUE_WOOL
-      # result:
-        # item: itemsadder:light_blue_wood_chair
-        # amount: 1
-    # yellow_wood_chair:
-      # permission: itemsadder.yellow_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: YELLOW_WOOL
-      # result:
-        # item: itemsadder:yellow_wood_chair
-        # amount: 1
-    # lime_wood_chair:
-      # permission: itemsadder.lime_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: LIME_WOOL
-      # result:
-        # item: itemsadder:lime_wood_chair
-        # amount: 1
-    # pink_wood_chair:
-      # permission: itemsadder.pink_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: PINK_WOOL
-      # result:
-        # item: itemsadder:pink_wood_chair
-        # amount: 1
-    # gray_wood_chair:
-      # permission: itemsadder.gray_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: GRAY_WOOL
-      # result:
-        # item: itemsadder:gray_wood_chair
-        # amount: 1
-    # light_gray_wood_chair:
-      # permission: itemsadder.light_gray_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: LIGHT_GRAY_WOOL
-      # result:
-        # item: itemsadder:light_gray_wood_chair
-        # amount: 1
-    # cyan_wood_chair:
-      # permission: itemsadder.cyan_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: CYAN_WOOL
-      # result:
-        # item: itemsadder:cyan_wood_chair
-        # amount: 1
-    # purple_wood_chair:
-      # permission: itemsadder.purple_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: PURPLE_WOOL
-      # result:
-        # item: itemsadder:purple_wood_chair
-        # amount: 1
-    # blue_wood_chair:
-      # permission: itemsadder.blue_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: BLUE_WOOL
-      # result:
-        # item: itemsadder:blue_wood_chair
-        # amount: 1
-    # brown_wood_chair:
-      # permission: itemsadder.brown_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: BROWN_WOOL
-      # result:
-        # item: itemsadder:brown_wood_chair
-        # amount: 1
-    # green_wood_chair:
-      # permission: itemsadder.green_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: GREEN_WOOL
-      # result:
-        # item: itemsadder:green_wood_chair
-        # amount: 1
-    # red_wood_chair:
-      # permission: itemsadder.red_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: RED_WOOL
-      # result:
-        # item: itemsadder:red_wood_chair
-        # amount: 1
-    # black_wood_chair:
-      # permission: itemsadder.black_wood_chair
-      # enabled: true
-      # pattern:
-      # - WWW
-      # - PXP
-      # - PXP
-      # ingredients:
-        # P: OAK_PLANKS
-        # W: BLACK_WOOL
-      # result:
-        # item: itemsadder:black_wood_chair
-        # amount: 1
-    # school_chair:
-      # permission: itemsadder.school_chair
-      # enabled: true
-      # pattern:
-      # - XXO
-      # - OOO
-      # - SSO
-      # ingredients:
-        # O: DARK_OAK_PLANKS
-        # S: STICK
-      # result:
-        # item: itemsadder:school_chair
-        # amount: 1
-    # school_chair_lazy:
-      # permission: itemsadder.school_chair_lazy
-      # enabled: true
-      # pattern:
-      # - PCO
-      # - OOO
-      # - SSO
-      # ingredients:
-        # O: DARK_OAK_PLANKS
-        # S: STICK
-        # C: CREEPER_HEAD
-        # P: PAPER
-      # result:
-        # item: itemsadder:school_chair_lazy
-        # amount: 1
-    # white_chandeliers:
-      # permission: itemsadder.white_chandeliers
-      # enabled: true
-      # pattern:
-      # - XBX
-      # - PWP
-      # - PXP
-      # ingredients:
-        # P: itemsadder:plastic
-        # B: IRON_BARS
-        # W: IRON_BLOCK
-      # result:
-        # item: itemsadder:white_chandeliers
-        # amount: 1
-    # small_fountain:
-      # permission: itemsadder.small_fountain
-      # enabled: true
-      # pattern:
-      # - XWX
-      # - XSX
-      # - SSS
-      # ingredients:
-        # W: WATER_BUCKET
-        # S: STONE_BRICKS
-      # result:
-        # item: itemsadder:small_fountain
-        # amount: 1
-    # lit_campfire:
-      # permission: itemsadder.lit_campfire
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - SFS
-      # - SSS
-      # ingredients:
-        # S: itemsadder:cut_spruce_log
-        # F: FLINT_AND_STEEL
-      # result:
-        # item: itemsadder:lit_campfire
-        # amount: 1
+    painting_burst:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - LLL
+      - BPW
+      - BGY
+      ingredients:
+        P: PAINTING
+        L: LIGHT_BLUE_DYE
+        B: BROWN_DYE
+        Y: YELLOW_DYE
+        W: WHITE_DYE
+        G: LIGHT_GRAY_DYE
+      result:
+        item: itemsadder:painting_burst
+        amount: 1
+    painting_courbet:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - YLL
+      - YPL
+      - YGY
+      ingredients:
+        P: PAINTING
+        L: LIGHT_BLUE_DYE
+        Y: YELLOW_DYE
+        G: LIME_DYE
+      result:
+        item: itemsadder:painting_courbet
+        amount: 1
+    painting_graham:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WLW
+      - WPW
+      - WGW
+      ingredients:
+        P: PAINTING
+        L: LIGHT_BLUE_DYE
+        G: LIME_DYE
+        W: WHITE_DYE
+      result:
+        item: itemsadder:painting_graham
+        amount: 1
+    painting_match:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WGG
+      - WPG
+      - WGG
+      ingredients:
+        P: PAINTING
+        G: LIME_DYE
+        W: WHITE_DYE
+      result:
+        item: itemsadder:painting_match
+        amount: 1
+    painting_pool:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - XEX
+      - XPX
+      - XXX
+      ingredients:
+        P: PAINTING
+        E: ENDER_EYE
+      result:
+        item: itemsadder:painting_pool
+        amount: 1
+    painting_skull_and_roses:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - XJX
+      - IPI
+      - XIX
+      ingredients:
+        P: PAINTING
+        J: JACK_O_LANTERN
+        I: IRON_INGOT
+      result:
+        item: itemsadder:painting_skull_and_roses
+        amount: 1
+    painting_stage:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - XXX
+      - SPS
+      - SSS
+      ingredients:
+        P: PAINTING
+        S: SANDSTONE
+      result:
+        item: itemsadder:painting_stage
+        amount: 1
+    painting_void:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - CCC
+      - CPC
+      - CCC
+      ingredients:
+        P: PAINTING
+        C: CYAN_DYE
+      result:
+        item: itemsadder:painting_void
+        amount: 1
+    painting_wanderer:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - BLB
+      - BPB
+      - OOO
+      ingredients:
+        P: PAINTING
+        L: PURPLE_DYE
+        B: BLACK_DYE
+        O: ORANGE_DYE
+      result:
+        item: itemsadder:painting_wanderer
+        amount: 1
+    white_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: WHITE_WOOL
+      result:
+        item: itemsadder:white_bar_chair
+        amount: 1
+    orange_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: ORANGE_WOOL
+      result:
+        item: itemsadder:orange_bar_chair
+        amount: 1
+    magenta_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: MAGENTA_WOOL
+      result:
+        item: itemsadder:magenta_bar_chair
+        amount: 1
+    light_blue_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIGHT_BLUE_WOOL
+      result:
+        item: itemsadder:light_blue_bar_chair
+        amount: 1
+    yellow_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: YELLOW_WOOL
+      result:
+        item: itemsadder:yellow_bar_chair
+        amount: 1
+    lime_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIME_WOOL
+      result:
+        item: itemsadder:lime_bar_chair
+        amount: 1
+    pink_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: PINK_WOOL
+      result:
+        item: itemsadder:pink_bar_chair
+        amount: 1
+    gray_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: GRAY_WOOL
+      result:
+        item: itemsadder:gray_bar_chair
+        amount: 1
+    light_gray_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIGHT_GRAY_WOOL
+      result:
+        item: itemsadder:light_gray_bar_chair
+        amount: 1
+    cyan_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: CYAN_WOOL
+      result:
+        item: itemsadder:cyan_bar_chair
+        amount: 1
+    purple_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: PURPLE_WOOL
+      result:
+        item: itemsadder:purple_bar_chair
+        amount: 1
+    blue_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BLUE_WOOL
+      result:
+        item: itemsadder:blue_bar_chair
+        amount: 1
+    brown_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BROWN_WOOL
+      result:
+        item: itemsadder:brown_bar_chair
+        amount: 1
+    green_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: GREEN_WOOL
+      result:
+        item: itemsadder:green_bar_chair
+        amount: 1
+    red_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: RED_WOOL
+      result:
+        item: itemsadder:red_bar_chair
+        amount: 1
+    black_bar_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BLACK_WOOL
+      result:
+        item: itemsadder:black_bar_chair
+        amount: 1
+    white_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: WHITE_WOOL
+      result:
+        item: itemsadder:white_wood_chair
+        amount: 1
+    orange_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: ORANGE_WOOL
+      result:
+        item: itemsadder:orange_wood_chair
+        amount: 1
+    magenta_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: MAGENTA_WOOL
+      result:
+        item: itemsadder:magenta_wood_chair
+        amount: 1
+    light_blue_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIGHT_BLUE_WOOL
+      result:
+        item: itemsadder:light_blue_wood_chair
+        amount: 1
+    yellow_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: YELLOW_WOOL
+      result:
+        item: itemsadder:yellow_wood_chair
+        amount: 1
+    lime_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIME_WOOL
+      result:
+        item: itemsadder:lime_wood_chair
+        amount: 1
+    pink_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: PINK_WOOL
+      result:
+        item: itemsadder:pink_wood_chair
+        amount: 1
+    gray_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: GRAY_WOOL
+      result:
+        item: itemsadder:gray_wood_chair
+        amount: 1
+    light_gray_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIGHT_GRAY_WOOL
+      result:
+        item: itemsadder:light_gray_wood_chair
+        amount: 1
+    cyan_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: CYAN_WOOL
+      result:
+        item: itemsadder:cyan_wood_chair
+        amount: 1
+    purple_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: PURPLE_WOOL
+      result:
+        item: itemsadder:purple_wood_chair
+        amount: 1
+    blue_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BLUE_WOOL
+      result:
+        item: itemsadder:blue_wood_chair
+        amount: 1
+    brown_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BROWN_WOOL
+      result:
+        item: itemsadder:brown_wood_chair
+        amount: 1
+    green_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: GREEN_WOOL
+      result:
+        item: itemsadder:green_wood_chair
+        amount: 1
+    red_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: RED_WOOL
+      result:
+        item: itemsadder:red_wood_chair
+        amount: 1
+    black_wood_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BLACK_WOOL
+      result:
+        item: itemsadder:black_wood_chair
+        amount: 1
+    school_chair:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - XXX
+      - XDC
+      - XXX
+      ingredients:
+        D: itemsadder:table
+        C: itemsadder:brown_wood_chair
+      result:
+        item: itemsadder:school_chair
+        amount: 1
+    school_chair_lazy:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - PCX
+      - XTX
+      - XXX
+      ingredients:
+        T: itemsadder:school_chair
+        C: CREEPER_HEAD
+        P: PAPER
+      result:
+        item: itemsadder:school_chair_lazy
+        amount: 1
+    white_chandeliers:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - TBT
+      - PWP
+      - PCP
+      ingredients:
+        P: itemsadder:plastic
+        B: IRON_BARS
+        W: IRON_BLOCK
+        T: TORCH
+        C: WHITE_WOOL
+      result:
+        item: itemsadder:white_chandeliers
+        amount: 1
+    black_chandeliers:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - TBT
+      - PWP
+      - PCP
+      ingredients:
+        P: itemsadder:plastic
+        B: IRON_BARS
+        W: IRON_BLOCK
+        T: TORCH
+        C: BLACK_WOOL
+      result:
+        item: itemsadder:black_chandeliers
+        amount: 1
+    black_and_red_chandeliers:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - XXX
+      - RCR
+      - XXX
+      ingredients:
+        C: itemsadder:black_chandeliers
+        R: RED_WOOL
+      result:
+        item: itemsadder:black_and_red_chandeliers
+        amount: 1
+    small_fountain:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - XWX
+      - XSX
+      - SSS
+      ingredients:
+        W: WATER_BUCKET
+        S: STONE_BRICKS
+      result:
+        item: itemsadder:small_fountain
+        amount: 1
+    lit_campfire:
+      permission: itemsadder.player
+      enabled: false
+      pattern:
+      - XXX
+      - SFS
+      - SSS
+      ingredients:
+        S: itemsadder:cut_spruce_log
+        F: FLINT_AND_STEEL
+      result:
+        item: itemsadder:lit_campfire
+        amount: 1
 items:
   old_clock:
-    display_name: Old clock
-    permission: old_clock
+    display_name: 老旧的钟
+    permission: itemsadder.player
     lore:
-    - '&7Decorative item'
+    - '&7装饰品'
     resource:
       material: OAK_WOOD
       generate: false
@@ -866,11 +901,12 @@ items:
     behaviours:
       furniture:
         small_hitbox: false
+        fixed_rotation: true
   opened_chest:
-    display_name: Opened chest
-    permission: opened_chest
+    display_name: 打开的箱子
+    permission: itemsadder.player
     lore:
-    - '&7Decorative item'
+    - '&7装饰品'
     resource:
       material: OAK_WOOD
       generate: false
@@ -878,11 +914,12 @@ items:
     behaviours:
       furniture:
         small_hitbox: false
+        fixed_rotation: true
   computer_desk:
-    display_name: Desk with computer
-    permission: computer_desk
+    display_name: 带电脑的桌子
+    permission: itemsadder.player
     lore:
-    - '&7Decorative item'
+    - '&7装饰品'
     resource:
       material: OAK_WOOD
       generate: false
@@ -890,11 +927,12 @@ items:
     behaviours:
       furniture:
         small_hitbox: true
+        fixed_rotation: true
   table:
-    display_name: Table
-    permission: table
+    display_name: 桌子
+    permission: itemsadder.player
     lore:
-    - '&7Decorative item'
+    - '&7装饰品'
     resource:
       material: OAK_WOOD
       generate: false
@@ -902,11 +940,12 @@ items:
     behaviours:
       furniture:
         small_hitbox: true
+        fixed_rotation: true
   lamp:
-    display_name: Lamp
-    permission: lamp
+    display_name: 灯
+    permission: itemsadder.player
     lore:
-    - '&7Decorative item'
+    - '&7装饰品'
     resource:
       material: OAK_WOOD
       generate: false
@@ -915,11 +954,12 @@ items:
       furniture:
         light_level: 13
         small_hitbox: false
+        fixed_rotation: true
   simple_chair:
-    display_name: Simple Chair
-    permission: simple_chair
+    display_name: 椅子
+    permission: itemsadder.player
     lore:
-    - '&7Rightclick to sit'
+    - '&7右键坐下'
     resource:
       material: OAK_WOOD
       generate: false
@@ -927,13 +967,14 @@ items:
     behaviours:
       furniture:
         small_hitbox: true
+        fixed_rotation: true
       furniture_sit:
         sit_height: 0.5
   lava_lamp:
-    display_name: Lava lamp
-    permission: lava_lamp
+    display_name: 岩浆灯
+    permission: itemsadder.player
     lore:
-    - '&7Decorative item'
+    - '&7装饰品'
     resource:
       material: OAK_WOOD
       generate: false
@@ -941,12 +982,13 @@ items:
     behaviours:
       furniture:
         small_hitbox: true
+        fixed_rotation: true
         light_level: 7
   white_chair:
-    display_name: White chair
-    permission: white_chair
+    display_name: 白色椅子
+    permission: itemsadder.player
     lore:
-    - '&7Rightclick to sit'
+    - '&7右键坐下'
     resource:
       material: OAK_WOOD
       generate: false
@@ -954,13 +996,14 @@ items:
     behaviours:
       furniture:
         small_hitbox: true
+        fixed_rotation: true
       furniture_sit:
         sit_height: 0.5
   glass_table:
-    display_name: Glass table
-    permission: glass_table
+    display_name: 玻璃桌
+    permission: itemsadder.player
     lore:
-    - '&7Decorative item'
+    - '&7装饰品'
     resource:
       material: OAK_WOOD
       generate: false
@@ -968,11 +1011,12 @@ items:
     behaviours:
       furniture:
         small_hitbox: true
+        fixed_rotation: true
   computer_chair:
-    display_name: Computer chair
-    permission: computer_chair
+    display_name: 电脑椅
+    permission: itemsadder.player
     lore:
-    - '&7Rightclick to sit'
+    - '&7右键坐下'
     resource:
       material: OAK_WOOD
       generate: false
@@ -980,13 +1024,14 @@ items:
     behaviours:
       furniture:
         small_hitbox: true
+        fixed_rotation: true
       furniture_sit:
         sit_height: 0.5
   monitor:
-    display_name: Monitor
-    permission: monitor
+    display_name: 显示器
+    permission: itemsadder.player
     lore:
-    - '&7Decorative item'
+    - '&7装饰品'
     resource:
       material: OAK_WOOD
       generate: false
@@ -994,11 +1039,12 @@ items:
     behaviours:
       furniture:
         small_hitbox: true
+        fixed_rotation: true
   tv:
-    display_name: TV
-    permission: tv
+    display_name: 电视
+    permission: itemsadder.player
     lore:
-    - '&7Decorative item'
+    - '&7装饰品'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1006,11 +1052,12 @@ items:
     behaviours:
       furniture:
         small_hitbox: true
+        fixed_rotation: true
   mini_fridge:
-    display_name: Mini fridge
-    permission: mini_fridge
+    display_name: 迷你冰箱
+    permission: itemsadder.player
     lore:
-    - '&7Decorative item'
+    - '&7装饰品'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1019,9 +1066,10 @@ items:
       furniture:
         gravity: false
         small_hitbox: true
+        fixed_rotation: true
   energy_extractor:
     display_name: Energy Extractor
-    permission: energy_extractor
+    permission: itemsadder.player
     lore:
     - '&7Use it to convert items'
     - '&7into energy'
@@ -1141,7 +1189,7 @@ items:
               amount: 1
   energy_converter:
     display_name: Energy Converter
-    permission: energy_converter
+    permission: itemsadder.player
     lore:
     - '&7Use it to convert energy'
     - '&7into items'
@@ -1221,7 +1269,7 @@ items:
               amount: 1
   vending_machine:
     display_name: Vending Machine
-    permission: vending_machine
+    permission: itemsadder.player
     lore:
     - '&7Use it to get cool items'
     resource:
@@ -1254,7 +1302,7 @@ items:
         small_hitbox: false
   coffee_machine:
     display_name: Coffee Machine
-    permission: coffee_machine
+    permission: itemsadder.player
     lore:
     - '&7Makes a really good coffee'
     resource:
@@ -1279,7 +1327,7 @@ items:
               amount: 1
   mysterious_stone:
     display_name: Mysterious Stone
-    permission: mysterious_stone
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1291,7 +1339,7 @@ items:
         small_hitbox: false
   alchemy_candles:
     display_name: Alchemy Candles
-    permission: alchemy_candles
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1302,10 +1350,10 @@ items:
         small_hitbox: true
         light_level: 8
   painting_burst:
-    display_name: Painting
-    permission: painting_burst
+    display_name: 画
+    permission: itemsadder.player
     lore:
-    - '&7S5Z7 - Burst'
+    - '&7S5Z7 - 爆裂'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1316,10 +1364,10 @@ items:
         fixed_rotation: true
         small_hitbox: false
   painting_courbet:
-    display_name: Painting
-    permission: painting_courbet
+    display_name: 画
+    permission: itemsadder.player
     lore:
-    - '&7S5Z7 - Courbet'
+    - '&7S5Z7 - 库尔贝'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1330,10 +1378,10 @@ items:
         fixed_rotation: true
         small_hitbox: false
   painting_graham:
-    display_name: Painting
-    permission: painting_graham
+    display_name: 画
+    permission: itemsadder.player
     lore:
-    - '&7S5Z7 - Graham'
+    - '&7S5Z7 - 格雷厄姆'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1344,10 +1392,10 @@ items:
         fixed_rotation: true
         small_hitbox: false
   painting_match:
-    display_name: Painting
-    permission: painting_match
+    display_name: 画
+    permission: itemsadder.player
     lore:
-    - '&7S5Z7 - Match'
+    - '&7S5Z7 - 比赛'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1358,10 +1406,10 @@ items:
         fixed_rotation: true
         small_hitbox: false
   painting_pool:
-    display_name: Painting
-    permission: painting_pool
+    display_name: 画
+    permission: itemsadder.player
     lore:
-    - '&7S5Z7 - Pool'
+    - '&7S5Z7 - 池'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1372,10 +1420,10 @@ items:
         fixed_rotation: true
         small_hitbox: false
   painting_skull_and_roses:
-    display_name: Painting
-    permission: painting_skull_and_roses
+    display_name: 画
+    permission: itemsadder.player
     lore:
-    - '&7S5Z7 - Skull and roses'
+    - '&7S5Z7 - 骷髅与玫瑰'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1386,10 +1434,10 @@ items:
         fixed_rotation: true
         small_hitbox: false
   painting_stage:
-    display_name: Painting
-    permission: painting_stage
+    display_name: 画
+    permission: itemsadder.player
     lore:
-    - '&7S5Z7 - Stage'
+    - '&7S5Z7 - 神庙'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1400,10 +1448,10 @@ items:
         fixed_rotation: true
         small_hitbox: false
   painting_void:
-    display_name: Painting
-    permission: painting_void
+    display_name: 画
+    permission: itemsadder.player
     lore:
-    - '&7S5Z7 - Void'
+    - '&7S5Z7 - 虚空'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1414,10 +1462,10 @@ items:
         fixed_rotation: true
         small_hitbox: false
   painting_wanderer:
-    display_name: Painting
-    permission: painting_wanderer
+    display_name: 画
+    permission: itemsadder.player
     lore:
-    - '&7S5Z7 - Wanderer'
+    - '&7S5Z7 - 流浪者'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1428,8 +1476,8 @@ items:
         fixed_rotation: true
         small_hitbox: false
   white_bar_chair:
-    display_name: White Bar Chair
-    permission: white_bar_chair
+    display_name: 白色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1437,13 +1485,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   orange_bar_chair:
-    display_name: Orange Bar Chair
-    permission: orange_bar_chair
+    display_name: 橙色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1451,13 +1499,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   magenta_bar_chair:
-    display_name: Magenta Bar Chair
-    permission: magenta_bar_chair
+    display_name: 品红色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1465,13 +1513,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   light_blue_bar_chair:
-    display_name: Light Blue Bar Chair
-    permission: light_blue_bar_chair
+    display_name: 浅蓝色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1479,13 +1527,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   yellow_bar_chair:
-    display_name: Yellow Bar Chair
-    permission: yellow_bar_chair
+    display_name: 黄色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1493,13 +1541,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   lime_bar_chair:
-    display_name: Lime Bar Chair
-    permission: lime_bar_chair
+    display_name: 青柠色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1507,13 +1555,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   pink_bar_chair:
-    display_name: Pink Bar Chair
-    permission: pink_bar_chair
+    display_name: 粉色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1521,13 +1569,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   gray_bar_chair:
-    display_name: Gray Bar Chair
-    permission: gray_bar_chair
+    display_name: 灰色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1535,13 +1583,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   light_gray_bar_chair:
-    display_name: Light Gray Bar Chair
-    permission: light_gray_bar_chair
+    display_name: 浅灰色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1549,13 +1597,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   cyan_bar_chair:
-    display_name: Cyan Bar Chair
-    permission: cyan_bar_chair
+    display_name: 青色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1563,13 +1611,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   purple_bar_chair:
-    display_name: Purple Bar Chair
-    permission: purple_bar_chair
+    display_name: 紫色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1577,13 +1625,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   blue_bar_chair:
-    display_name: Blue Bar Chair
-    permission: blue_bar_chair
+    display_name: 蓝色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1591,13 +1639,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   brown_bar_chair:
-    display_name: Brown Bar Chair
-    permission: brown_bar_chair
+    display_name: 棕色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1605,13 +1653,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   green_bar_chair:
-    display_name: Green Bar Chair
-    permission: green_bar_chair
+    display_name: 绿色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1619,13 +1667,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   red_bar_chair:
-    display_name: Red Bar Chair
-    permission: red_bar_chair
+    display_name: 红色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1633,13 +1681,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   black_bar_chair:
-    display_name: Black Bar Chair
-    permission: black_bar_chair
+    display_name: 黑色酒吧椅
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1647,13 +1695,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.9
   white_wood_chair:
-    display_name: White Wood Chair
-    permission: white_wood_chair
+    display_name: 白色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1661,13 +1709,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   orange_wood_chair:
-    display_name: Orange Wood Chair
-    permission: orange_wood_chair
+    display_name: 橙色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1675,13 +1723,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   magenta_wood_chair:
-    display_name: Magenta Wood Chair
-    permission: magenta_wood_chair
+    display_name: 品红色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1689,13 +1737,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   light_blue_wood_chair:
-    display_name: Light Blue Wood Chair
-    permission: light_blue_wood_chair
+    display_name: 浅蓝色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1703,13 +1751,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   yellow_wood_chair:
-    display_name: Yellow Wood Chair
-    permission: yellow_wood_chair
+    display_name: 黄色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1717,13 +1765,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   lime_wood_chair:
-    display_name: Lime Wood Chair
-    permission: lime_wood_chair
+    display_name: 青柠色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1731,13 +1779,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   pink_wood_chair:
-    display_name: Pink Wood Chair
-    permission: pink_wood_chair
+    display_name: 粉色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1745,13 +1793,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   gray_wood_chair:
-    display_name: Gray Wood Chair
-    permission: gray_wood_chair
+    display_name: 灰色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1759,13 +1807,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   light_gray_wood_chair:
-    display_name: Light Gray Wood Chair
-    permission: light_gray_wood_chair
+    display_name: 浅灰色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1773,13 +1821,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   cyan_wood_chair:
-    display_name: Cyan Wood Chair
-    permission: cyan_wood_chair
+    display_name: 青色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1787,13 +1835,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   purple_wood_chair:
-    display_name: Purple Wood Chair
-    permission: purple_wood_chair
+    display_name: 紫色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1801,13 +1849,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   blue_wood_chair:
-    display_name: Blue Wood Chair
-    permission: blue_wood_chair
+    display_name: 蓝色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1815,13 +1863,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   brown_wood_chair:
-    display_name: Brown Wood Chair
-    permission: brown_wood_chair
+    display_name: 棕色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1829,13 +1877,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   green_wood_chair:
-    display_name: Green Wood Chair
-    permission: green_wood_chair
+    display_name: 绿色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1843,13 +1891,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   red_wood_chair:
-    display_name: Red Wood Chair
-    permission: red_wood_chair
+    display_name: 红色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1857,13 +1905,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
   black_wood_chair:
-    display_name: Black Wood Chair
-    permission: black_wood_chair
+    display_name: 黑色木椅子
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1871,27 +1919,27 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.45
-  dark_throne:
-    display_name: Dark Throne
-    permission: dark_throne
-    resource:
-      material: OAK_WOOD
-      generate: false
-      model_path: item/dark_throne
-    behaviours:
-      furniture:
-        gravity: false
-        fixed_rotation: false
-        small_hitbox: false
-      furniture_sit:
-        sit_height: 2.8
+  # dark_throne:
+    # display_name: 黑暗王座
+    # permission: itemsadder.player
+    # resource:
+      # material: OAK_WOOD
+      # generate: false
+      # model_path: item/dark_throne
+    # behaviours:
+      # furniture:
+        # gravity: false
+        # fixed_rotation: true
+        # small_hitbox: false
+      # furniture_sit:
+        # sit_height: 2.8
   school_chair:
-    display_name: School Chair
-    permission: school_chair
+    display_name: 书桌
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1899,13 +1947,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.6
   school_chair_lazy:
-    display_name: School Chair Lazy
-    permission: school_chair_lazy
+    display_name: 有杂物的书桌
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1913,13 +1961,13 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
       furniture_sit:
         sit_height: 0.6
   white_chandeliers:
-    display_name: White Chandeliers
-    permission: white_chandeliers
+    display_name: 白色吊灯
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1927,12 +1975,12 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
         light_level: 12
   black_chandeliers:
-    display_name: Black Chandeliers
-    permission: black_chandeliers
+    display_name: 黑色吊灯
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1940,12 +1988,12 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
         light_level: 12
   black_and_red_chandeliers:
-    display_name: Black And Red Chandeliers
-    permission: black_and_red_chandeliers
+    display_name: 黑红吊灯
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1953,12 +2001,12 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
         light_level: 12
   small_fountain:
-    display_name: Small Fountain
-    permission: small_fountain
+    display_name: 小型喷泉
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1966,11 +2014,11 @@ items:
     behaviours:
       furniture:
         gravity: true
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
   lit_campfire:
-    display_name: Lit Campfire
-    permission: lit_campfire
+    display_name: 点燃的篝火
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1978,12 +2026,12 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
         light_level: 15
   decorative_pumpkin:
     display_name: Decorative Pumpkin
-    permission: decorative_pumpkin
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -1991,12 +2039,12 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
         light_level: 15
   christmas_tree:
     display_name: Christmas Tree
-    permission: christmas_tree
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -2004,12 +2052,12 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: false
         light_level: 15
   christmas_candle:
     display_name: Christmas Candle
-    permission: christmas_candle
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -2017,12 +2065,12 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: true
         light_level: 8
   decorative_candy_cane:
     display_name: Decorative Candy Cane
-    permission: decorative_candy_cane
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false
@@ -2030,11 +2078,11 @@ items:
     behaviours:
       furniture:
         gravity: false
-        fixed_rotation: false
+        fixed_rotation: true
         small_hitbox: false
   christmas_wreath:
     display_name: Christmas Wreath
-    permission: christmas_wreath
+    permission: itemsadder.player
     resource:
       material: OAK_WOOD
       generate: false

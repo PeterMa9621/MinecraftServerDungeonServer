@@ -1,0 +1,188 @@
+silhouette:
+  Id: 397
+  Data: 3
+  Display: '&8&l&m-&7&l&m-&f&l&m-=}&8&l&m&n&k.&7&l&m&n&k.&f&l&nSilhouette&7&l&m&n&k.&8&l&m&n&k.&f&l&m{=-&7&l&m-&8&l&m-'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:8
+  - THORNS:5
+  - PROTECTION_EXPLOSIONS:5
+  - PROTECTION_FALL:5
+  - PROTECTION_EXPLOSIONS:5
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1Njc0NDEwMzMwMTksInByb2ZpbGVJZCI6IjUyZjQ0NmE5MjkyZTRmYjU5MzM3ODcxNTQ4YWQwNGRjIiwicHJvZmlsZU5hbWUiOiJ4bHNhbHZvbHgiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQyNzgzZTU4OWY4NDdmMmUxMDJmODA5YjZmNGFmZmNhNGMzMDQ2MWQ4ZjAwZjBlMjI0OGY1ODBjOGZjODkwNiJ9fX0
+  Lore:
+  - '&8&l&m*&r &f&oOutline of the darkness'
+  - '&8&l&m*&r &5V&do&5i&dd&7Pack'
+  - '&f&l&m*---=---=---=---=---=---=---=---=---*'
+  - '&5&m= &r &7Skill: &dRitual'
+  - '&8&l&m*&r &7Passive &f>> &7Crouch to make nearby enemies levitate'
+  - '&f&l&m*---=---=---=---=---=---=---=---=---*'
+  Skills:
+  - effect:particlering{particle=endRod;radius=0.4;points=4;amount=4;hS=0;vS=0;y=1.2} @self ~onTimer:15
+  - skill{s=ritual} ~onTimer:15
+  Attributes:
+    Head:
+      Damage: 1.5
+      Health: 4
+      MovementSpeed: 0.1
+voidsethelmet:
+  Id: 310
+  Data: 0
+  Display: '&f&l&m-=&d&l&m{-&5&l&m-*&8&l&m&ka&7&l&m&ka&f&l&m&ka&r &5&lV&d&lo&5&li&d&ld &7&lset &f&l&m*&r &8&lHelmet &f&l&m&ka&7&l&m&ka&8&l&m&ka&5&l&m*-&d&l&m-}&f&l&m=-'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:7
+  - PROTECTION_FIRE:4
+  - PROTECTION_PROJECTILE:4
+  - PROTECTION_EXPLOSIONS:4
+  - DURABILITY:8
+  Attributes:
+    Head:
+      Health: 6
+      Armor: 3
+      ArmorToughness: 2
+  Lore:
+  - '&8&l&m*&r &f&oEntirely made of black diamonds'
+  - '&8&l&m*&r &5V&do&5i&dd&7Pack'
+  - '&f&l&m*---=---=---=---=---=---=---=---*'
+  - '&5&l&m= &r &7Skill: &dMaws of the void'
+  - '&8&l&m*&r &7Left click + Crouching &f>>&7 Evoke dark tentacles'
+  - '&f&l&m*---=---=---=---=---=---=---=---*'
+  Skills:
+  - effect:particles{p=reddust;amount=4;speed=0;color=#000000;y=0.9;hs=0.3;vs=0.3} @self ~onTimer:15
+  - skill{s=mawsofthevoid1} ~onSwing
+voidsetchestplate:
+  Id: 311
+  Data: 0
+  Display: '&f&l&m-=&d&l&m{-&5&l&m-*&8&l&m&ka&7&l&m&ka&f&l&m&ka&r &5&lV&d&lo&5&li&d&ld &7&lset &f&l&m*&r &8&lChestplate &f&l&m&ka&7&l&m&ka&8&l&m&ka&5&l&m*-&d&l&m-}&f&l&m=-'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:8
+  - PROTECTION_FIRE:3
+  - PROTECTION_PROJECTILE:3
+  - PROTECTION_EXPLOSIONS:3
+  - DURABILITY:8
+  Attributes:
+    Chest:
+      Health: 6
+      Armor: 8
+      ArmorToughness: 2
+  Lore:
+  - '&8&l&m*&r &f&oEntirely made of black diamonds'
+  - '&8&l&m*&r &5V&do&5i&dd&7Pack'
+  - '&f&l&m*---=---=---=---=---=---=---=---*'
+  - '&5&l&m= &r &7Skill: &dMaws of the void'
+  - '&8&l&m*&r &7Left click + Crouching &f>>&7 Evoke dark tentacles'
+  - '&f&l&m*---=---=---=---=---=---=---=---*'
+  Skills:
+  - effect:particles{p=reddust;amount=4;speed=0;color=#000000;y=0.6;hs=0.3;vs=0.3} @self ~onTimer:15
+  - skill{s=mawsofthevoid2} ~onSwing
+voidsetleggings:
+  Id: 312
+  Data: 0
+  Display: '&f&l&m-=&d&l&m{-&5&l&m-*&8&l&m&ka&7&l&m&ka&f&l&m&ka&r &5&lV&d&lo&5&li&d&ld &7&lset &f&l&m*&r &8&lLeggings &f&l&m&ka&7&l&m&ka&8&l&m&ka&5&l&m*-&d&l&m-}&f&l&m=-'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:7
+  - PROTECTION_FIRE:3
+  - PROTECTION_PROJECTILE:3
+  - PROTECTION_EXPLOSIONS:3
+  - DURABILITY:8
+  Attributes:
+    Legs:
+      Health: 6
+      Armor: 6
+      ArmorToughness: 2
+  Lore:
+  - '&8&l&m*&r &f&oEntirely made of black diamonds'
+  - '&8&l&m*&r &5V&do&5i&dd&7Pack'
+  - '&f&l&m*---=---=---=---=---=---=---=---*'
+  - '&5&l&m= &r &7Skill: &dMaws of the void'
+  - '&8&l&m*&r &7Left click + Crouching &f>>&7 Evoke dark tentacles'
+  - '&f&l&m*---=---=---=---=---=---=---=---*'
+  Skills:
+  - effect:particles{p=reddust;amount=4;speed=1;color=#000000;y=0.3;hs=0.3;vs=0.3} @self ~onTimer:15
+  - skill{s=mawsofthevoid3} ~onSwing
+voidsetboots:
+  Id: 313
+  Data: 0
+  Display: '&f&l&m-=&d&l&m{-&5&l&m-*&8&l&m&ka&7&l&m&ka&f&l&m&ka&r &5&lV&d&lo&5&li&d&ld &7&lset &f&l&m*&r &8&lBoots &f&l&m&ka&7&l&m&ka&8&l&m&ka&5&l&m*-&d&l&m-}&f&l&m=-'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:7
+  - PROTECTION_FIRE:3
+  - PROTECTION_PROJECTILE:3
+  - PROTECTION_EXPLOSIONS:3
+  - DURABILITY:8
+  Attributes:
+    Feet:
+      Health: 6
+      Armor: 3
+      ArmorToughness: 2
+  Lore:
+  - '&8&l&m*&r &f&oEntirely made of black diamonds'
+  - '&8&l&m*&r &5V&do&5i&dd&7Pack'
+  - '&f&l&m*---=---=---=---=---=---=---=---*'
+  - '&5&l&m= &r &7Skill: &dMaws of the void'
+  - '&8&l&m*&r &7Left click + Crouching &f>>&7 Evoke dark tentacles'
+  - '&f&l&m*---=---=---=---=---=---=---=---*'
+  Skills:
+  - effect:particles{p=reddust;amount=4;speed=0;color=#000000;y=0;hs=0.3;vs=0.3} @self ~onTimer:15
+  - skill{s=mawsofthevoid4} ~onSwing
+sunken:
+  Id: 276
+  Data: 0
+  Display: '&8&l&m&k*&7&l&m&k*&f&l&m&k*&d&l&m-&5&l&m-*&r &f&l&m-&7&l&m=&8&l&m}&5&lS&d&lu&5&ln&d&lk&5&le&d&ln&8&l&m{&7&l&m=&f&l&m-&r &5&l&m*-&d&l&m-&f&l&m&k*&7&l&m&k*&8&l&m&k*'
+  Attributes:
+    MainHand:
+      Health: 6
+      Damage: 7
+      MovementSpeed: 0.1
+  Enchantments:
+  - DAMAGE_ALL:8
+  - DAMAGE_UNDEAD:6
+  - DAMAGE_ARTHROPODS:6
+  - LOOT_BONUS_MOBS:4
+  - DURABILITY:8
+  - SWEEPING_EDGE:3
+  - MENDING:1
+  - FIRE_ASPECT:3
+  Lore:
+  - '&8&l&m*&r &f&oInto the abyss'
+  - '&8&l&m*&r &5V&do&5i&dd&7Pack'
+  - '&f&l&m*---=---=---=---=---=---=---=---=---*'
+  - '&5&l&m= &r &7Skill: &dReverse exorcism'
+  - '&5&l&m= &r &7Skill: &dVade retro'
+  - '&8&l&m*&r &7Left click + Crouching &f>>&7 Shoots a tractor beam'
+  - '&8&l&m*&r &7Right click &f>>&7 Jump away from the danger'
+  - '&f&l&m*---=---=---=---=---=---=---=---=---*'
+  Skills:
+  - effect:particles{p=dragonbreath;amount=8;speed=0.01;y=0.8;hs=0.3;vs=0.5} @self ~onTimer:15
+  - skill{s=reverseexorcism} ~onSwing
+  - skill{s=vaderetro} ~onUse
+perception:
+  Id: 293
+  Data: 0
+  Display: '&f&l&m&k*&8&l&m--}&7&l&m*-&f&l&m&k..&7&l&m&ka&8&l&m&ka&7&l&m&ka&f&l&nPerception&7&l&m&ka&8&l&m&ka&7&l&m&ka&f&l&m&k..&7&l&m-*&8&l&m{--&f&l&m&k*'
+  Attributes:
+    MainHand:
+      Health: 8
+      Damage: 1
+      MovementSpeed: 0.15
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DAMAGE_ALL:6
+  - DAMAGE_UNDEAD:6
+  - DAMAGE_ARTHROPODS:6
+  - KNOCKBACK:2
+  - FIRE_ASPECT:2
+  Lore:
+  - '&8&l&m*&r &f&oUse your senses'
+  - '&8&l&m*&r &5V&do&5i&dd&7Pack'
+  - '&f&l&m*---=---=---=---=---=---=---=---=---*'
+  - '&8&l&m= &r &7Skill: &dControlled shadows'
+  - '&8&l&m= &r &7Skill: &dGreat Gideon'
+  - '&8&l&m*&r &7Attack &f>>&7 Fire a shadow triplet'
+  - '&8&l&m*&r &7Right click &f>>&7 Fire a powerful ray of corruption'
+  - '&f&l&m*---=---=---=---=---=---=---=---=---*'
+  Skills:
+  - effect:particles{p=mobSpell;amount=4;speed=0.01;y=0.8;hs=0.5;vs=0.8;color=#9c9c9c} @self ~onTimer:15
+  - skill{s=controlledshadows} ~onSwing
+  - skill{s=greatgideon} ~onUse

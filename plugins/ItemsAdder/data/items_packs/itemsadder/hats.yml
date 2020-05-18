@@ -160,7 +160,7 @@ info:
         # amount: 1
 items:
   deadmau5_hat:
-    display_name: '&9deadmau5_hat'
+    display_name: '&9魔鬼头'
     permission: deadmau5_hat
     resource:
       material: FEATHER
@@ -193,7 +193,7 @@ items:
     behaviours:
       hat: true
   mining_helmet:
-    display_name: Mining Helmet
+    display_name: 矿工头盔
     permission: mining_helmet
     resource:
       material: FEATHER
@@ -221,7 +221,7 @@ items:
     behaviours:
       hat: true
   straw_hat:
-    display_name: Straw Hat
+    display_name: 草帽
     permission: straw_hat
     resource:
       material: FEATHER
@@ -230,7 +230,7 @@ items:
     behaviours:
       hat: true
   cool_sunglasses:
-    display_name: Cool Sunglasses
+    display_name: 墨镜
     permission: cool_sunglasses
     resource:
       material: FEATHER
@@ -240,7 +240,7 @@ items:
     behaviours:
       hat: true
   cigar:
-    display_name: Cigar
+    display_name: 雪茄
     permission: cigar
     resource:
       material: FEATHER
@@ -262,7 +262,7 @@ items:
           decrement_usages:
             amount: 1
   glasses:
-    display_name: Glasses
+    display_name: 眼镜
     permission: glasses
     resource:
       material: FEATHER
@@ -347,7 +347,7 @@ items:
     behaviours:
       hat: true
   demoniac_turquoise_wings:
-    display_name: Demoniac Turquoise Wings
+    display_name: 绿恶魔翅膀
     permission: demoniac_turquoise_wings
     resource:
       material: FEATHER
@@ -356,7 +356,7 @@ items:
     behaviours:
       hat: true
   demoniac_purple_wings:
-    display_name: Demoniac Purple Wings
+    display_name: 紫恶魔翅膀
     permission: demoniac_purple_wings
     resource:
       material: FEATHER
@@ -365,7 +365,7 @@ items:
     behaviours:
       hat: true
   demoniac_blue_wings:
-    display_name: Demoniac Blue Wings
+    display_name: 蓝恶魔翅膀
     permission: demoniac_blue_wings
     resource:
       material: FEATHER
@@ -383,7 +383,7 @@ items:
     behaviours:
       hat: true
   all_black_cat_tail:
-    display_name: All Black Cat Tail
+    display_name: 黑色猫尾巴
     permission: all_black_cat_tail
     resource:
       material: FEATHER
@@ -392,7 +392,7 @@ items:
     behaviours:
       hat: true
   black_cat_tail:
-    display_name: Black Cat Tail
+    display_name: 黑白猫尾巴
     permission: black_cat_tail
     resource:
       material: FEATHER
@@ -401,7 +401,7 @@ items:
     behaviours:
       hat: true
   white_cat_tail:
-    display_name: White Cat Tail
+    display_name: 白色猫尾巴
     permission: white_cat_tail
     resource:
       material: FEATHER
@@ -424,7 +424,7 @@ items:
           play_effect:
             name: DRAGON_BREATH
   red_backpack:
-    display_name: Red Backpack
+    display_name: 红色背包
     permission: red_backpack
     resource:
       material: FEATHER
@@ -433,7 +433,7 @@ items:
     behaviours:
       hat: true
   turquoise_backpack:
-    display_name: Turquoise Backpack
+    display_name: 绿色背包
     permission: turquoise_backpack
     resource:
       material: FEATHER
@@ -442,7 +442,7 @@ items:
     behaviours:
       hat: true
   purple_backpack:
-    display_name: Purple Backpack
+    display_name: 紫色背包
     permission: purple_backpack
     resource:
       material: FEATHER
@@ -451,7 +451,7 @@ items:
     behaviours:
       hat: true
   blue_backpack:
-    display_name: Blue Backpack
+    display_name: 蓝色背包
     permission: blue_backpack
     resource:
       material: FEATHER
@@ -460,7 +460,7 @@ items:
     behaviours:
       hat: true
   black_backpack:
-    display_name: Black Backpack
+    display_name: 黑色背包
     permission: black_backpack
     resource:
       material: FEATHER
@@ -469,7 +469,7 @@ items:
     behaviours:
       hat: true
   brown_backpack:
-    display_name: Brown Backpack
+    display_name: 棕色背包
     permission: brown_backpack
     resource:
       material: FEATHER
@@ -478,7 +478,7 @@ items:
     behaviours:
       hat: true
   jack_o_lantern_backpack:
-    display_name: '&6Jack o''Lantern &fBackpack'
+    display_name: '&6南瓜灯&f背包'
     permission: jack_o_lantern_backpack
     resource:
       material: FEATHER
@@ -487,7 +487,7 @@ items:
     behaviours:
       hat: true
   dark_jack_o_lantern_backpack:
-    display_name: '&4Dark &6Jack o''Lantern &fBackpack'
+    display_name: '&4深色&6南瓜灯&f背包'
     permission: dark_jack_o_lantern_backpack
     resource:
       material: FEATHER
@@ -496,7 +496,7 @@ items:
     behaviours:
       hat: true
   spider_backpack:
-    display_name: Spider &fBackpack
+    display_name: 蜘蛛&f背包
     permission: spider_backpack
     resource:
       material: FEATHER
@@ -505,7 +505,7 @@ items:
     behaviours:
       hat: true
   cave_spider_backpack:
-    display_name: Cave Spider &fBackpack
+    display_name: 洞穴蜘蛛&f背包
     permission: cave_spider_backpack
     resource:
       material: FEATHER
@@ -514,7 +514,7 @@ items:
     behaviours:
       hat: true
   bones_backpack:
-    display_name: Bones &fBackpack
+    display_name: 骨头&f背包
     permission: bones_backpack
     resource:
       material: FEATHER
@@ -523,7 +523,7 @@ items:
     behaviours:
       hat: true
   witch_hat:
-    display_name: Witch Hat
+    display_name: 巫师帽子
     permission: witch_hat
     resource:
       material: FEATHER
@@ -532,7 +532,7 @@ items:
     behaviours:
       hat: true
   bat_wings:
-    display_name: Bat Wings
+    display_name: 蝙蝠翅膀
     permission: witch_hat
     resource:
       material: FEATHER
@@ -541,7 +541,7 @@ items:
     behaviours:
       hat: true
   axe_hat:
-    display_name: Axe Hat
+    display_name: 斧头帽子
     permission: axe_hat
     resource:
       material: FEATHER
@@ -551,7 +551,7 @@ items:
     behaviours:
       hat: true
   santa_hat:
-    display_name: '&cSanta Hat'
+    display_name: '&c圣诞帽'
     permission: santa_hat
     resource:
       material: FEATHER

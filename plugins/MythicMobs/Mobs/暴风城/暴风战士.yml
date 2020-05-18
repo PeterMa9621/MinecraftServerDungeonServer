@@ -1,8 +1,9 @@
 暴风战士:
   Mobtype: POLAR_BEAR
   Display: '&3&l暴风战士'
-  Health: 80
-  Damage: 6
+  Faction: baofengcheng
+  Health: 350
+  Damage: 40
   Modules:
     ThreatTable: true
   AITargetSelectors:

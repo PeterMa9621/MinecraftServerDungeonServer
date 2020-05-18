@@ -1,0 +1,48 @@
+KnightHURT:
+ Cooldown: 10
+ Skills:
+   - sound{s=entity.endermen.scream} @self
+   - effect:particlesphere{particle=flame;amount=200;radius=5} @self
+   - effect:explosion @Self
+   - damage{amount=10} @PlayersInRadius{r=5}
+   - throw{velocity=15;velocityY=5} @PlayersInRadius{r=5}
+KnightSummon:
+ Cooldown: 10
+ Skills:
+   - effect:itemspray{item=coal;amount=20;velocity=5;d=100;} @self
+   - sound{s=entity.wither.idle} @self
+   - summon{type=MINI1;amount=1;radius=4} @self
+   - delay 20
+   - summon{type=MINI1;amount=1;radius=4} @self
+   - potion{type=strength;duration=200;level=4}
+   - damage{amount=10}
+KnightSuper:
+ Cooldown: 10
+ Skills:
+  - sound{s=entity.wither.death} @self
+  - throw{velocity=5;velocityY=5} @PIR{r=10}
+  - damage{a=20;i=false} @PIR{r=10}
+  - effect:particles{p=hugeexplode;a=5;vs=0.5;hs=0.5;s=0;y=1} @Self
+  - effect:sound{s=entity.generic.explode;v=2;p=0.5} @Self
+  - effect:sound{s=entity.generic.explode;v=2;p=1;repeat=7;repeatInterval=2} @Self
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=1} @Self
+  - delay 2
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=3} @Self
+  - delay 2
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=5} @Self
+  - delay 2 
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=7} @Self
+  - delay 2
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=9} @Self
+  - delay 2
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=11} @Self
+  - effect:glow{color=RED;duration=1000}
+  - mount{type=ZOMBIE_HORSE}
+Effect:
+ Cooldown: 10
+ Skills:
+   - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=15}
+   - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5}
+    @Self
+  
+  

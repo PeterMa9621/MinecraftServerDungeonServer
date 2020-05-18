@@ -1,0 +1,23 @@
+灵龙:
+  Type: PHANTOM
+  Display: '&4灵龙'
+  Health: 300
+  Damage: 50
+  Faction: longgu
+  Equipment:
+   - IRON_SWORD HAND RIGHT
+   - SHIELD OFFHAND
+  Options:
+    PreventOtherDrops: true
+    PreventSunburn: true
+    FollowRange: 64
+  Skills:
+   - effect:flames{hS=30;vS=30} @self ~onTimer:10
+########################################################################
+###                                                                    #
+###   BOSS PACK                                                        #
+###                                                                    #
+###   Created by AliAlibekov                                           #
+###                                                                    #
+###                                                                    #
+########################################################################  

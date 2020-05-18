@@ -1,0 +1,10 @@
+JapanItem3:
+  Id: Stick
+  Data: 0
+  Display: '&3火災ロッド'
+  Skills:
+  - skill{s=fiery_zombie_sorcerer_clock} @self ~onUse:5
+  Lore:
+   - '&8伝説によると、草薙剣は、スサノオの神によって'
+   - '&8彼によって殺された巨大な八本の蛇ヤマタノオ'
+   - '&8ロティの体の中に発見されました'

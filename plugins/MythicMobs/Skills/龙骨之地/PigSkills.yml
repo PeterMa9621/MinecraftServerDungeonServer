@@ -1,0 +1,21 @@
+PigHurt:
+ Cooldown: 8
+ Conditions:
+  - targetwithin 25
+ Skills:
+  - effect:particlesphere{particle=flame;amount=200;radius=5} @self
+  - ignite{ticks=100} @trigger ~onAttack
+PigRingFire:
+ Cooldown: 8
+ Conditions:
+  - targetwithin 25
+ Skills:
+  - sound{s=entity.ghast.hurt} @self
+  - potion{type=blindness;lvl=2;duration=100} @PlayersInRadius{r=15}
+  - effect:particles{p=fire;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5}
+    @Self
+  - summon{mob=龙骨魂魄;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=龙骨魂魄;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=龙骨魂魄;amount=1;noise=5} @Self

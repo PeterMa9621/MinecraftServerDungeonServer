@@ -5,7 +5,7 @@
   Type: WITHER_SKELETON
   Display: '&e&l放逐者'
   Health: 100
-  Damage: 10
+  Damage: 30
   Modules:
     ThreatTable: true
   AITargetSelectors:
@@ -26,8 +26,7 @@
   Type: WITHER_SKELETON
   Display: '&e&l放逐者'
   Health: 100
-  Damage: 10
-  Riding: 放逐者坐骑
+  Damage: 30
   Modules:
     ThreatTable: true
   AITargetSelectors:

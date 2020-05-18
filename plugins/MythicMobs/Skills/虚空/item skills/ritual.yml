@@ -1,0 +1,15 @@
+ritual:
+  Cooldown: 5
+  Conditions:
+  - onground true
+  - crouching true
+  Skills:
+  - effect:sound{s=block.enchantment_table.use;v=1;p=2} @Self
+  - effect:sound{s=entity.wither.spawn;v=0.7;p=2} @Self
+  - potion{t=LEVITATION;d=40;l=1} @EIR{r=4}
+  - potion{t=GLOWING;d=40;l=0} @EIR{r=4}
+  - effect:particlering{particle=endRod;radius=1;points=24;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=endRod;radius=2;points=32;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=endRod;radius=3;points=48;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=endRod;radius=4;points=64;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particles{particle=endRod;amount=32;vSpread=1;hSpread=0;Speed=0;yoffset=1.7} @ring{radius=4;points=8}

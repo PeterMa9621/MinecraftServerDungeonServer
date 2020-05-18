@@ -1,0 +1,9 @@
+JapanItemNew2:
+  Id: wood_axe
+  Data: 0
+  Display: '&3鬼クラブ'
+  Enchantments:
+  - DAMAGE_ALL:1
+  - FIRE_ASPECT:3
+  Lore:
+   - '&8世界で最も恐ろしい武器'

@@ -1,0 +1,63 @@
+¹í¹Ö:
+  Type: DROWNED
+  Display: '&a&c¹í¹Ö'
+  Health: 300
+  Damage: 50
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 movetowardstarget
+  - 3 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - IRON_HELMET HEAD
+  - STONE_SWORD HAND
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 16
+    FollowRange: 32
+    PreventOtherDrops: true
+¹í½«:
+  Type: GIANT
+  Display: '&a&4¹í½«'
+  Health: 2000
+  Damage: 60
+  KnockbackResistance: 1
+  BossBar: 
+    Enabled: true
+    Title: '&4&l¹í½«'
+    Range: 48
+    Style: SOLID
+    Color: RED
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 64
+    MaxCombatRange: 96
+    PreventOtherDrops: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 movetowardstarget
+  - 3 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - SurtursHelmet HEAD
+  - SurtursTunic CHEST
+  - STONE_SWORD HAND
+  Skills:
+  - potion{t=INVISIBILITY;d=2147483647;l=1} @self ~onSpawn
+  - ignite{ticks=2147483647} @self ~onSpawn
+  - potion{t=FIRE_RESISTANCE;d=2147483647;1=1} @self ~onSpawn
+  - effect:flames{hS=30;vS=30} @self ~onTimer:10
+  - randomskill{
+    skills=
+    FireballProjectile,
+    SmokeBlastProjectile
+    } @target ~onTimer:80
+  - rally{types=¹í¹Ö;radius=32;ot=false} @Trigger ~onDamaged

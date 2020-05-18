@@ -1,0 +1,115 @@
+chestplateshade1:
+  Id: 299
+  Data: 0
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  Options:
+    Color: 245,0,188
+leggingsshade1:
+  Id: 300
+  Data: 0
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  Options:
+    Color: 245,0,188
+bootsshade1:
+  Id: 301
+  Data: 0
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  Options:
+    Color: 245,0,188
+chestplateshade2:
+  Id: 299
+  Data: 0
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  Options:
+    Color: 222,0,4
+leggingsshade2:
+  Id: 300
+  Data: 0
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  Options:
+    Color: 222,0,4
+bootsshade2:
+  Id: 301
+  Data: 0
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  Options:
+    Color: 222,0,4
+shadeweapon1:
+  Id: 293
+  Data: 0
+shadeweapon2:
+  Id: 293
+  Data: 0
+  Enchantments:
+  - DAMAGE_ALL:1
+shadehead:
+  Id: 397
+  Data: 3
+  Display: '&d&l&m-&5&l&m-&8&l&m-&7&l&m}&f&l&m=..=&5&lS&d&lh&d&la&5&ld&d&le&8&lH&7&le&f&la&7&ld&f&l&m=..=&7&l&m{&8&l&m-&5&l&m-&d&l&m-'
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1Njc0MzUwODMxNTYsInByb2ZpbGVJZCI6IjUyZjQ0NmE5MjkyZTRmYjU5MzM3ODcxNTQ4YWQwNGRjIiwicHJvZmlsZU5hbWUiOiJ4bHNhbHZvbHgiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY3MTE3ZTAxZDg5NzZkODFmOTEyOTI5MWE1MzVkOThjNTdkMmViZjRhY2MxYmZmYTg5YWRkNWE4ODA5NTE3In19fQ
+  Lore:
+  - '&8&l&m*&r &f&oMysterious entity'
+  - '&8&l&m*&r &5V&do&5i&dd&7Pack'
+  - '&5&l&m*&r &7Decoration'
+shadehead2:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1Njc0MzQ5MDk1NDMsInByb2ZpbGVJZCI6IjUyZjQ0NmE5MjkyZTRmYjU5MzM3ODcxNTQ4YWQwNGRjIiwicHJvZmlsZU5hbWUiOiJ4bHNhbHZvbHgiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM5NjY5ZmRlMjEzODJiOTI3YzAyMzAxMWZmYzc5NDg0YjViNmI2NTYyN2QyNjQ0Y2I0OWE5ZmZhODZlMDAzZCJ9fX0
+shadehead3:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1Njc0MzQ4NzM0NDksInByb2ZpbGVJZCI6IjUyZjQ0NmE5MjkyZTRmYjU5MzM3ODcxNTQ4YWQwNGRjIiwicHJvZmlsZU5hbWUiOiJ4bHNhbHZvbHgiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNkNDMzYzU5OWExZTI3YjNlOWQyNjQ4YjU3M2UwZjVhOWVhZWU5YmE2ODhlMDY1ZDU4ZjBjNDg3OGI4YWYyNCJ9fX0
+shadehead4:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1Njc0MzQ4Mzg2MzcsInByb2ZpbGVJZCI6IjUyZjQ0NmE5MjkyZTRmYjU5MzM3ODcxNTQ4YWQwNGRjIiwicHJvZmlsZU5hbWUiOiJ4bHNhbHZvbHgiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ1ZjEwYTNhOWZmZWQxZTdmN2Y2ZDFlYzUxMDA3ZTc3ZjcwY2JlMzRmODQ3YjRiZjU0Y2M3YWY3Mjc1M2JlYyJ9fX0
+shadehead5:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1Njc0MzQ4MDIyODUsInByb2ZpbGVJZCI6IjUyZjQ0NmE5MjkyZTRmYjU5MzM3ODcxNTQ4YWQwNGRjIiwicHJvZmlsZU5hbWUiOiJ4bHNhbHZvbHgiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThhMzE5Y2I5Y2M0ZmRjNjVmN2MyOTY4NGRiNjFhMTk5MWJiN2YxNjVjNzk1ZmQ3NWZhOTA2ZWIwMGVhNjZkYiJ9fX0
+shadeheadchange:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1Njc0MzUxNTQzMDYsInByb2ZpbGVJZCI6IjUyZjQ0NmE5MjkyZTRmYjU5MzM3ODcxNTQ4YWQwNGRjIiwicHJvZmlsZU5hbWUiOiJ4bHNhbHZvbHgiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQxYTc5YzlkNGE2ZjBhMjlmMzA0MWQ2NTkzMDcyZWJiMDcxNWNlYjg5MTA3YTZmMTk5MjhiNDExZjJmNTk4In19fQ
+shadeheadred:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1Njc0MzU0MTgwMjMsInByb2ZpbGVJZCI6IjUyZjQ0NmE5MjkyZTRmYjU5MzM3ODcxNTQ4YWQwNGRjIiwicHJvZmlsZU5hbWUiOiJ4bHNhbHZvbHgiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJlMTJkMjZiYzE4MGEyYmRmMzBmNTAyMDMzNzM4OTE1ZDlmYWNiYWVkM2IxYTdkY2Y0MjBhYTM3Y2I5MjZjZSJ9fX0
+shadeheadreddamaged:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1Njc0MzU0NTU0NjksInByb2ZpbGVJZCI6IjUyZjQ0NmE5MjkyZTRmYjU5MzM3ODcxNTQ4YWQwNGRjIiwicHJvZmlsZU5hbWUiOiJ4bHNhbHZvbHgiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc0OTlkNWE0MDAzN2I3MGMzMmMwNzMwODA3MGRkYjc3YjQxYmE1ZjcwN2FjZDk4ZTY4NzZkNTQ5YTNlODk2MCJ9fX0
+darkmatterdeco:
+  Id: 402
+  Data: 0
+  Enchantments:
+  - ARROW_DAMAGE:1
+  Firework:
+    Colors:
+    - 153,0,191

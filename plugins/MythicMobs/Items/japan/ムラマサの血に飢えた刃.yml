@@ -1,0 +1,10 @@
+JapanItem1:
+  Id: DIAMOND_SWORD
+  Data: 0
+  Display: '&3ムラマサの血に飢えた刃'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - KNOCKBACK:5
+  - FIRE_ASPECT:5
+  Lore:
+   - '&8これらのカタナは多くの伝説に覆われています。'

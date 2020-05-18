@@ -12,18 +12,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2
-      },
-      "model": "itemsadder:auto_generated/flour"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 3
-      },
-      "model": "itemsadder:auto_generated/dough"
-    },
-    {
-      "predicate": {
         "custom_model_data": 4
       },
       "model": "itemsadder:auto_generated/cup_of_water"
@@ -39,18 +27,6 @@
         "custom_model_data": 6
       },
       "model": "itemsadder:auto_generated/projectile"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 7
-      },
-      "model": "itemsadder:auto_generated/plastic"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8
-      },
-      "model": "itemsadder:auto_generated/plastic_plate"
     },
     {
       "predicate": {
@@ -141,12 +117,6 @@
         "custom_model_data": 23
       },
       "model": "itemsadder:auto_generated/energy_capsule"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 24
-      },
-      "model": "itemsadder:auto_generated/iron_plate"
     },
     {
       "predicate": {

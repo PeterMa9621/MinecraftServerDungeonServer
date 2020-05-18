@@ -1,8 +1,8 @@
 ﻿sw_xiaoshouwei:
   Type: BABY_PIG_ZOMBIE
   Display: '&a尸王小守卫 - &4<mob.level>级'
-  Health: 130
-  Damage: 15
+  Health: 150
+  Damage: 30
   Armor: 3
   Modules:
     ThreatTable: true

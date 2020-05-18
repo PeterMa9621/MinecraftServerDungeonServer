@@ -1,0 +1,26 @@
+﻿MINIMOBS:
+  Type: BABY_ZOMBIE
+  Display: 'wolf'
+  Health: 10
+  BossBar:
+   Enabled: true
+   Title: 'wolf'
+   Range: 20
+   Color: BLUE
+   Style: SOLID
+  Equipment:
+   - CL:4
+  Damage: 2
+  Armor: 0
+  Faction: mobs2
+  Skills:
+   - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+   - effect:sound{s=entity.wolf.growl;v=1;p=0} @self ~onDamaged
+########################################################################
+###                                                                    #
+###   BOSS PACK                                                        #
+###                                                                    #
+###   Created by AliAlibekov                                           #
+###                                                                    #
+###                                                                    #
+########################################################################

@@ -1,0 +1,11 @@
+randomattacks:
+  Conditions:
+  - stance{stance=powerupshade} false
+  Skills:
+  - randomskill{skills=levisphere,deathspread,endercorruption,darkwinds}
+
+randomattacksPowerup:
+  Conditions:
+  - stance{stance=powerupshade} true
+  Skills:
+  - randomskill{skills=levisphere,deathspread,endercorruption,darkwinds}

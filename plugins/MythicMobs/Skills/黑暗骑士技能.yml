@@ -1,0 +1,10 @@
+DarkElfPushBack:
+  Skills:
+  - jsonmessage{m="[{'text':'&c&l黑暗骑士 >> &4&l啊啊啊啊!'}]"} @PlayersInRadius{r=5} 
+  - delay 5
+  - throw{velocity=20;velocityY=5} @EntitiesInRadius{r=10}
+  - damage{amount=8;ignoreArmor=true} @EntitiesInRadius{r=10} 
+DarkElfBuff:
+  Skills:
+ # - potion{type=SPEED;duration=2187494;level=1;p=false} @Self
+  - potion{type=INCREASE_DAMAGE;duration=2187494;level=1;p=false} @Self

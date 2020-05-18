@@ -1,0 +1,229 @@
+CG_Equipment_I:
+  Skills:
+  - randomskill{s=CG_Eq_I1h,CG_Eq_I2h,CG_Eq_none}
+  - randomskill{s=CG_Eq_I1c,CG_Eq_I2c}
+  - randomskill{s=CG_Eq_I1p,CG_Eq_I2p}
+  - randomskill{s=CG_Eq_I1b,CG_Eq_I2b}
+  - randomskill{s=CG_Eq_I1hands,CG_Eq_I2hands}
+
+CG_Eq_none:
+  Skills:
+# does nothing
+CG_Eq_I1h:
+  Skills:
+  - equip{i=leather_helmet:4}
+CG_Eq_I2h:
+  Skills:
+  - equip{i=chainmail_helmet:4}
+
+CG_Eq_I1c:
+  Skills:
+  - equip{i=leather_chestplate:3}
+CG_Eq_I2c:
+  Skills:
+  - equip{i=chainmail_chestplate:3}
+
+CG_Eq_I1p:
+  Skills:
+  - equip{i=leather_leggings:2}
+CG_Eq_I2p:
+  Skills:
+  - equip{i=chainmail_leggings:2}
+
+CG_Eq_I1b:
+  Skills:
+  - equip{i=leather_boots:1}
+CG_Eq_I2b:
+  Skills:
+  - equip{i=chainmail_boots:1}
+
+CG_Eq_I1hands:
+  Skills:
+  - equip{i=iron_axe:0}
+CG_Eq_I2hands:
+  Skills:
+  - equip{i=iron_sword:0}
+
+CG_Equipment_Ir:
+  Skills:
+  - randomskill{s=CG_Eq_I1c,CG_Eq_I2c}
+  - randomskill{s=CG_Eq_I1p,CG_Eq_I2p}
+  - randomskill{s=CG_Eq_I1b,CG_Eq_I2b}
+  - skill{s=CG_Eq_I1rhands}
+
+CG_Eq_I1rhands:
+  Skills:
+  - equip{i=bow:0}
+
+CG_Equipment_II:
+  Skills:
+  - randomskill{s=CG_Eq_II1h,CG_Eq_II2h,CG_Eq_II3h}
+  - skill{s=CG_Eq_II1c}
+  - skill{s=CG_Eq_II1p}
+  - skill{s=CG_Eq_II1b}
+  - randomskill{s=CG_Eq_II1hands,CG_Eq_II2hands}
+
+CG_Eq_II1h:
+  Skills:
+  - equip{i=CG_GuardMageHelmet1:4}
+CG_Eq_II2h:
+  Skills:
+  - equip{i=CG_GuardMageHelmet2:4}
+CG_Eq_II3h:
+  Skills:
+  - equip{i=CG_GuardMageHelmet3:4}
+CG_Eq_II1c:
+  Skills:
+  - equip{i=CG_GuardMageChestplate:3}
+CG_Eq_II1p:
+  Skills:
+  - equip{i=CG_GuardMageLeggings:2}
+CG_Eq_II1b:
+  Skills:
+  - equip{i=CG_GuardMageBoots:1}
+CG_Eq_II1hands:
+  Skills:
+  - equip{i=stick:0}
+CG_Eq_II2hands:
+  Skills:
+  - equip{i=blaze_rod:0}
+
+CG_Equipment_III:
+  Skills:
+  - randomskill{s=CG_Eq_I2h,CG_Eq_III1h,CG_Eq_none}
+  - skill{s=CG_Eq_III1c}
+  - skill{s=CG_Eq_III1p}
+  - randomskill{s=CG_Eq_III1b,CG_Eq_I1b}
+  - randomskill{s=CG_Eq_III1hands,CG_Eq_III2hands}
+
+CG_Eq_III1h:
+  Skills:
+  - equip{i=iron_helmet:4}
+CG_Eq_III1c:
+  Skills:
+  - equip{i=iron_chestplate:3}
+CG_Eq_III1p:
+  Skills:
+  - equip{i=iron_leggings:2}
+CG_Eq_III1b:
+  Skills:
+  - equip{i=iron_boots:1}
+CG_Eq_III1hands:
+  Skills:
+  - equip{i=diamond_sword:0}
+  - equip{i=shield:5}
+CG_Eq_III2hands:
+  Skills:
+  - equip{i=diamond_axe:0}
+  - equip{i=shield:5}
+
+CG_VillageGuard_CallHelp:
+  Cooldown: 60
+  Skills:
+  - rally{type=VillageGuard;hradius=40;vradius=20}
+  - rally{type=VillageMage;hradius=40;vradius=20}
+  - rally{type=VillageCaptain;hradius=40;vradius=20} 0.9
+  - rally{type=VillageKnight;hradius=40;vradius=20}
+  - rally{type=VillageMarksman;hradius=40;vradius=20}
+
+CG_VillageGuard_WideAttack:
+  Cooldown: 10
+  Skills:
+  - projectile{s=CG_VillageGuard_WA-Tick;onHitSkill=CG_VillageGuard_WA-Hit;v=15;i=2;r=1;mr=3;hp=true;hnp=true;hO=-22;sE=false;sB=true;hs=true;hfs=0.7} @Target
+  - delay 1
+  - projectile{s=CG_VillageGuard_WA-Tick;onHitSkill=CG_VillageGuard_WA-Hit;v=15;i=2;r=1;mr=3;hp=true;hnp=true;hO=-7;sE=false;sB=true;hs=true;hfs=0.7} @Target
+  - delay 2
+  - projectile{s=CG_VillageGuard_WA-Tick;onHitSkill=CG_VillageGuard_WA-Hit;v=15;i=2;r=1;mr=3;hp=true;hnp=true;hO=7;sE=false;sB=true;hs=true;hfs=0.7} @Target
+  - delay 3
+  - projectile{s=CG_VillageGuard_WA-Tick;onHitSkill=CG_VillageGuard_WA-Hit;v=15;i=2;r=1;mr=3;hp=true;hnp=true;hO=22;sE=false;sB=true;hs=true;hfs=0.7} @Target
+CG_VillageGuard_WA-Tick:
+  Skills:
+  - effect:particles{p=crit;a=25;hs=0.5;vs=0.3;s=0} @Origin
+CG_VillageGuard_WA-Hit:
+  Skills:
+  - effect:sound{s=entity.player.attack.sweep;v=0.5;p=0.8}
+  - basedamage{m=1}
+
+CG_VillageGuard-Charge:
+  Cooldown: 10
+  Conditions:
+  - targetnotwithin 6 required
+  - lineofsight required
+  Skills:
+  - potion{type=SPEED;lvl=3;d=10;p=false} @Self
+  - effect:particles{p=cloud;a=15;hs=0.5;vs=0.05;s=0}
+  - delay 3
+  - effect:particles{p=cloud;a=15;hs=0.5;vs=0.05;s=0}
+  - delay 3
+  - effect:particles{p=cloud;a=15;hs=0.5;vs=0.05;s=0}
+  - delay 3
+  - effect:particles{p=cloud;a=15;hs=0.5;vs=0.05;s=0}
+  - throw{v=1;vy=2} @ENO{r=2}
+
+CG_VillageMage_mana:
+  Conditions:
+  - score{objective=mana;value=>10} cancel
+  Skills:
+  - modifymobscore{objective=mana;action=add;value=1} @Self
+
+CG_VillageGuard_MajorSpell:
+  Cooldown: 3
+  Conditions:
+  - targetwithin 30 required
+  - score{objective=casting;value=0} required
+  - score{objective=mana;value=<5} castinstead CG_VillageGuard_MinorSpell
+  Skills:
+  - modifymobscore{objective=mana;action=SUBTRACT;value=6} @self
+  - modifymobscore{objective=casting;action=SET;value=1} @self
+  - potion{type=SLOW;duration=60;level=5;p=false} @self
+  - effect:particlering{particle=flame;s=0.0;r=2;points=32;a=1;hS=0;vS=0;repeat=6;repeatInterval=10} @self
+  - delay 60
+  - projectile{onTick=CG_VillageGuard_MajorSpell-Tick;onHit=CG_VillageGuard_MajorSpell-Hit;v=20;i=1;hR=1.2;vR=1.2;mr=35;hnp=true;hp=true}
+  - effect:sound{s=entity.ghast.shoot;v=0.5;p=0.8}
+  - modifymobscore{objective=casting;action=SET;value=0} @self
+CG_VillageGuard_MajorSpell-Tick:
+  Skills:
+  - effect:particles{p=spell_instant;amount=1;speed=0;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=flame;amount=1;speed=0;speed=0;hS=0;vS=0} @origin
+CG_VillageGuard_MajorSpell-Hit:
+  Skills:
+  - damage{a=7;ignorearmor=true} @EntitiesNearOrigin{r=1}
+  - effect:sound{s=entity.dragon_fireball.explode;v=1.5;p=0.8} @target
+  - effect:particles{p=flame;hs=0.3;vs=0.3;a=100;s=0.005;} @target
+  - delay 1
+  - effect:particles{p=flame;hs=0.8;vs=0.8;a=200;s=0.005;} @target
+  - delay 1
+  - effect:particles{p=flame;hs=1.0;vs=1.0;a=300;s=0.1;} @target
+  - effect:particles{p=lava;hs=1.5;vs=1.5;a=15;s=0.5;} @target
+
+CG_VillageGuard_MinorSpell:
+  Cooldown: 2
+  Conditions:
+  - targetwithin 30 required
+  - score{objective=casting;value=0} required
+  - score{objective=mana;value=>2} required
+  Skills:
+  - modifymobscore{objective=mana;action=SUBTRACT;value=3} @self
+  - modifymobscore{objective=casting;action=SET;value=1} @self
+  - potion{type=SLOW;duration=10;level=2;p=false} @self
+  - delay 10
+  - projectile{onTick=CG_VillageGuard_MinorSpell-Tick;onHit=CG_VillageGuard_MinorSpell-Hit;v=18;i=1;hR=1.2;vR=1.2;mr=35;hnp=true;hp=true} @target
+  - effect:sound{s=entity.ghast.shoot;v=0.5;p=0.8}
+  - modifymobscore{objective=casting;action=SET;value=0} @self
+CG_VillageGuard_MinorSpell-Tick:
+  Skills:
+  - effect:particles{p=flame;amount=1;speed=0;speed=0;hS=0;vS=0} @origin
+CG_VillageGuard_MinorSpell-Hit:
+  Skills:
+  - damage{a=4} @EntitiesNearOrigin{r=1}
+  - effect:particles{p=flame;hs=0.3;vs=0.3;a=100;s=0.005;}
+  - effect:sound{s=entity.dragon_fireball.explode;v=1.5;p=0.8}
+
+CG_VillageMarksman_Shoot:
+  Cooldown: 4
+  Conditions:
+  - targetwithin 30 required
+  - targetwithin 5 cancel
+  Skills:
+  - shoot{type=ARROW;velocity=3;damage=6} @target
+  - effect:sound{s=entity.dragon_fireball.explode;v=1.5;p=0.8}

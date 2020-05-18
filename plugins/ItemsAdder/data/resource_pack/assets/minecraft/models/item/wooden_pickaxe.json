@@ -15,6 +15,12 @@
         "custom_model_data": 2
       },
       "model": "mjy:auto_generated/qingshuijing_hammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "mjy:auto_generated/hammer"
     }
   ]
 }

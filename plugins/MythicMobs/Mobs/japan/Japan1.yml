@@ -1,0 +1,12 @@
+﻿JapanMobs1:
+  Type: VILLAGER
+  Display: '雨降り小僧'
+  Health: 100
+  Damage: 0
+  Armor: 0
+  Faction: Mobs1
+  Equipment:
+  - JapanItem9:4
+  Skills:
+   - weather{type=storm;duration=6000} ~onSpawn
+   - sound{s=entity.Elder_Guardian.hurt} @self

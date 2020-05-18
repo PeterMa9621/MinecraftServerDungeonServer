@@ -53,7 +53,7 @@ categories:
     enabled: true
     icon: "itemsadder:ruby_head"
     permission: 'ia.menu.special'
-    name: 'Armors'
+    name: '装备'
     items:
       - "itemsadder:ruby_head"
       - "itemsadder:ruby_chest"
@@ -94,7 +94,7 @@ categories:
     enabled: true
     icon: "itemsadder:ruby_sword"
     permission: 'ia.menu.special'
-    name: 'Swords'
+    name: '剑'
     items:
       - "itemsadder:ruby_sword"
       - "itemsadder:ruby_dagger"
@@ -129,7 +129,7 @@ categories:
     enabled: true
     icon: "itemsadder:ruby_pickaxe"
     permission: 'ia.menu.special'
-    name: 'Pickaxes'
+    name: '镐子'
     items:
       - "itemsadder:astral_pickaxe"
       - "itemsadder:diamond_hammer"
@@ -146,7 +146,7 @@ categories:
     enabled: true
     icon: "itemsadder:ruby_axe"
     permission: 'ia.menu.special'
-    name: 'Axes'
+    name: '斧子'
     items:
       - "itemsadder:ruby_axe"
       - "itemsadder:crystal_axe"
@@ -159,7 +159,7 @@ categories:
     enabled: true
     icon: "itemsadder:ruby_hoe"
     permission: 'ia.menu.special'
-    name: 'Hoes'
+    name: '锄头'
     items:
       - "itemsadder:ruby_hoe"
       - "itemsadder:crystal_hoe"
@@ -172,7 +172,7 @@ categories:
     enabled: true
     icon: "itemsadder:ruby_shovel"
     permission: 'ia.menu.special'
-    name: 'Shovels'
+    name: '铲子'
     items:
       - "itemsadder:ruby_shovel"
       - "itemsadder:crystal_shovel"
@@ -185,7 +185,7 @@ categories:
     enabled: true
     icon: "itemsadder:red_fishing_rod"
     permission: 'ia.menu.special'
-    name: 'Fishing Rods'
+    name: '鱼竿'
     items:
       - "itemsadder:black_fishing_rod"
       - "itemsadder:red_fishing_rod"
@@ -197,7 +197,7 @@ categories:
     enabled: true
     icon: "itemsadder:red_shears"
     permission: 'ia.menu.special'
-    name: 'Shears'
+    name: '剪刀'
     items:
       - "itemsadder:black_shears"
       - "itemsadder:red_shears"
@@ -209,7 +209,7 @@ categories:
     enabled: true
     icon: "itemsadder:revolver"
     permission: 'ia.menu.special'
-    name: 'Weapons'
+    name: '武器'
     items:
       - "itemsadder:projectile"
       - "itemsadder:revolver"
@@ -224,7 +224,7 @@ categories:
     enabled: true
     icon: "itemsadder:ruby_shield"
     permission: 'ia.menu.special'
-    name: 'Shields'
+    name: '盾'
     items:
       - "itemsadder:ender_shield"
       - "itemsadder:obsidian_shield"
@@ -238,7 +238,7 @@ categories:
     enabled: true
     icon: "itemsadder:red_bow"
     permission: 'ia.menu.special'
-    name: 'Bows'
+    name: '弓'
     items:
       - "itemsadder:astral_bow"
       - "itemsadder:cross_bow"
@@ -252,7 +252,7 @@ categories:
     enabled: true
     icon: "itemsadder:pizza"
     permission: 'ia.menu.special'
-    name: 'Food'
+    name: '食物'
     items:
       - "itemsadder:pizza"
       - "itemsadder:taco"
@@ -301,7 +301,7 @@ categories:
     enabled: true
     icon: "itemsadder:cola"
     permission: 'ia.menu.special'
-    name: 'Drinks'
+    name: '饮料'
     items:
       - "itemsadder:cola"
       - "itemsadder:hot_chocolate"
@@ -311,7 +311,7 @@ categories:
     enabled: true
     icon: "itemsadder:tomato"
     permission: 'ia.menu.special'
-    name: 'Vegetables and Fruit'
+    name: '蔬菜水果'
     items:
       - "itemsadder:tomato"
       - "itemsadder:banana"
@@ -324,7 +324,7 @@ categories:
     enabled: true
     icon: "itemsadder:tomato_seeds"
     permission: 'ia.menu.special'
-    name: 'Seeds'
+    name: '种子'
     items:
       - "itemsadder:tomato_seeds"
       - "itemsadder:garlic_seeds"
@@ -336,7 +336,7 @@ categories:
     enabled: true
     icon: "itemsadder:blue_parrotfish"
     permission: 'ia.menu.special'
-    name: 'Fishes'
+    name: '鱼'
     items:
       - "itemsadder:blue_parrotfish"
       - "itemsadder:green_sunfish"
@@ -347,7 +347,7 @@ categories:
     enabled: true
     icon: "itemsadder:diamonds_finder_potion"
     permission: 'ia.menu.special'
-    name: 'Potions'
+    name: '药水'
     items:
       - "itemsadder:diamonds_finder_potion"
       - "itemsadder:emeralds_finder_potion"
@@ -356,8 +356,8 @@ categories:
   furnitures:
     enabled: true
     icon: "itemsadder:old_clock"
-    permission: 'ia.menu.special'
-    name: 'Furnitures'
+    permission: 'ia.menu.player'
+    name: '&5家具'
     items:
       - "itemsadder:old_clock"
       - "itemsadder:opened_chest"
@@ -379,8 +379,8 @@ categories:
   paintings:
     enabled: true
     icon: "itemsadder:painting_burst"
-    permission: 'ia.menu.special'
-    name: 'Paintings'
+    permission: 'ia.menu.player'
+    name: '&5画作'
     items:
       - "itemsadder:painting_burst"
       - "itemsadder:painting_courbet"
@@ -394,8 +394,8 @@ categories:
   chairs:
     enabled: true
     icon: "itemsadder:simple_chair"
-    permission: 'ia.menu.special'
-    name: 'Chairs'
+    permission: 'ia.menu.player'
+    name: '&5椅子'
     items:
       - "itemsadder:simple_chair"
       - "itemsadder:white_chair"
@@ -438,7 +438,7 @@ categories:
     enabled: true
     icon: "itemsadder:deadmau5_hat"
     permission: 'ia.menu.special'
-    name: 'Hats'
+    name: '帽子'
     items:
       - "itemsadder:deadmau5_hat"
       - "itemsadder:top_hat"
@@ -456,7 +456,7 @@ categories:
     enabled: true
     icon: "itemsadder:demoniac_red_wings"
     permission: 'ia.menu.special'
-    name: 'Wearables'
+    name: '穿戴品'
     items:
       - "itemsadder:demoniac_red_wings"
       - "itemsadder:demoniac_turquoise_wings"
@@ -477,7 +477,7 @@ categories:
     enabled: true
     icon: "itemsadder:energy_extractor"
     permission: 'ia.menu.special'
-    name: 'Machines'
+    name: '机器'
     items:
       - "itemsadder:energy_extractor"
       - "itemsadder:energy_converter"
@@ -489,7 +489,7 @@ categories:
     enabled: true
     icon: "itemsadder:ruby_block"
     permission: 'ia.menu.special'
-    name: 'Blocks'
+    name: '方块'
     items:
       - "itemsadder:ruby_block"
       - "itemsadder:crystal_block"
@@ -510,7 +510,7 @@ categories:
     enabled: true
     icon: "itemsadder:ruby_ore"
     permission: 'ia.menu.special'
-    name: 'Ores'
+    name: '矿石'
     items:
       - "itemsadder:ruby_ore"
       - "itemsadder:spinel_ore"
@@ -529,7 +529,7 @@ categories:
     enabled: true
     icon: "itemsadder:ruby"
     permission: 'ia.menu.special'
-    name: 'Minerals'
+    name: '矿物'
     items:
       - "itemsadder:ruby"
       - "itemsadder:crystal"
@@ -550,14 +550,14 @@ categories:
     enabled: true
     icon: "itemsadder:guitar_sword"
     permission: 'ia.menu.special'
-    name: 'Instruments'
+    name: '乐器'
     items:
       - "itemsadder:guitar_sword"
   various:
     enabled: true
     icon: "itemsadder:empty_cup"
     permission: 'ia.menu.special'
-    name: 'Items and ingredients'
+    name: '物品和材料'
     items:
       - "itemsadder:drink_glass"
       - "itemsadder:empty_cup"
@@ -588,7 +588,7 @@ categories:
     enabled: true
     icon: "itemsadder:arcane_ring"
     permission: 'ia.menu.special'
-    name: 'Alchemy items'
+    name: '魔法物品'
     items:
       - "itemsadder:philosopher_stone"
       - "itemsadder:arcane_ring"
@@ -616,13 +616,13 @@ categories:
     enabled: true
     icon: "itemsadder:music_disc_electric_keys"
     permission: 'ia.menu.special'
-    name: 'Music Discs'
+    name: '音乐唱片'
     items:
       - "itemsadder:music_disc_electric_keys"
       - "itemsadder:music_disc_cdk_sunday"
       - "itemsadder:music_disc_vidian_aether_theories"
   throwables:
-    enabled: true
+    enabled: false
     icon: "itemsadder:grenade"
     permission: 'ia.menu.special'
     name: 'Throwables'
@@ -634,15 +634,15 @@ categories:
     enabled: true
     icon: "itemsadder:mysterious_book"
     permission: 'ia.menu.special'
-    name: 'Books'
+    name: '书'
     items:
       - "itemsadder:mysterious_book"
       - "itemsadder:letter"
       - "itemsadder:decrypted_mysterious_book"
   vehicles:
-    enabled: true
+    enabled: false
     icon: "itemsadder:white_go_cart"
-    name: 'Vehicles'
+    name: '车辆'
     permission: 'ia.menu.special'
     items:
       - "itemsadder:shopping_cart"
@@ -672,7 +672,7 @@ categories:
   icons:
     enabled: true
     icon: "mcicons:icon_web"
-    name: 'Icons'
+    name: '图标'
     permission: 'ia.menu.icons'
     items:
       - "mcicons:icon_left_grey"
@@ -708,7 +708,7 @@ categories:
   generic_items:
     enabled: true
     icon: "itemsadder:light_blue_coupon"
-    name: 'Generic Items'
+    name: '通用物品'
     permission: 'ia.menu.generic_items'
     items:
       - "itemsadder:light_blue_coupon"
@@ -746,7 +746,7 @@ categories:
   halloween:
     enabled: true
     icon: "itemsadder:jack_o_lantern_backpack"
-    name: '&6Halloween Items'
+    name: '&6万圣节物品'
     permission: 'ia.menu.halloween'
     items:
       - "itemsadder:broomstick"
@@ -762,7 +762,7 @@ categories:
   christmas:
     enabled: true
     icon: "itemsadder:santa_hat"
-    name: '&6Christmas Items'
+    name: '&6圣诞物品'
     permission: 'ia.menu.christmas'
     items:
       - "itemsadder:christmas_tree"
@@ -773,7 +773,7 @@ categories:
   special:
     enabled: true
     icon: "itemsadder:bug_medal"
-    name: '&fSpecial'
+    name: '&f特殊物品'
     permission: 'ia.menu.special'
     items:
       - "itemsadder:bug_medal"
@@ -785,7 +785,7 @@ categories:
   all:
     enabled: true
     icon: "itemsadder:ruby_block"
-    name: 'All'
+    name: '全部'
     show_all_items: true
     permission: 'ia.menu.special'
     hide_items:
@@ -863,3 +863,42 @@ categories:
       - "mjy:huangshuijing"
       - "mjy:zishuijing_ore"
       - "mjy:huangshuijing_ore"
+      - "mjy:rongyan_sword"
+      - "mjy:tiechi_sword"
+      - "mjy:wushi_sword"
+      - "mjy:shilian_sword"
+      - "mjy:tiaozhanzhe_sword"
+      - "mjy:tiaozhanzhe_axe"
+      - "mjy:riyue_sword"
+      - "mjy:xinglun_sword"
+      - "mjy:yeren_sword"
+      - "mjy:anjin_sword"
+      - "mjy:gujian_sword"
+      - "mjy:shiyue_axe"
+      - "mjy:riyue_axe"
+      - "mjy:tulong_sword"
+      - "mjy:tianwen_sword"
+      - "mjy:tongkuzhe_sword"
+      - "mjy:yitian_sword"
+      - "mjy:fenji_sword"
+      - "mjy:longlin_sword"
+      - "mjy:shuihuo_sword"
+      - "mjy:fenshixieyan_stick"
+      - "mjy:mietianxieyan_stick"
+      - "mjy:guihuo_sword"
+      - "mjy:leidian_axe"
+      - "mjy:zhulong_sword"
+      - "mjy:moxiang_sword"
+      - "mjy:fuzhou_sword"
+      - "mjy:diaolingwang_sword"
+      - "mjy:lieyan_sword"
+      - "mjy:shouhuzhe_sword"
+
+  custom_tool:
+    enabled: true
+    icon: "mjy:hammer"
+    name: '&5工具'
+    permission: 'ia.menu.player'
+    items:
+      - "mjy:hammer"
+      - "mjy:axe"

@@ -1,0 +1,17 @@
+﻿MINI1:
+  Type: BABY_ZOMBIE
+  Display: 'Monster Abyss'
+  Health: 30
+  Damage: 5
+  Armor: 0
+  Faction: mini
+  Equipment:
+   - Spider:4
+   - IRON_CHESTPLATE CHEST
+   - IRON_LEGGINGS LEGS
+   - IRON_BOOTS FEET
+   - IRON_SWORD HAND RIGHT
+   - SHIELD OFFHAND
+  Skills:
+  - sound{s=entity.silverfish.hurt} @self ~OnDamaged
+  - effect:flames @self ~onTimer:5

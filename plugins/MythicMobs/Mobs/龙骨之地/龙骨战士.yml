@@ -1,0 +1,57 @@
+﻿龙骨战士:
+  Type: ZOMBIE
+  Display: '&2龙骨战士'
+  Health: 170
+  Damage: 30
+  Armor: 6
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.6
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+  Faction: longgu
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Skills:
+  - ignite{ticks=2147483647} @self ~onSpawn
+  - potion{t=FIRE_RESISTANCE;d=2147483647;1=1} @self ~onSpawn
+  DamageModifiers:
+  - PROJECTILE 2.5
+  Equipment:
+  - tie4:4
+  - tie3:3
+  - tie2:2
+  - tie1:1
+  
+龙骨战士T:
+  Type: ZOMBIE
+  Display: '&2龙骨战士'
+  Health: 170
+  Damage: 30
+  Armor: 6
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.6
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+  Faction: longgu
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Skills:
+  - ignite{ticks=2147483647} @self ~onSpawn
+  - potion{t=FIRE_RESISTANCE;d=2147483647;1=1} @self ~onSpawn
+  DamageModifiers:
+  - PROJECTILE 2.5
+  Equipment:
+  - tie4:4
+  - tie3:3
+  - tie2:2
+  - tie1:1

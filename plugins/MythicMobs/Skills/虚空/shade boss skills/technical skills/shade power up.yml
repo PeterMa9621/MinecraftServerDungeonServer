@@ -1,0 +1,27 @@
+powerupshade:
+  Skills:
+  - potion{t=DAMAGE_RESISTANCE;d=999999;l=10;force=true} @Self
+  - potion{t=SLOW;d=999999;l=10;force=true} @self
+  - equip{item=shadeheadchange:4}
+  - equip{item=shadeweapon2:5}
+  - effect:sound{s=item.totem.use;v=1;p=1.3} @PIR{r=60}
+  - effect:sound{s=entity.player.breath;v=1;p=0.7} @PIR{r=60}
+  - effect:particles{particle=totem;amount=64;hS=1;vS=1;speed=0.7;y=1.2} @self
+  - delay 60
+  - heal{amount=3000;overheal=false} @self
+  - effect:particles{particle=mobSpell;amount=64;hS=1;vS=1;speed=0.7;y=1.2;color=#de0004} @self
+  - effect:particles{particle=heart;amount=16;hS=0.7;vS=0.7;speed=0;y=1.2} @self
+  - effect:sound{s=entity.guardian.death;v=1;p=0.7} @PIR{r=60}
+  - effect:sound{s=block.end_portal.spawn;v=1;p=2} @PIR{r=60}
+  - effect:sound{s=block.enchantment_table.use;v=1;p=0.7} @PIR{r=60}
+  - equip{item=shadeheadred:4}
+  - equip{item=chestplateshade2:3}
+  - equip{item=leggingsshade2:2}
+  - equip{item=bootsshade2:1}
+  - equip{item=shadeweapon2:0}
+  - effect:itemspray{item=chestplateshade1;amount=1;velocity=0.7;duration=120} @self
+  - effect:itemspray{item=leggingsshade1;amount=1;velocity=0.7;duration=120} @self
+  - effect:itemspray{item=bootsshade1;amount=1;velocity=0.7;duration=120} @self
+  - potion{t=DAMAGE_RESISTANCE;d=1;l=0;force=true} @Self
+  - potion{t=SLOW;d=1;l=0;force=true} @self
+  - setstance{stance=powerupshade} @self

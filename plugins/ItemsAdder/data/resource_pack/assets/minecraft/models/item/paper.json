@@ -291,6 +291,30 @@
         "custom_model_data": 48
       },
       "model": "mjy:auto_generated/vip3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "model": "itemsadder:auto_generated/plastic"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "itemsadder:auto_generated/flour"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "model": "itemsadder:auto_generated/dough"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "model": "itemsadder:auto_generated/plastic_plate"
     }
   ]
 }

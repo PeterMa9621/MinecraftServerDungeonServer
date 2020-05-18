@@ -71,18 +71,24 @@ recipes:
       # result:
         # item: itemsadder:projectile
         # amount: 16
-    # plastic_plate:
-      # permission: itemsadder.plastic_plate
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - XXX
-      # - PPP
-      # ingredients:
-        # P: itemsadder:plastic
-      # result:
-        # item: itemsadder:plastic_plate
-        # amount: 1
+    plastic_plate:
+      permission: itemsadder.plastic_plate
+      enabled: true
+      pattern:
+      - XXX
+      - HPP
+      - XXX
+      ingredients:
+        P: itemsadder:plastic
+        H: mjy:hammer
+      result:
+        item: itemsadder:plastic_plate
+        amount: 1
+      return_items:
+        decrement_durability:
+          hammer:
+            item: mjy:hammer
+            amount: 1
     # clip:
       # permission: itemsadder.clip
       # enabled: true
@@ -257,18 +263,24 @@ recipes:
       # result:
         # item: itemsadder:energy_capsule
         # amount: 1
-    # iron_plate:
-      # permission: itemsadder.iron_plate
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - XIX
-      # - XIX
-      # ingredients:
-        # I: IRON_INGOT
-      # result:
-        # item: itemsadder:iron_plate
-        # amount: 1
+    iron_plate:
+      permission: itemsadder.iron_plate
+      enabled: true
+      pattern:
+      - XXX
+      - HII
+      - XXX
+      ingredients:
+        I: IRON_INGOT
+        H: mjy:hammer
+      result:
+        item: itemsadder:iron_plate
+        amount: 1
+      return_items:
+        decrement_durability:
+          hammer:
+            item: mjy:hammer
+            amount: 1
     # EGGS:
       # permission: itemsadder.eggs_nest
       # enabled: true
@@ -346,18 +358,24 @@ recipes:
       # result:
         # item: itemsadder:carton_box
         # amount: 1
-    # cut_spruce_log:
-      # permission: itemsadder.cut_spruce_log
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - XWX
-      # - XWX
-      # ingredients:
-        # W: SPRUCE_LOG
-      # result:
-        # item: itemsadder:cut_spruce_log
-        # amount: 6
+    cut_spruce_log:
+      permission: itemsadder.cut_spruce_log
+      enabled: true
+      pattern:
+      - XAX
+      - XWX
+      - XWX
+      ingredients:
+        A: mjy:axe
+        W: SPRUCE_LOG
+      result:
+        item: itemsadder:cut_spruce_log
+        amount: 4
+      return_items:
+        decrement_durability:
+          axe:
+            item: mjy:axe
+            amount: 1
     # shotgun_cartridge:
       # permission: itemsadder.shotgun_cartridge
       # enabled: true
@@ -410,7 +428,7 @@ items:
     display_name: 面粉
     permission: itemsadder.player
     resource:
-      material: STICK
+      material: PAPER
       generate: true
       textures:
       - item/flour.png
@@ -418,7 +436,7 @@ items:
     display_name: 面团
     permission: itemsadder.player
     resource:
-      material: STICK
+      material: PAPER
       generate: true
       textures:
       - item/dough.png
@@ -454,15 +472,15 @@ items:
     display_name: 塑料
     permission: itemsadder.player
     resource:
-      material: STICK
+      material: PAPER
       generate: true
       textures:
       - item/plastic.png
   plastic_plate:
-    display_name: Plastic plate
-    permission: plastic_plate
+    display_name: 塑料板
+    permission: itemsadder.player
     resource:
-      material: STICK
+      material: PAPER
       generate: true
       textures:
       - item/plastic_plate.png
@@ -642,10 +660,10 @@ items:
       textures:
       - item/energy_capsule.png
   iron_plate:
-    display_name: Iron Plate
-    permission: iron_plate
+    display_name: 铁板
+    permission: itemsadder.player
     resource:
-      material: STICK
+      material: IRON_INGOT
       generate: true
       textures:
       - item/iron_plate.png
@@ -927,7 +945,7 @@ items:
       generate: false
       model_path: item/carton_box
   cut_spruce_log:
-    display_name: Cut Spruce Log
+    display_name: 云杉木条
     permission: cut_spruce_log
     resource:
       material: STICK

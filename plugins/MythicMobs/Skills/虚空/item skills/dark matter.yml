@@ -1,0 +1,12 @@
+eatdarkmatter:
+  Cooldown: 0.1
+  Skills:
+  - heal{amount=10;overheal=false} @Self
+  - feed{amount=4} @self
+  - potion{t=BLINDNESS;d=25;l=0;force=true} @self
+  - potion{t=WITHER;d=15;l=0;force=true} @self
+  - consumeHeldItem{amount=1} @trigger
+  - effect:particles{p=witchMagic;amount=12;speed=1;hs=0.7;vs=0.8;y=1} @self
+  - effect:sound{s=entity.evocation_illager.cast_spell;v=0.6;p=2} @Self
+  - effect:sound{s=entity.generic.eat;v=1;p=0.7} @Self
+  - effect:particlering{particle=damageindicator;radius=0.4;points=8;amount=1;hS=0;vS=0;y=0.3} @self

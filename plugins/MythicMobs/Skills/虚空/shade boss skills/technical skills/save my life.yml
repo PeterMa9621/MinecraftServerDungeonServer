@@ -1,0 +1,4 @@
+savemylife:
+  Skills:
+  - effect:sound{s=entity.horse.saddle;v=1;p=1.3} @self
+  - setstance{stance=prered} @self

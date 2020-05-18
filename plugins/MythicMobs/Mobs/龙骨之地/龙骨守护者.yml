@@ -1,0 +1,32 @@
+龙骨守护者:
+  Type: PIG_ZOMBIE
+  Display: '&4龙骨守护者'
+  Health: 1000
+  Damage: 50
+  BossBar:
+    Enabled: true
+    Title: '&4龙骨守护者'
+    Range: 20
+    Color: RED
+    Style: SOLID
+  Faction: longgu
+  Equipment:
+   - PIG:4
+   - IRON_SWORD HAND RIGHT
+   - SHIELD OFFHAND
+  Options:
+    MovementSpeed: 0.4
+    PreventOtherDrops: true
+  Skills:
+   - skill{s=PigHurt} @self 0.1
+   - skill{s=PigRingFire} 0.2
+   - effect:lightning{repeat=3,repeatInterval=2} @self ~onSpawn 1
+   - effect:flames{hS=30;vS=30} @self ~onTimer:10
+########################################################################
+###                                                                    #
+###   BOSS PACK                                                        #
+###                                                                    #
+###   Created by AliAlibekov                                           #
+###                                                                    #
+###                                                                    #
+########################################################################  

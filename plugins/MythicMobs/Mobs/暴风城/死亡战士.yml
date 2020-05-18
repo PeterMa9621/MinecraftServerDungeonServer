@@ -1,21 +1,23 @@
 暴风城死亡战士:
   Mobtype: Stray
   Display: '&3&l暴风城&c&l死亡战士'
-  Health: 500
-  Damage: 12
+  Health: 400
+  Damage: 60
   Riding: 死亡战士坐骑
+  Faction: baofengcheng
   Modules:
     ThreatTable: true
   AITargetSelectors:
-  - 0 clear
-  - 1 hurtbytarget
-  - 2 specificfaction Target
-  - 3 players
-  - 4 specificfaction Townington
-  - 5 specificfaction MA
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
   Skills:
   - potion{t=WEAKNESS;d=200;l=0} @Target ~onAttack 1
-  - sendactionmessage{m="<mob.name><&sp>&6<mob.hp>&8/&6<mob.mhp>"} @Trigger ~onDamaged
+  - summon{m=暴风战士;a=1;r=5} @self ~onDamaged 0.05
+  - summon{m=暴风战士;a=1;r=5} @self ~onSpawn 1
+  - summon{m=xuerensheshou3;a=2;r=5} @self ~onSpawn 1
+  - remove @MIR{r=5;t=死亡战士坐骑} ~onDeath
+  #- sendactionmessage{m="<mob.name><&sp>&6<mob.hp>&8/&6<mob.mhp>"} @Trigger ~onDamaged
   Equipment:
   - tiejian:0
   - tie4:4
@@ -28,19 +30,21 @@
     AlwaysShowName: true
     PreventMobKillDrops: true
     PreventItemPickup: true
+    PreventSunburn: true
     KnockbackResistance: 0.1
     MovementSpeed: 0.3
     PreventOtherDrops: true
 死亡战士坐骑:
   Mobtype: POLAR_BEAR
   Display: '&3&l死亡战士坐骑'
-  Health: 100
-  Damage: 7
+  Faction: baofengcheng
+  Health: 300
+  Damage: 30
   Modules:
     ThreatTable: true
   AITargetSelectors:
-  - 0 clear
-  - 1 hurtbytarget
+  - 0 ThreatHolder
+  - 1 attacker
   - 2 players
   Options:
     FollowRange: 40

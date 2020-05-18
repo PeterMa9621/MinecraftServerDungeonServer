@@ -1,0 +1,52 @@
+Mummy_Husk:
+    Type: HUSK
+    Display: '&6&k.Ж &6۞Ancient Mummy۞ &6&kЖ.'
+    Health: 500 
+    Damage: 6
+    Armor: 20
+    Equipment: 
+        - Mummy_H HEAD 
+        - Mummy_Sword HAND
+    BossBar:
+        Enabled: true
+        Title: '&6۞Ancient Mummy۞'
+        Range: 128
+        Color: YELLOW
+        Style: SOLID
+        Createfog: true
+    Skills: 
+        - equip{i=Mummy_H:4} ~onSpawn
+        - sound{s=entity.wither.spawn;v=0.7;p=0.2} @self ~onSpawn
+        - sound{s=entity.wither.hurt;v=0.7;p=0.2} @self ~onDamaged
+        - sound{s=entity.wither.death;v=0.7;p=0.2} @self ~onDeath 
+        - sound{s=entity.husk.ambient;v=0.7;p=0.6} @self ~onTimer:180
+        - equip{i=Mummy_Sword:0} ~onSpawn
+        - ignite{ticks=100} @target ~onAttack  0.25
+        - effect:ender @PlayersInRadius{r=20} =50% 0.1
+        - skill{s=MummyFin} @self =15% 0.8
+        - threat{amount=550} @NearestPlayer ~onSpawn
+    KillMessage:
+        - '<target.name> &4was turned into a mummy'
+        - '<target.name> &4sent to the underworld of Egypt'
+    AIGoalSelectors:
+        - 0 clear
+        - 1 players
+        - 2 wolves
+        - 3 meleeattack
+        - 4 opendoors
+        - 5 closedoors
+        - 6 float 
+        - 7 lookatplayers
+    AITargetSelectors:
+        - 1 player
+        - 2 attacker
+    Modules:
+        ThreatTable: true 
+    Options:
+        AlwaysShowName: true
+        PreventOtherDrops: true
+        MovementSpeed: 0.35
+        FollowRange: 40
+        MaxCombatDistance: 20 
+        Despawn: false
+        Silent: true

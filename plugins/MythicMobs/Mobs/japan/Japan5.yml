@@ -1,0 +1,23 @@
+﻿JapanMobs5:
+  Type: ZOMBIE
+  Display: '垢嘗'
+  Health: 100
+  Damage: 10
+  Armor: 0
+  Faction: Aka
+  Equipment:
+  - JapanItem5:4
+  - Leather_chestplate:3
+  - air:2
+  - gold_boots:1
+  - stick:0
+  Options:
+    MovementSpeed: 0.5
+  Skills:
+   - effect:sound{s=block.fire.extinguish;v=1;p=0.5} @PIR{r=6}
+   - effect:particles{p=explode;a=8;vs=0.5;hs=0.5;s=0;y=1;repeat=5;repeatInterval=20} @PIR{r=6}
+   - effect:particles{p=drip_water;a=10;vs=0.5;hs=0.5;s=0;y=1;repeat=5;repeatInterval=20} @PIR{r=6}
+   - potion{t=SLOW;d=120;l=6} @PIR{r=6}
+   - damage{a=10;pkb=true} @PIR{r=6}
+   - throw{velocity=5;velocityY=5} @PIR{r=10}
+   - damage{a=10;i=false} @PIR{r=10}

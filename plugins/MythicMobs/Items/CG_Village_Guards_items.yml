@@ -1,0 +1,30 @@
+CG_GuardMageHelmet1:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 95,45,130
+CG_GuardMageHelmet2:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 225,225,255
+CG_GuardMageHelmet3:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 55,25,255
+CG_GuardMageChestplate:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 95,45,130
+CG_GuardMageLeggings:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 95,45,130
+CG_GuardMageBoots:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 95,45,130

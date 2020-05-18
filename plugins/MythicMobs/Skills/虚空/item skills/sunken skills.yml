@@ -1,0 +1,27 @@
+reverseexorcism:
+  Cooldown: 4
+  Conditions:
+  - crouching true
+  Skills:
+  - effect:sound{s=entity.elder_guardian.curse;v=1;p=1.7} @self
+  - effect:sound{s=entity.illusion_illager.mirror_move;v=1;p=0.7} @self
+  - effect:particleline{particle=dragonbreath;amount=1;fromOrigin=true;yStartOffset=2;distanceBetween=0.1} @TargetLocation
+  - effect:particleline{particle=endRod;amount=1;fromOrigin=true;yStartOffset=0;distanceBetween=0.1} @TargetLocation
+  - effect:particles{p=dragonbreath;amount=20;speed=1;hs=0.5;vs=0.5;y=0.4} @target
+  - effect:particles{p=endRod;amount=20;speed=1;hs=0.5;vs=0.5;y=0.4} @target
+  - pull{velocity=8} @target
+
+vaderetro:
+  Cooldown: 1
+  Conditions:
+  - onground true
+  Skills:
+  - effect:sound{s=entity.vex.death;v=1;p=0.7} @self
+  - effect:sound{s=entity.blaze.death;v=1;p=0.7} @self
+  - effect:sound{s=entity.enderdragon.hurt;v=1;p=1.7} @self
+  - effect:particlering{particle=dragonbreath;radius=1;points=24;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=dragonbreath;radius=2;points=32;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=dragonbreath;radius=3;points=48;amount=1;hS=0;vS=0;y=0.1} @self
+  - throw{velocity=6;velocityY=6} @EIR{r=3}
+  - damage{a=12;i=true} @EIR{r=3}
+  - jump{v=1.2}

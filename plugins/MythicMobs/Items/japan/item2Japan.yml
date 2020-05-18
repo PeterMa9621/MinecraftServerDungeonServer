@@ -1,0 +1,9 @@
+JapanItemNew:
+  Id: iron_axe
+  Data: 0
+  Display: '&3鬼クラブ-2'
+  Enchantments:
+  - DAMAGE_ALL:1
+  - FIRE_ASPECT:5
+  Lore:
+   - '&8世界で最も恐ろしい武器'

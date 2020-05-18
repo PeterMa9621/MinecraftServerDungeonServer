@@ -1,0 +1,21 @@
+龙骨魂魄:
+  Type: Zombie
+  Display: '&4龙骨魂魄'
+  Health: 50
+  Damage: 75
+  Faction: longgu
+  Equipment:
+   - MINIPIG:4
+  Options:
+   MovementSpeed: 0.4
+  Skills:
+    - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+    - effect:sound{s=entity.phantom.hurt;v=1;p=0} @self ~onDamaged
+########################################################################
+###                                                                    #
+###   BOSS PACK                                                        #
+###                                                                    #
+###   Created by AliAlibekov                                           #
+###                                                                    #
+###                                                                    #
+########################################################################  

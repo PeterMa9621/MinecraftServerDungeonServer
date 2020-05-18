@@ -1,0 +1,15 @@
+﻿JapanMobs2:
+  Type: VEX
+  Display: '網切'
+  Health: 100
+  Damage: 10
+  Armor: 0
+  Faction: Mobs2
+  Equipment:
+  - JapanItem8:4
+  - air:5
+  Skills:
+    - sound{s=entity.drowned.hurt} @self
+    - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+    - effect:flames @self ~onTimer:5
+    - pull{velocity=10} @target
