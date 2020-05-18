@@ -101,7 +101,7 @@ recipes:
 items:
   rongyan_sword:
     display_name: '&2熔岩剑'
-    permission: rongyan_sword
+    permission: itemsadder.player
     lore:
     - '&6曾浸泡在熔岩里的剑'
     resource:
@@ -120,7 +120,7 @@ items:
     level: 10
   tiechi_sword:
     display_name: '&2铁齿剑'
-    permission: tiechi_sword
+    permission: itemsadder.player
     lore:
     - '&6精铁打练制成的剑'
     - '&6比普通铁剑更耐用且更轻'
@@ -139,7 +139,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   wushi_sword:
     display_name: '&9武士剑'
-    permission: wushi_sword
+    permission: itemsadder.player
     lore:
     - '&6每一位武士必备的武器'
     - '&6伤害与速度兼备的上好兵器'
@@ -158,7 +158,7 @@ items:
     level: 7
   shilian_sword:
     display_name: '&8试练剑'
-    permission: shilian_sword
+    permission: itemsadder.player
     lore:
     - '&8这是一把普通的剑'
     - '&8但却拥有着很高的耐久'
@@ -177,7 +177,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   tiaozhanzhe_sword:
     display_name: '&5挑战者之剑'
-    permission: tiaozhanzhe_sword
+    permission: itemsadder.player
     lore:
     - '&6优秀的挑战者的专用剑'
     resource:
@@ -194,7 +194,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   tiaozhanzhe_axe:
     display_name: '&5挑战者之斧'
-    permission: tiaozhanzhe_axe
+    permission: itemsadder.player
     lore:
     - '&6优秀的挑战者的专用斧'
     resource:
@@ -212,7 +212,7 @@ items:
     level: 9
   riyue_sword:
     display_name: '&5日月剑'
-    permission: riyue_sword
+    permission: itemsadder.player
     lore:
     - '&6汇聚日月之力'
     - '&6并由最好的铁匠铸造而成'
@@ -231,7 +231,7 @@ items:
     level: 15
   xinglun_sword:
     display_name: '&5星轮剑'
-    permission: xinglun_sword
+    permission: itemsadder.player
     lore:
     - '&6一颗吸收星星力量的转子'
     - '&6为这把宝剑提供惊人的力量'
@@ -250,7 +250,7 @@ items:
     level: 15
   yeren_sword:
     display_name: '&8夜刃'
-    permission: yeren_sword
+    permission: itemsadder.player
     lore:
     - '&8宁静的黑夜中'
     - '&8充满黑暗的气息'
@@ -269,7 +269,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   anjin_sword:
     display_name: '&5暗金'
-    permission: anjin_sword
+    permission: itemsadder.player
     lore:
     - '&6由神秘的暗金术'
     - '&6铸造而成'
@@ -289,7 +289,7 @@ items:
     level: 8
   gujian_sword:
     display_name: '&9骨剑'
-    permission: gujian_sword
+    permission: itemsadder.player
     lore:
     - '&6这是一个神奇的骨头'
     - '&6充满着黑暗的气息'
@@ -309,7 +309,7 @@ items:
     level: 4
   shiyue_axe:
     display_name: '&c蚀月斧'
-    permission: shiyue_axe
+    permission: itemsadder.player
     lore:
     - '&8斧头呈暗红'
     - '&8有&c蚀月&8之力'
@@ -328,7 +328,7 @@ items:
     level: 20
   riyue_axe:
     display_name: '&c日月斧'
-    permission: riyue_axe
+    permission: itemsadder.player
     lore:
     - '&8汲天地之精华'
     - '&8采&c日月&8之灵气'
@@ -347,7 +347,7 @@ items:
     level: 20
   tulong_sword:
     display_name: '&c屠龙刀'
-    permission: tulong_sword
+    permission: itemsadder.player
     lore:
     - '&6刀柄上镶着四颗龙齿'
     - '&6刀刃上雕刻着符咒'
@@ -367,7 +367,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   tianwen_sword:
     display_name: '&c天问'
-    permission: tianwen_sword
+    permission: itemsadder.player
     lore:
     - '&8被人类所&c惧'
     - '&8被众神疏离'
@@ -386,7 +386,7 @@ items:
     level: 17
   tongkuzhe_sword:
     display_name: '&c恸哭者'
-    permission: tongkuzhe_sword
+    permission: itemsadder.player
     lore:
     - '&8死神之镰'
     - '&8所到之处即带来&c死亡'
@@ -405,7 +405,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   yitian_sword:
     display_name: '&c倚天剑'
-    permission: yitian_sword
+    permission: itemsadder.player
     lore:
     - '&8隐隐发出一层青气'
     - '&8剑鞘镶着&c倚天&8两个字'
@@ -423,7 +423,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   fenji_sword:
     display_name: '&c焚寂剑'
-    permission: fenji_sword
+    permission: itemsadder.player
     lore:
     - '&8有着凶剑魔剑之称的它'
     - '&8内含足以&c焚毁&8一切的邪火之力'
@@ -443,7 +443,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   longlin_sword:
     display_name: '&c龙鳞'
-    permission: longlin_sword
+    permission: itemsadder.player
     lore:
     - '&8状似龙文'
     - '&8名曰&5龙鳞'
@@ -462,7 +462,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   shuihuo_sword:
     display_name: '&c水火棍'
-    permission: shuihuo_sword
+    permission: itemsadder.player
     lore:
     - '&8形如短棍'
     - '&8一半红一半青'
@@ -481,7 +481,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   fenshixieyan_stick:
     display_name: '&8焚世&c邪焰'
-    permission: fenshixieyan_stick
+    permission: itemsadder.player
     enchants:
     - FIRE_ASPECT:2
     lore:
@@ -501,7 +501,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   mietianxieyan_stick:
     display_name: '&c灭天&8邪焰'
-    permission: mietianxieyan_stick
+    permission: itemsadder.player
     enchants:
     - FIRE_ASPECT:2
     lore:
@@ -521,7 +521,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   guihuo_sword:
     display_name: '&8鬼&c火'
-    permission: guihuo_sword
+    permission: itemsadder.player
     lore:
     - '&c地狱烈火练铸而成'
     - '&c拥焚天之力'
@@ -539,7 +539,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   leidian_axe:
     display_name: '&9雷&5电'
-    permission: leidian_axe
+    permission: itemsadder.player
     lore:
     - '&c地狱烈火练铸而成'
     - '&c拥焚天之力'
@@ -557,7 +557,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   zhulong_sword:
     display_name: '&6烛龙'
-    permission: zhulong_sword
+    permission: itemsadder.player
     lore:
     - '&c锺山之神，名曰烛阴'
     resource:
@@ -574,7 +574,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   moxiang_sword:
     display_name: '&6魔像'
-    permission: moxiang_sword
+    permission: itemsadder.player
     lore:
     - '&c先由巫术灌注黏土制成人偶'
     - '&c后经改造铸成此剑'
@@ -592,7 +592,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   fuzhou_sword:
     display_name: '&6符咒'
-    permission: fuzhou_sword
+    permission: itemsadder.player
     lore:
     - '&c剑身上雕刻的符咒'
     - '&c能有效震慑鬼怪'
@@ -610,7 +610,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   diaolingwang_sword:
     display_name: '&d凋零王的长剑'
-    permission: diaolingwang_sword
+    permission: itemsadder.player
     lore:
     - '&6凋零王手中持有的剑，'
     - '&6持有它代表着拥有比凋零王'
@@ -630,7 +630,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   lieyan_sword:
     display_name: '&c烈焰'
-    permission: lieyan_sword
+    permission: itemsadder.player
     lore:
     - '&6据说这曾是烈焰王'
     - '&6身上的一根骨头'
@@ -651,7 +651,7 @@ items:
     level: 12
   shouhuzhe_sword:
     display_name: '&3守护者之剑'
-    permission: shouhuzhe_sword
+    permission: itemsadder.player
     resource:
       material: DIAMOND_SWORD
       generate: true
@@ -668,7 +668,7 @@ items:
     level: 10
   test_sword:
     display_name: '&3未知之剑'
-    permission: test_sword
+    permission: itemsadder.player
     resource:
       material: DIAMOND_SWORD
       generate: false
@@ -683,7 +683,7 @@ items:
       anvil_repair_item: mjy:zishuijing
   test2_sword:
     display_name: '&3未知之剑'
-    permission: test2_sword
+    permission: itemsadder.player
     resource:
       material: DIAMOND_SWORD
       generate: false

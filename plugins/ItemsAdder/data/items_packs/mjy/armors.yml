@@ -167,7 +167,7 @@ recipes:
 items:
   rongyan_head:
     display_name: 熔岩头盔
-    permission: rongyan
+    permission: itemsadder.player
     resource:
       generate: true
     durability:
@@ -185,7 +185,7 @@ items:
     level: 10
   rongyan_chest:
     display_name: 熔岩护甲
-    permission: rongyan
+    permission: itemsadder.player
     resource:
       generate: true
     durability:
@@ -203,7 +203,7 @@ items:
     level: 10
   rongyan_leg:
     display_name: 熔岩护腿
-    permission: rongyan
+    permission: itemsadder.player
     resource:
       generate: true
     durability:
@@ -221,7 +221,7 @@ items:
     level: 10
   rongyan_feet:
     display_name: 熔岩靴子
-    permission: rongyan
+    permission: itemsadder.player
     resource:
       generate: true
     durability:
@@ -239,7 +239,7 @@ items:
     level: 10
   wushi_head:
     display_name: 武士头盔
-    permission: rongyan
+    permission: itemsadder.player
     resource:
       generate: true
     durability:
@@ -256,7 +256,7 @@ items:
     level: 13
   wushi_chest:
     display_name: 武士护甲
-    permission: rongyan
+    permission: itemsadder.player
     resource:
       generate: true
     durability:
@@ -273,7 +273,7 @@ items:
     level: 13
   wushi_leg:
     display_name: 武士护腿
-    permission: rongyan
+    permission: itemsadder.player
     resource:
       generate: true
     durability:
@@ -290,7 +290,7 @@ items:
     level: 13
   wushi_feet:
     display_name: 武士靴子
-    permission: rongyan
+    permission: itemsadder.player
     resource:
       generate: true
     durability:
@@ -307,7 +307,7 @@ items:
     level: 13
   diaolingwang_head:
     display_name: '&d凋零王的皇冠'
-    permission: diaolingwang
+    permission: itemsadder.player
     lore:
     - '&6稀有的凋零王皇冠'
     - '&6穿上它会有不可思议的效果!'
@@ -328,7 +328,7 @@ items:
         maxHealth: 3
   diaolingwang_chest:
     display_name: '&d凋零王的护甲'
-    permission: diaolingwang
+    permission: itemsadder.player
     lore:
     - '&6稀有的凋零王护甲'
     - '&6穿上它会有不可思议的效果!'
@@ -349,7 +349,7 @@ items:
         maxHealth: 7
   diaolingwang_leg:
     display_name: '&d凋零王的护腿'
-    permission: diaolingwang
+    permission: itemsadder.player
     lore:
     - '&6稀有的凋零王护腿'
     - '&6穿上它会有不可思议的效果!'
@@ -370,7 +370,7 @@ items:
         maxHealth: 3
   diaolingwang_feet:
     display_name: '&d凋零王的战靴'
-    permission: diaolingwang
+    permission: itemsadder.player
     lore:
     - '&6稀有的凋零王战靴'
     - '&6穿上它会有不可思议的效果!'
@@ -391,7 +391,7 @@ items:
         maxHealth: 3
   xuemo_head:
     display_name: '&e血魔(头盔)'
-    permission: xuemo
+    permission: itemsadder.player
     lore:
     - '&6这是一件被鲜血浸渍的头盔'
     - '&d传说中的血魔曾拥有过它！'
@@ -412,7 +412,7 @@ items:
     level: 17
   xuemo_chest:
     display_name: '&e血魔(盔甲)'
-    permission: xuemo
+    permission: itemsadder.player
     lore:
     - '&6这是一件被鲜血浸渍的盔甲'
     - '&d传说中的血魔曾拥有过它！'
@@ -433,7 +433,7 @@ items:
     level: 17
   xuemo_leg:
     display_name: '&e血魔(护腿)'
-    permission: xuemo
+    permission: itemsadder.player
     lore:
     - '&6这是一件被鲜血浸渍的护腿'
     - '&d传说中的血魔曾拥有过它！'
@@ -454,7 +454,7 @@ items:
     level: 17
   xuemo_feet:
     display_name: '&e血魔(战靴)'
-    permission: xuemo
+    permission: itemsadder.player
     lore:
     - '&6这是一件被鲜血浸渍的战靴'
     - '&d传说中的血魔曾拥有过它！'
@@ -475,7 +475,7 @@ items:
     level: 17
   shilian_head:
     display_name: '&8试练头盔'
-    permission: shilian
+    permission: itemsadder.player
     lore:
     - '&8这是一件普通的头盔'
     - '&8但却拥有着很高的耐久'
@@ -494,7 +494,7 @@ items:
         armor: 2
   shilian_chest:
     display_name: '&8试练胸甲'
-    permission: shilian
+    permission: itemsadder.player
     lore:
     - '&8这是一件普通的胸甲'
     - '&8但却拥有着很高的耐久'
@@ -513,7 +513,7 @@ items:
         armor: 6
   shilian_leg:
     display_name: '&8试练护腿'
-    permission: shilian
+    permission: itemsadder.player
     lore:
     - '&8这是一件普通的护腿'
     - '&8但却拥有着很高的耐久'
@@ -532,7 +532,7 @@ items:
         armor: 6
   shilian_feet:
     display_name: '&8试练战靴'
-    permission: shilian
+    permission: itemsadder.player
     lore:
     - '&8这是一件普通的战靴'
     - '&8但却拥有着很高的耐久'
@@ -551,7 +551,7 @@ items:
         armor: 2
   bailian_head:
     display_name: '&3百炼头盔'
-    permission: bailian
+    permission: itemsadder.player
     lore:
     - '&7黝黑的外表可以'
     - '&7想象他有多么坚固'
@@ -571,7 +571,7 @@ items:
         armor: 3
   bailian_chest:
     display_name: '&3百炼铠甲'
-    permission: bailian
+    permission: itemsadder.player
     lore:
     - '&7黝黑的外表可以'
     - '&7想象他有多么坚固'
@@ -591,7 +591,7 @@ items:
         armor: 7
   bailian_leg:
     display_name: '&3百炼护腿'
-    permission: bailian
+    permission: itemsadder.player
     lore:
     - '&7黝黑的外表可以'
     - '&7想象他有多么坚固'
@@ -611,7 +611,7 @@ items:
         armor: 6
   bailian_feet:
     display_name: '&3百炼战靴'
-    permission: bailian
+    permission: itemsadder.player
     lore:
     - '&7黝黑的外表可以'
     - '&7想象他有多么坚固'
@@ -631,7 +631,7 @@ items:
         armor: 3
   putongpaoxie_feet:
     display_name: '&3普通跑鞋'
-    permission: putongpaoxie_feet
+    permission: itemsadder.player
     lore:
     - '&8这件鞋子很轻巧'
     - '&8穿上它可以跑得更快'
@@ -650,7 +650,7 @@ items:
         movementSpeed: 0.01
   gaojipaoxie_feet:
     display_name: '&5高级跑鞋'
-    permission: gaojipaoxie_feet
+    permission: itemsadder.player
     lore:
     - '&8特殊材料制成的跑鞋'
     - '&8比普通的跑鞋还要快'
@@ -669,7 +669,7 @@ items:
         movementSpeed: 0.02
   shouhuzhe_head:
     display_name: '&3守护者头盔'
-    permission: shouhuzhe
+    permission: itemsadder.player
     lore:
     - '&6守护者的魂魄承载'
     - '&6起它永恒的使命'
@@ -690,7 +690,7 @@ items:
     level: 10
   shouhuzhe_chest:
     display_name: '&3守护者铠甲'
-    permission: shouhuzhe
+    permission: itemsadder.player
     lore:
     - '&6守护者的魂魄承载'
     - '&6起它永恒的使命'
@@ -711,7 +711,7 @@ items:
     level: 10
   shouhuzhe_legs:
     display_name: '&3守护者护腿'
-    permission: shouhuzhe
+    permission: itemsadder.player
     lore:
     - '&6守护者的魂魄承载'
     - '&6起它永恒的使命'
@@ -732,7 +732,7 @@ items:
     level: 10
   shouhuzhe_boots:
     display_name: '&3守护者战靴'
-    permission: shouhuzhe
+    permission: itemsadder.player
     lore:
     - '&6守护者的魂魄承载'
     - '&6起它永恒的使命'
@@ -753,7 +753,7 @@ items:
     level: 10
   yongye_head:
     display_name: '&8永夜(头盔)'
-    permission: yongye
+    permission: itemsadder.player
     lore:
     - '&8这是黑暗的力量'
     - '&8正如它的名字'
@@ -773,7 +773,7 @@ items:
         maxHealth: 1
   yongye_chest:
     display_name: '&8永夜(铠甲)'
-    permission: yongye
+    permission: itemsadder.player
     lore:
     - '&8这是黑暗的力量'
     - '&8正如它的名字'
@@ -793,7 +793,7 @@ items:
         maxHealth: 4
   yongye_legs:
     display_name: '&8永夜(护腿)'
-    permission: yongye
+    permission: itemsadder.player
     lore:
     - '&8这是黑暗的力量'
     - '&8正如它的名字'
@@ -813,7 +813,7 @@ items:
         maxHealth: 2
   yongye_boots:
     display_name: '&8永夜(战靴)'
-    permission: yongye
+    permission: itemsadder.player
     lore:
     - '&8这是黑暗的力量'
     - '&8正如它的名字'
@@ -833,7 +833,7 @@ items:
         maxHealth: 1
   anjin_head:
     display_name: '&3暗金头盔'
-    permission: anjin
+    permission: itemsadder.player
     lore:
     - '&8暗金术士遗留'
     - '&8下来的宝物'
@@ -854,7 +854,7 @@ items:
     level: 8
   anjin_chest:
     display_name: '&3暗金铠甲'
-    permission: anjin
+    permission: itemsadder.player
     lore:
     - '&8暗金术士遗留'
     - '&8下来的宝物'
@@ -876,7 +876,7 @@ items:
     level: 8
   anjin_legs:
     display_name: '&3暗金护腿'
-    permission: anjin
+    permission: itemsadder.player
     lore:
     - '&8暗金术士遗留'
     - '&8下来的宝物'
@@ -897,7 +897,7 @@ items:
     level: 8
   anjin_boots:
     display_name: '&3暗金战靴'
-    permission: anjin
+    permission: itemsadder.player
     lore:
     - '&8暗金术士遗留'
     - '&8下来的宝物'
@@ -918,7 +918,7 @@ items:
     level: 8
   liusha_head:
     display_name: '&e流沙头盔'
-    permission: liusha_head
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     resource:
@@ -938,7 +938,7 @@ items:
     level: 20
   liusha_chest:
     display_name: '&e流沙盔甲'
-    permission: liusha_chest
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     resource:
@@ -958,7 +958,7 @@ items:
     level: 20
   liusha_leg:
     display_name: '&e流沙护腿'
-    permission: liusha_leg
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     resource:
@@ -978,7 +978,7 @@ items:
     level: 20
   liusha_feet:
     display_name: '&e流沙战靴'
-    permission: liusha_feet
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     resource:
@@ -998,7 +998,7 @@ items:
     level: 20
   siling_head:
     display_name: '&e死灵头盔'
-    permission: siling_head
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     resource:
@@ -1018,7 +1018,7 @@ items:
     level: 22
   siling_chest:
     display_name: '&e死灵盔甲'
-    permission: siling_chest
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     resource:
@@ -1038,7 +1038,7 @@ items:
     level: 22
   siling_leg:
     display_name: '&e死灵护腿'
-    permission: siling_leg
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     resource:
@@ -1058,7 +1058,7 @@ items:
     level: 22
   siling_feet:
     display_name: '&e死灵战靴'
-    permission: siling_feet
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     resource:
@@ -1078,7 +1078,7 @@ items:
     level: 22
   baofeng_head:
     display_name: '&e暴风头盔'
-    permission: baofeng_head
+    permission: itemsadder.player
     lore:
     - '&6暴风城死亡战士拥有的头盔'
     - '&6很强大但被诅咒了'
@@ -1099,7 +1099,7 @@ items:
     level: 25
   baofeng_chest:
     display_name: '&e暴风盔甲'
-    permission: baofeng_chest
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     - '&6很强大但被诅咒了'
@@ -1120,7 +1120,7 @@ items:
     level: 25
   baofeng_leg:
     display_name: '&e暴风护腿'
-    permission: baofeng_leg
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     - '&6很强大但被诅咒了'
@@ -1141,7 +1141,7 @@ items:
     level: 25
   baofeng_feet:
     display_name: '&e暴风战靴'
-    permission: baofeng_feet
+    permission: itemsadder.player
     lore:
     - '&6死灵法师遗留下来的宝贝'
     - '&6很强大但被诅咒了'
@@ -1162,7 +1162,7 @@ items:
     level: 25
   longgu_head:
     display_name: '&e龙骨头盔'
-    permission: longgu_head
+    permission: itemsadder.player
     lore:
     - '&6用龙骨制作的头盔'
     - '&6拥有增加攻击的特效'
@@ -1184,7 +1184,7 @@ items:
     level: 27
   longgu_chest:
     display_name: '&e龙骨盔甲'
-    permission: longgu_chest
+    permission: itemsadder.player
     lore:
     - '&6用龙骨制作的头盔'
     - '&6拥有增加攻击的特效'
@@ -1206,7 +1206,7 @@ items:
     level: 27
   longgu_leg:
     display_name: '&e龙骨护腿'
-    permission: longgu_leg
+    permission: itemsadder.player
     lore:
     - '&6用龙骨制作的头盔'
     - '&6拥有增加攻击的特效'
@@ -1228,7 +1228,7 @@ items:
     level: 27
   longgu_feet:
     display_name: '&e龙骨战靴'
-    permission: longgu_feet
+    permission: itemsadder.player
     lore:
     - '&6用龙骨制作的头盔'
     - '&6拥有增加攻击的特效'
