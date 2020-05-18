@@ -853,7 +853,7 @@ categories:
       - "itemsadder:plastic"
       - "itemsadder:dough"
       - "itemsadder:flour"
-  custom_weapon:
+  custom_weapon_item:
     enabled: true
     icon: "mjy:zishuijing"
     name: '&5武器系统物品'
@@ -863,6 +863,13 @@ categories:
       - "mjy:huangshuijing"
       - "mjy:zishuijing_ore"
       - "mjy:huangshuijing_ore"
+      
+  custom_weapon:
+    enabled: true
+    icon: "mjy:rongyan_sword"
+    name: '&5武器'
+    permission: 'ia.menu.player'
+    items:
       - "mjy:rongyan_sword"
       - "mjy:tiechi_sword"
       - "mjy:wushi_sword"
@@ -902,3 +909,64 @@ categories:
     items:
       - "mjy:hammer"
       - "mjy:axe"
+      
+  custom_armor:
+    enabled: true
+    icon: "mjy:rongyan_head"
+    name: '&5装备'
+    permission: 'ia.menu.player'
+    items:
+      - "mjy:rongyan_head"
+      - "mjy:rongyan_chest"
+      - "mjy:rongyan_leg"
+      - "mjy:rongyan_feet"
+      - "mjy:wushi_head"
+      - "mjy:wushi_chest"
+      - "mjy:wushi_leg"
+      - "mjy:wushi_feet"
+      - "mjy:diaolingwang_head"
+      - "mjy:diaolingwang_chest"
+      - "mjy:diaolingwang_leg"
+      - "mjy:diaolingwang_feet"
+      - "mjy:xuemo_head"
+      - "mjy:xuemo_chest"
+      - "mjy:xuemo_leg"
+      - "mjy:xuemo_feet"
+      - "mjy:shilian_head"
+      - "mjy:shilian_chest"
+      - "mjy:shilian_leg"
+      - "mjy:shilian_feet"
+      - "mjy:bailian_head"
+      - "mjy:bailian_chest"
+      - "mjy:bailian_leg"
+      - "mjy:bailian_feet"
+      - "mjy:putongpaoxie_feet"
+      - "mjy:gaojipaoxie_feet"
+      - "mjy:shouhuzhe_head"
+      - "mjy:shouhuzhe_chest"
+      - "mjy:shouhuzhe_legs"
+      - "mjy:shouhuzhe_boots"
+      - "mjy:yongye_head"
+      - "mjy:yongye_chest"
+      - "mjy:yongye_legs"
+      - "mjy:yongye_boots"
+      - "mjy:anjin_head"
+      - "mjy:anjin_chest"
+      - "mjy:anjin_legs"
+      - "mjy:anjin_boots"
+      - "mjy:liusha_head"
+      - "mjy:liusha_chest"
+      - "mjy:liusha_leg"
+      - "mjy:liusha_feet"
+      - "mjy:siling_head"
+      - "mjy:siling_chest"
+      - "mjy:siling_leg"
+      - "mjy:siling_feet"
+      - "mjy:baofeng_head"
+      - "mjy:baofeng_chest"
+      - "mjy:baofeng_leg"
+      - "mjy:baofeng_feet"
+      - "mjy:longgu_head"
+      - "mjy:longgu_chest"
+      - "mjy:longgu_leg"
+      - "mjy:longgu_feet"
