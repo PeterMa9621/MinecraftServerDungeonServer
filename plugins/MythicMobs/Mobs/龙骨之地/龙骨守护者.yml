@@ -17,6 +17,7 @@
   Options:
     MovementSpeed: 0.4
     PreventOtherDrops: true
+    FollowRange: 64
   Skills:
    - skill{s=PigHurt} @self 0.1
    - skill{s=PigRingFire} 0.2

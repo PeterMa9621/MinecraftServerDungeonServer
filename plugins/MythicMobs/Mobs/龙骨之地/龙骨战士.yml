@@ -9,8 +9,9 @@
   Options:
     AlwaysShowName: true
     KnockbackResistance: 0.6
-    MovementSpeed: 0.25
+    MovementSpeed: 0.27
     PreventOtherDrops: true
+    FollowRange: 60
   Faction: longgu
   AITargetSelectors:
   - 0 clear
@@ -38,8 +39,9 @@
   Options:
     AlwaysShowName: true
     KnockbackResistance: 0.6
-    MovementSpeed: 0.25
+    MovementSpeed: 0.27
     PreventOtherDrops: true
+    FollowRange: 60
   Faction: longgu
   AITargetSelectors:
   - 0 clear
