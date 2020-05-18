@@ -68,3 +68,6 @@ rewards:
 - 'ph give %player% SHULKER_SHELL 1              #SHULKER_SHELL#潜影壳'
 - 'ph give %player% SLIME_BALL 2                 #SLIME_BALL#粘液球'
 - 'ph give %player% TURTLE_HELMET 1              #TURTLE_HELMET#海龟壳'
+- 'iagive %player% mjy:qianghuashi 1             #IRON_INGOT#强化石'
+- 'iagive %player% mjy:ronglianshi 1             #IRON_INGOT#熔炼石'
+- 'iagive %player% mjy:baoshi 1                  #IRON_INGOT#宝石'
