@@ -15,7 +15,7 @@
   - potion{t=WEAKNESS;d=200;l=0} @Target ~onAttack 1
   - summon{m=暴风战士;a=1;r=5} @self ~onDamaged 0.05
   - summon{m=暴风战士;a=1;r=5} @self ~onSpawn 1
-  - summon{m=xuerensheshou3;a=2;r=5} @self ~onSpawn 1
+  #- summon{m=xuerensheshou3;a=2;r=5} @self ~onSpawn 1
   - remove @MIR{r=5;t=死亡战士坐骑} ~onDeath
   #- sendactionmessage{m="<mob.name><&sp>&6<mob.hp>&8/&6<mob.mhp>"} @Trigger ~onDamaged
   Equipment:
