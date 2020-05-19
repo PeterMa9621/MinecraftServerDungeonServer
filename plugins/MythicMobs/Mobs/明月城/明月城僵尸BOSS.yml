@@ -2,7 +2,7 @@
   MobType: zombie
   Display: '&5僵尸首领'
   Health: 300
-  Damage: 9
+  Damage: 13
   AITargetSelectors:
   - 0 clear
   - 1 attacker

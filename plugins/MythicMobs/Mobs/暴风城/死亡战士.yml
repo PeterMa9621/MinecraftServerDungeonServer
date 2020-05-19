@@ -2,7 +2,7 @@
   Mobtype: Stray
   Display: '&3&l暴风城&c&l死亡战士'
   Health: 500
-  Damage: 60
+  Damage: 40
   Riding: 死亡战士坐骑
   Faction: baofengcheng
   Modules:

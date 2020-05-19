@@ -1,8 +1,8 @@
 龙骨守护者:
   Type: PIG_ZOMBIE
   Display: '&4龙骨守护者'
-  Health: 1000
-  Damage: 50
+  Health: 600
+  Damage: 40
   BossBar:
     Enabled: true
     Title: '&4龙骨守护者'

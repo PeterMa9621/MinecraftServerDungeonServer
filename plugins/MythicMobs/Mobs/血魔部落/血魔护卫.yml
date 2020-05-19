@@ -2,7 +2,7 @@
   Type: WITHER_SKELETON
   Display: '&c血魔护卫'
   Health: 100
-  Damage: 10
+  Damage: 15
   Armor: 5
   Modules:
     ThreatTable: true

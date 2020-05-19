@@ -2,7 +2,7 @@
   Type: ZOMBIE
   Display: '&2龙骨战士'
   Health: 170
-  Damage: 30
+  Damage: 24
   Armor: 6
   Modules:
     ThreatTable: true
@@ -32,7 +32,7 @@
   Type: ZOMBIE
   Display: '&2龙骨战士'
   Health: 170
-  Damage: 30
+  Damage: 24
   Armor: 6
   Modules:
     ThreatTable: true

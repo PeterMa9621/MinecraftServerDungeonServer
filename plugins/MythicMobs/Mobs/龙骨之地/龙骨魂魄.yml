@@ -2,7 +2,7 @@
   Type: Zombie
   Display: '&4龙骨魂魄'
   Health: 50
-  Damage: 75
+  Damage: 50
   Faction: longgu
   Equipment:
    - MINIPIG:4
