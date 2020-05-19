@@ -1,8 +1,8 @@
 灵龙:
   Type: PHANTOM
   Display: '&4灵龙'
-  Health: 200
-  Damage: 30
+  Health: 120
+  Damage: 26
   Faction: longgu
   Equipment:
    - IRON_SWORD HAND RIGHT
@@ -17,8 +17,8 @@
 灵龙T:
   Type: PHANTOM
   Display: '&4灵龙'
-  Health: 200
-  Damage: 30
+  Health: 120
+  Damage: 26
   Faction: longgu
   Equipment:
    - IRON_SWORD HAND RIGHT

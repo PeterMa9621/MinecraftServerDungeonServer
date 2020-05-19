@@ -1,8 +1,8 @@
 龙骨魂魄:
   Type: Zombie
   Display: '&4龙骨魂魄'
-  Health: 50
-  Damage: 50
+  Health: 40
+  Damage: 35
   Faction: longgu
   Equipment:
    - MINIPIG:4
