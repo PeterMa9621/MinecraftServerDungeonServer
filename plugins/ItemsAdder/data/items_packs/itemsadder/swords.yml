@@ -1,7 +1,7 @@
 info:
   namespace: itemsadder
-# recipes:
-  # crafting_table:
+recipes:
+  crafting_table:
     # blue_lightsaber:
       # permission: itemsadder.blue_lightsaber
       # enabled: true
@@ -406,19 +406,19 @@ info:
           # philosopher_stone:
             # item: philosopher_stone
             # amount: 64
-    # chisel:
-      # permission: itemsadder.chisel
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - XXI
-      # - XSX
-      # ingredients:
-        # I: IRON_INGOT
-        # S: STICK
-      # result:
-        # item: itemsadder:chisel
-        # amount: 1
+    chisel:
+      permission: itemsadder.chisel
+      enabled: true
+      pattern:
+      - XXX
+      - XXI
+      - XSX
+      ingredients:
+        I: IRON_INGOT
+        S: STICK
+      result:
+        item: itemsadder:chisel
+        amount: 1
     # end_sword:
       # permission: itemsadder.end_sword
       # enabled: true
@@ -538,7 +538,7 @@ info:
           # apple_jam_jar:
             # item: apple_jam_jar
             # amount: 2
-  # anvil_repair:
+  anvil_repair:
     # blue_lightsaber:
       # permission: itemsadder.blue_lightsaber
       # ingredient: DIAMOND
@@ -639,10 +639,10 @@ info:
       # permission: itemsadder.knife
       # ingredient: IRON_NUGGET
       # item: itemsadder:knife
-    # chisel:
-      # permission: itemsadder.chisel
-      # ingredient: IRON_INGOT
-      # item: itemsadder:chisel
+    chisel:
+      permission: itemsadder.chisel
+      ingredient: IRON_INGOT
+      item: itemsadder:chisel
     # end_sword:
       # permission: itemsadder.end_sword
       # ingredient: itemsadder:end_ingot
@@ -1173,15 +1173,15 @@ items:
             to: SAND
             decrement_durability: 1
   chisel:
-    display_name: Chisel
-    permission: chisel
+    display_name: 凿子
+    permission: itemsadder.player
     resource:
       material: WOODEN_SWORD
       generate: true
       textures:
       - item/chisel.png
     durability:
-      max_custom_durability: 512
+      max_custom_durability: 112
     attribute_modifiers:
       mainhand:
         attackDamage: 1.0

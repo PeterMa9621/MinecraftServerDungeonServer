@@ -1,0 +1,7 @@
+{
+  "parent": "block/base/block_real",
+  "textures": {
+    "all": "buildersbasics:block/infernal_lantern",
+    "particle": "buildersbasics:block/infernal_lantern"
+  }
+}

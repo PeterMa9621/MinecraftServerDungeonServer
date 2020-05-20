@@ -1,0 +1,7 @@
+{
+  "parent": "block/base/block_real",
+  "textures": {
+    "all": "buildersbasics:block/andesite_bricks",
+    "particle": "buildersbasics:block/andesite_bricks"
+  }
+}

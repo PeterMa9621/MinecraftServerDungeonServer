@@ -23,7 +23,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/mushroom_stem_true"
+        "model": "buildersbasics:auto_generated/yellow_terracotta_bricks"
       }
     },
     {

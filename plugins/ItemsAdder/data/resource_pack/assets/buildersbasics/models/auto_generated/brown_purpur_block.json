@@ -1,0 +1,7 @@
+{
+  "parent": "block/base/block_real",
+  "textures": {
+    "all": "buildersbasics:block/brown_purpur_block",
+    "particle": "buildersbasics:block/brown_purpur_block"
+  }
+}

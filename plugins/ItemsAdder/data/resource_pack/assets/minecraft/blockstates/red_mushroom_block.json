@@ -23,7 +23,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/driftwood_boards"
       }
     },
     {
@@ -36,7 +36,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/end_stone_pillar"
       }
     },
     {
@@ -49,7 +49,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/end_stone_tiles"
       }
     },
     {
@@ -62,7 +62,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/granite_bricks"
       }
     },
     {
@@ -75,7 +75,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/granite_pillar"
       }
     },
     {
@@ -88,7 +88,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/gray_purpur_block"
       }
     },
     {
@@ -101,7 +101,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/gray_terracotta_bricks"
       }
     },
     {
@@ -114,7 +114,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/green_purpur_block"
       }
     },
     {
@@ -127,7 +127,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/green_terracotta_bricks"
       }
     },
     {
@@ -140,7 +140,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_black"
       }
     },
     {
@@ -153,7 +153,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_blue"
       }
     },
     {
@@ -166,7 +166,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_brown"
       }
     },
     {
@@ -179,7 +179,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_cyan"
       }
     },
     {
@@ -192,7 +192,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_gray"
       }
     },
     {
@@ -205,7 +205,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_green"
       }
     },
     {
@@ -218,7 +218,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_light_blue"
       }
     },
     {
@@ -231,7 +231,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_light_gray"
       }
     },
     {
@@ -244,7 +244,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_lime"
       }
     },
     {
@@ -257,7 +257,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_magenta"
       }
     },
     {
@@ -270,7 +270,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_orange"
       }
     },
     {
@@ -283,7 +283,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_pink"
       }
     },
     {
@@ -296,7 +296,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_purple"
       }
     },
     {
@@ -309,7 +309,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_red"
       }
     },
     {
@@ -322,7 +322,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_white"
       }
     },
     {
@@ -335,7 +335,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pillar_yellow"
       }
     },
     {
@@ -348,7 +348,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/infernal_lantern"
       }
     },
     {
@@ -361,7 +361,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/jungle_boards"
       }
     },
     {
@@ -374,7 +374,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/light_blue_purpur_block"
       }
     },
     {
@@ -387,7 +387,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/light_blue_terracotta_bricks"
       }
     },
     {
@@ -400,7 +400,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/light_gray_purpur_block"
       }
     },
     {
@@ -413,7 +413,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/light_gray_terracotta_bricks"
       }
     },
     {
@@ -426,7 +426,7 @@
         "down": false
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/lime_purpur_block"
       }
     },
     {
@@ -439,7 +439,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/lime_terracotta_bricks"
       }
     },
     {
@@ -452,7 +452,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/magenta_purpur_block"
       }
     },
     {
@@ -465,7 +465,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/magenta_terracotta_bricks"
       }
     },
     {
@@ -478,7 +478,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/mossy_cobblestone_bricks"
       }
     },
     {
@@ -491,7 +491,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/oak_boards"
       }
     },
     {
@@ -504,7 +504,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/orange_purpur_block"
       }
     },
     {
@@ -517,7 +517,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/orange_terracotta_bricks"
       }
     },
     {
@@ -530,7 +530,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pink_purpur_block"
       }
     },
     {
@@ -543,7 +543,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/pink_terracotta_bricks"
       }
     },
     {
@@ -556,7 +556,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/polished_stone"
       }
     },
     {
@@ -569,7 +569,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/prismarine_pillar"
       }
     },
     {
@@ -582,7 +582,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/prismarine_tiles"
       }
     },
     {
@@ -595,7 +595,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/purple_purpur_block"
       }
     },
     {
@@ -608,7 +608,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/purple_terracotta_bricks"
       }
     },
     {
@@ -621,7 +621,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/red_purpur_block"
       }
     },
     {
@@ -634,7 +634,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/red_terracotta_bricks"
       }
     },
     {
@@ -647,7 +647,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/sandstone_pillar"
       }
     },
     {
@@ -660,7 +660,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/small_andesite_bricks"
       }
     },
     {
@@ -673,7 +673,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/small_diorite_bricks"
       }
     },
     {
@@ -686,7 +686,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/small_end_stone_bricks"
       }
     },
     {
@@ -699,7 +699,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/small_granite_bricks"
       }
     },
     {
@@ -712,7 +712,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/small_permafrost_bricks"
       }
     },
     {
@@ -725,7 +725,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/small_stone_bricks"
       }
     },
     {
@@ -738,7 +738,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/smooth_stone"
       }
     },
     {
@@ -751,7 +751,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/spruce_boards"
       }
     },
     {
@@ -764,7 +764,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/stone_pillar"
       }
     },
     {
@@ -777,7 +777,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/terracotta_bricks"
       }
     },
     {
@@ -790,7 +790,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/white_purpur_block"
       }
     },
     {
@@ -803,7 +803,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/white_terracotta_bricks"
       }
     },
     {
@@ -816,7 +816,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/wisteria_boards"
       }
     },
     {
@@ -829,7 +829,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/red_mushroom_block_true"
+        "model": "buildersbasics:auto_generated/yellow_purpur_block"
       }
     }
   ]
