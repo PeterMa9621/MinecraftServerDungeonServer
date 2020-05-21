@@ -3,7 +3,7 @@
   Display: '&3&l暴风战士'
   Faction: baofengcheng
   Health: 350
-  Damage: 22
+  Damage: 20
   Modules:
     ThreatTable: true
   AITargetSelectors:
@@ -22,7 +22,7 @@
   Display: '&3&l暴风战士'
   Faction: baofengcheng
   Health: 350
-  Damage: 22
+  Damage: 20
   Modules:
     ThreatTable: true
   AITargetSelectors:

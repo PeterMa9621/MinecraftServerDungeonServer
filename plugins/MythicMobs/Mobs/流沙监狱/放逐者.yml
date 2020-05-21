@@ -5,7 +5,7 @@
   Type: WITHER_SKELETON
   Display: '&e&l放逐者'
   Health: 100
-  Damage: 30
+  Damage: 25
   Modules:
     ThreatTable: true
   AITargetSelectors:

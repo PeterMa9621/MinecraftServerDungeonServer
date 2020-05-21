@@ -1,7 +1,7 @@
 灵龙:
   Type: PHANTOM
   Display: '&4灵龙'
-  Health: 120
+  Health: 60
   Damage: 26
   Faction: longgu
   Equipment:
@@ -17,7 +17,7 @@
 灵龙T:
   Type: PHANTOM
   Display: '&4灵龙'
-  Health: 120
+  Health: 60
   Damage: 26
   Faction: longgu
   Equipment:

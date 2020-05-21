@@ -1093,7 +1093,7 @@ items:
       anvil_repair_item: mjy:huangshuijing
     attribute_modifiers:
       head:
-        armor: 8
+        armor: 9
         armorToughness: 3
         maxHealth: -1
     level: 25
@@ -1114,7 +1114,7 @@ items:
       anvil_repair_item: mjy:huangshuijing
     attribute_modifiers:
       chest:
-        armor: 13
+        armor: 14
         armorToughness: 3
         maxHealth: -2
     level: 25
@@ -1135,7 +1135,7 @@ items:
       anvil_repair_item: mjy:huangshuijing
     attribute_modifiers:
       legs:
-        armor: 11
+        armor: 12
         armorToughness: 3
         maxHealth: -2
     level: 25
@@ -1156,7 +1156,7 @@ items:
       anvil_repair_item: mjy:huangshuijing
     attribute_modifiers:
       feet:
-        armor: 8
+        armor: 9
         armorToughness: 3
         maxHealth: -1
     level: 25
@@ -1177,7 +1177,7 @@ items:
       anvil_repair_item: mjy:huangshuijing
     attribute_modifiers:
       head:
-        attackDamage: 0.5
+        attackDamage: 1
         armor: 6
         armorToughness: 2
         maxHealth: 1
@@ -1199,7 +1199,7 @@ items:
       anvil_repair_item: mjy:huangshuijing
     attribute_modifiers:
       chest:
-        attackDamage: 0.5
+        attackDamage: 1
         armor: 11
         armorToughness: 2
         maxHealth: 2
@@ -1221,7 +1221,7 @@ items:
       anvil_repair_item: mjy:huangshuijing
     attribute_modifiers:
       legs:
-        attackDamage: 0.5
+        attackDamage: 1
         armor: 9
         armorToughness: 2
         maxHealth: 2
@@ -1243,7 +1243,7 @@ items:
       anvil_repair_item: mjy:huangshuijing
     attribute_modifiers:
       feet:
-        attackDamage: 0.5
+        attackDamage: 1
         armor: 16
         armorToughness: 2
         maxHealth: 1

@@ -2,7 +2,7 @@
   Type: ZOMBIE
   Display: '&2追逐者'
   Health: 90
-  Damage: 30
+  Damage: 25
   Modules:
     ThreatTable: true
   Options:
