@@ -1,5 +1,5 @@
 warp-not-found: "&c那个传送点不存在!"
-warp-created: "&7已创建名字为 &9%warp %&7的传送点!"
+warp-created: "&7已创建名字为 &9%warp%&7的传送点!"
 warp-updated: "&7已更新传送点 &9%warp%&7!"
 warp-in-other-server: "&c传送点在另一个服务器上!"
 teleported: "&7已传送到 &9%warp%&7!"
