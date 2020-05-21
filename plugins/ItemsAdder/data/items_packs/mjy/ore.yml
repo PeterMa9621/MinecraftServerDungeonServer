@@ -222,7 +222,7 @@ worlds_populators:
     - GRANITE
     - COBBLESTONE
     - GRAVEL
-    chance: 15.0
+    chance: 20.0
     max_height: 30
     min_height: 5
     amount: 3
@@ -238,7 +238,7 @@ worlds_populators:
     - GRANITE
     - COBBLESTONE
     - GRAVEL
-    chance: 15.0
+    chance: 20.0
     max_height: 30
     min_height: 5
     amount: 3
@@ -302,7 +302,7 @@ worlds_populators:
     - GRANITE
     - COBBLESTONE
     - GRAVEL
-    chance: 20.0
+    chance: 30.0
     max_height: 40
     min_height: 5
     amount: 3
@@ -318,7 +318,7 @@ worlds_populators:
     - GRANITE
     - COBBLESTONE
     - GRAVEL
-    chance: 20.0
+    chance: 15.0
     max_height: 30
     min_height: 5
     amount: 3
