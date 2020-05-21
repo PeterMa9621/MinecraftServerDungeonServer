@@ -12,6 +12,540 @@
         "custom_model_data": 2
       },
       "model": "itemsadder:auto_generated/nice_stone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "buildersbasics:auto_generated/abyssal_lantern"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "buildersbasics:auto_generated/acacia_boards"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "buildersbasics:auto_generated/andesite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "buildersbasics:auto_generated/andesite_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "buildersbasics:auto_generated/birch_boards"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "buildersbasics:auto_generated/black_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "buildersbasics:auto_generated/black_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "buildersbasics:auto_generated/blue_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "buildersbasics:auto_generated/blue_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "buildersbasics:auto_generated/brown_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "buildersbasics:auto_generated/brown_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "buildersbasics:auto_generated/chiseled_andesite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "buildersbasics:auto_generated/chiseled_dark_prismarine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "buildersbasics:auto_generated/chiseled_diorite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "buildersbasics:auto_generated/chiseled_granite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "buildersbasics:auto_generated/chiseled_prismarine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "buildersbasics:auto_generated/cobblestone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "buildersbasics:auto_generated/cyan_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "buildersbasics:auto_generated/cyan_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "buildersbasics:auto_generated/dark_oak_boards"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "buildersbasics:auto_generated/dark_prismarine_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "buildersbasics:auto_generated/dark_prismarine_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "buildersbasics:auto_generated/dark_prismarine_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "buildersbasics:auto_generated/diorite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "buildersbasics:auto_generated/diorite_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "buildersbasics:auto_generated/driftwood_boards"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "buildersbasics:auto_generated/end_stone_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "buildersbasics:auto_generated/end_stone_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "buildersbasics:auto_generated/granite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "buildersbasics:auto_generated/granite_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "buildersbasics:auto_generated/gray_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 34
+      },
+      "model": "buildersbasics:auto_generated/gray_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 35
+      },
+      "model": "buildersbasics:auto_generated/green_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 36
+      },
+      "model": "buildersbasics:auto_generated/green_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 37
+      },
+      "model": "buildersbasics:auto_generated/pillar_black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 38
+      },
+      "model": "buildersbasics:auto_generated/pillar_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 39
+      },
+      "model": "buildersbasics:auto_generated/pillar_brown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 40
+      },
+      "model": "buildersbasics:auto_generated/pillar_cyan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 41
+      },
+      "model": "buildersbasics:auto_generated/pillar_gray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 42
+      },
+      "model": "buildersbasics:auto_generated/pillar_green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 43
+      },
+      "model": "buildersbasics:auto_generated/pillar_light_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 44
+      },
+      "model": "buildersbasics:auto_generated/pillar_light_gray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 45
+      },
+      "model": "buildersbasics:auto_generated/pillar_lime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "buildersbasics:auto_generated/pillar_magenta"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "buildersbasics:auto_generated/pillar_orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "model": "buildersbasics:auto_generated/pillar_pink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "model": "buildersbasics:auto_generated/pillar_purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "buildersbasics:auto_generated/pillar_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "model": "buildersbasics:auto_generated/pillar_white"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "model": "buildersbasics:auto_generated/pillar_yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 53
+      },
+      "model": "buildersbasics:auto_generated/infernal_lantern"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "model": "buildersbasics:auto_generated/jungle_boards"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "model": "buildersbasics:auto_generated/light_blue_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 56
+      },
+      "model": "buildersbasics:auto_generated/light_blue_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 57
+      },
+      "model": "buildersbasics:auto_generated/light_gray_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "model": "buildersbasics:auto_generated/light_gray_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 59
+      },
+      "model": "buildersbasics:auto_generated/lime_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 60
+      },
+      "model": "buildersbasics:auto_generated/lime_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 61
+      },
+      "model": "buildersbasics:auto_generated/magenta_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 62
+      },
+      "model": "buildersbasics:auto_generated/magenta_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 63
+      },
+      "model": "buildersbasics:auto_generated/mossy_cobblestone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 64
+      },
+      "model": "buildersbasics:auto_generated/oak_boards"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 65
+      },
+      "model": "buildersbasics:auto_generated/orange_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 66
+      },
+      "model": "buildersbasics:auto_generated/orange_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 67
+      },
+      "model": "buildersbasics:auto_generated/pink_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 68
+      },
+      "model": "buildersbasics:auto_generated/pink_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 69
+      },
+      "model": "buildersbasics:auto_generated/polished_stone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 70
+      },
+      "model": "buildersbasics:auto_generated/prismarine_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 71
+      },
+      "model": "buildersbasics:auto_generated/prismarine_tiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 72
+      },
+      "model": "buildersbasics:auto_generated/purple_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 73
+      },
+      "model": "buildersbasics:auto_generated/purple_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 74
+      },
+      "model": "buildersbasics:auto_generated/red_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 75
+      },
+      "model": "buildersbasics:auto_generated/red_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 76
+      },
+      "model": "buildersbasics:auto_generated/sandstone_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 77
+      },
+      "model": "buildersbasics:auto_generated/small_andesite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 78
+      },
+      "model": "buildersbasics:auto_generated/small_diorite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 79
+      },
+      "model": "buildersbasics:auto_generated/small_end_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 80
+      },
+      "model": "buildersbasics:auto_generated/small_granite_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 81
+      },
+      "model": "buildersbasics:auto_generated/small_permafrost_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 82
+      },
+      "model": "buildersbasics:auto_generated/small_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 83
+      },
+      "model": "buildersbasics:auto_generated/smooth_stone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 84
+      },
+      "model": "buildersbasics:auto_generated/spruce_boards"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 85
+      },
+      "model": "buildersbasics:auto_generated/stone_pillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 86
+      },
+      "model": "buildersbasics:auto_generated/terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 87
+      },
+      "model": "buildersbasics:auto_generated/white_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 88
+      },
+      "model": "buildersbasics:auto_generated/white_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 89
+      },
+      "model": "buildersbasics:auto_generated/wisteria_boards"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 90
+      },
+      "model": "buildersbasics:auto_generated/yellow_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 91
+      },
+      "model": "buildersbasics:auto_generated/yellow_terracotta_bricks"
     }
   ]
 }

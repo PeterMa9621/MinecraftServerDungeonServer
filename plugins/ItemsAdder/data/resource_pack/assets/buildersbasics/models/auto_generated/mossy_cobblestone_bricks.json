@@ -1,0 +1,7 @@
+{
+  "parent": "block/base/block_real",
+  "textures": {
+    "all": "buildersbasics:block/mossy_cobblestone_bricks",
+    "particle": "buildersbasics:block/mossy_cobblestone_bricks"
+  }
+}

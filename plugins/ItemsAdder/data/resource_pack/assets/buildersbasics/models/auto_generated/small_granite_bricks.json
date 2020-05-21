@@ -1,0 +1,7 @@
+{
+  "parent": "block/base/block_real",
+  "textures": {
+    "all": "buildersbasics:block/small_granite_bricks",
+    "particle": "buildersbasics:block/small_granite_bricks"
+  }
+}

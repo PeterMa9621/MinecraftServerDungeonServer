@@ -1,0 +1,2399 @@
+info:
+  namespace: buildersbasics
+  credits: "Ported to ItemsAdder by LoneDev. Original work page: https://www.curseforge.com/minecraft/mc-mods/builders-basics"
+  authors: "LoneDev, equinoxrex_, i_am_arobazzz "
+items:
+  abyssal_lantern:
+    display_name: 深渊灯笼
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/abyssal_lantern.png
+      - block/abyssal_lantern.png
+      - block/abyssal_lantern.png
+      - block/abyssal_lantern.png
+      - block/abyssal_lantern_top.png
+      - block/abyssal_lantern.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  abyssal_lantern_top:
+    display_name: 深渊灯笼顶部
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/abyssal_lantern_top.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  acacia_boards:
+    display_name: 金合欢板
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/acacia_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  andesite_bricks:
+    display_name: 安山岩砖
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/andesite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  andesite_pillar:
+    display_name: 安山岩柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/andesite_pillar.png
+      - block/andesite_pillar.png
+      - block/andesite_pillar.png
+      - block/andesite_pillar.png
+      - block/andesite_pillar_top.png
+      - block/andesite_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  birch_boards:
+    display_name: 桦木板
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/birch_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  black_purpur_block:
+    display_name: 黑色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/black_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  black_terracotta_bricks:
+    display_name: 黑色陶瓦砖
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/black_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  blue_purpur_block:
+    display_name: 蓝色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/blue_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  blue_terracotta_bricks:
+    display_name: 蓝色陶瓦砖
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/blue_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  brown_purpur_block:
+    display_name: 棕色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/brown_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  brown_terracotta_bricks:
+    display_name: 棕色陶瓦砖
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/brown_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  chiseled_andesite:
+    display_name: 雕刻安山岩
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/chiseled_andesite.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  chiseled_dark_prismarine:
+    display_name: 雕刻暗海晶石
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/chiseled_dark_prismarine.png
+      - block/chiseled_dark_prismarine.png
+      - block/chiseled_dark_prismarine.png
+      - block/chiseled_dark_prismarine.png
+      - block/chiseled_dark_prismarine_top.png
+      - block/chiseled_dark_prismarine.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  chiseled_diorite:
+    display_name: 雕刻闪长岩
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/chiseled_diorite.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  chiseled_granite:
+    display_name: 雕刻花岗岩
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/chiseled_granite.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  chiseled_prismarine:
+    display_name: 雕刻海晶石
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/chiseled_prismarine.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  cobblestone_bricks:
+    display_name: 圆石砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/cobblestone_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  cyan_purpur_block:
+    display_name: 青色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/cyan_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  cyan_terracotta_bricks:
+    display_name: 青色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/cyan_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  dark_oak_boards:
+    display_name: 深色橡木板
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/dark_oak_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  dark_prismarine_bricks:
+    display_name: 深色海晶石砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/dark_prismarine_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  dark_prismarine_pillar:
+    display_name: 深色海晶石柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/dark_prismarine_pillar.png
+      - block/dark_prismarine_pillar.png
+      - block/dark_prismarine_pillar.png
+      - block/dark_prismarine_pillar.png
+      - block/dark_prismarine_pillar_top.png
+      - block/dark_prismarine_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  dark_prismarine_tiles:
+    display_name: 深色海晶石瓷砖
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/dark_prismarine_tiles.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  diorite_bricks:
+    display_name: 闪长岩砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/diorite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  diorite_pillar:
+    display_name: 闪长岩柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/diorite_pillar.png
+      - block/diorite_pillar.png
+      - block/diorite_pillar.png
+      - block/diorite_pillar.png
+      - block/diorite_pillar_top.png
+      - block/diorite_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  driftwood_boards:
+    display_name: 浮木板
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/driftwood_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  end_stone_pillar:
+    display_name: 末地石柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/end_stone_tiles.png
+      - block/end_stone_pillar_ve.png
+      - block/end_stone_pillar_ox.png
+      - block/end_stone_pillar_in.png
+      - block/end_stone_pillar_top.png
+      - block/end_stone_pillar_fi.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  end_stone_tiles:
+    display_name: 末地石瓷砖
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/end_stone_tiles.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  granite_bricks:
+    display_name: 花岗岩砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/granite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  granite_pillar:
+    display_name: 花岗岩柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/granite_pillar.png
+      - block/granite_pillar.png
+      - block/granite_pillar.png
+      - block/granite_pillar.png
+      - block/granite_pillar_top.png
+      - block/granite_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  gray_purpur_block:
+    display_name: 灰色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gray_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  gray_terracotta_bricks:
+    display_name: 灰色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gray_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  green_purpur_block:
+    display_name: 绿色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/green_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  green_terracotta_bricks:
+    display_name: 绿色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/green_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_black:
+    display_name: 黑色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_black.png
+      - block/gtp_pillar_black.png
+      - block/gtp_pillar_black.png
+      - block/gtp_pillar_black.png
+      - block/gtp_pillar_black_top.png
+      - block/gtp_pillar_black.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_blue:
+    display_name: 蓝色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_blue.png
+      - block/gtp_pillar_blue.png
+      - block/gtp_pillar_blue.png
+      - block/gtp_pillar_blue.png
+      - block/gtp_pillar_blue_top.png
+      - block/gtp_pillar_blue.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_brown:
+    display_name: 棕色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_brown.png
+      - block/gtp_pillar_brown.png
+      - block/gtp_pillar_brown.png
+      - block/gtp_pillar_brown.png
+      - block/gtp_pillar_brown_top.png
+      - block/gtp_pillar_brown.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_cyan:
+    display_name: 青色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_cyan.png
+      - block/gtp_pillar_cyan.png
+      - block/gtp_pillar_cyan.png
+      - block/gtp_pillar_cyan.png
+      - block/gtp_pillar_cyan_top.png
+      - block/gtp_pillar_cyan.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_gray:
+    display_name: 灰色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_gray.png
+      - block/gtp_pillar_gray.png
+      - block/gtp_pillar_gray.png
+      - block/gtp_pillar_gray.png
+      - block/gtp_pillar_gray_top.png
+      - block/gtp_pillar_gray.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_green:
+    display_name: 绿色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_green.png
+      - block/gtp_pillar_green.png
+      - block/gtp_pillar_green.png
+      - block/gtp_pillar_green.png
+      - block/gtp_pillar_green_top.png
+      - block/gtp_pillar_green.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_light_blue:
+    display_name: 浅蓝色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_light_blue.png
+      - block/gtp_pillar_light_blue.png
+      - block/gtp_pillar_light_blue.png
+      - block/gtp_pillar_light_blue.png
+      - block/gtp_pillar_light_blue_top.png
+      - block/gtp_pillar_light_blue.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_light_gray:
+    display_name: 浅灰色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_light_gray.png
+      - block/gtp_pillar_light_gray.png
+      - block/gtp_pillar_light_gray.png
+      - block/gtp_pillar_light_gray.png
+      - block/gtp_pillar_light_gray_top.png
+      - block/gtp_pillar_light_gray.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_lime:
+    display_name: 青柠色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_lime.png
+      - block/gtp_pillar_lime.png
+      - block/gtp_pillar_lime.png
+      - block/gtp_pillar_lime.png
+      - block/gtp_pillar_lime_top.png
+      - block/gtp_pillar_lime.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_magenta:
+    display_name: 品红色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_magenta.png
+      - block/gtp_pillar_magenta.png
+      - block/gtp_pillar_magenta.png
+      - block/gtp_pillar_magenta.png
+      - block/gtp_pillar_magenta_top.png
+      - block/gtp_pillar_magenta.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_orange:
+    display_name: 橙色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_orange.png
+      - block/gtp_pillar_orange.png
+      - block/gtp_pillar_orange.png
+      - block/gtp_pillar_orange.png
+      - block/gtp_pillar_orange_top.png
+      - block/gtp_pillar_orange.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_pink:
+    display_name: 粉色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_pink.png
+      - block/gtp_pillar_pink.png
+      - block/gtp_pillar_pink.png
+      - block/gtp_pillar_pink.png
+      - block/gtp_pillar_pink_top.png
+      - block/gtp_pillar_pink.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_purple:
+    display_name: 紫色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_purple.png
+      - block/gtp_pillar_purple.png
+      - block/gtp_pillar_purple.png
+      - block/gtp_pillar_purple.png
+      - block/gtp_pillar_purple_top.png
+      - block/gtp_pillar_purple.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_red:
+    display_name: 红色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_red.png
+      - block/gtp_pillar_red.png
+      - block/gtp_pillar_red.png
+      - block/gtp_pillar_red.png
+      - block/gtp_pillar_red_top.png
+      - block/gtp_pillar_red.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_white:
+    display_name: 白色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_white.png
+      - block/gtp_pillar_white.png
+      - block/gtp_pillar_white.png
+      - block/gtp_pillar_white.png
+      - block/gtp_pillar_white_top.png
+      - block/gtp_pillar_white.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pillar_yellow:
+    display_name: 黄色柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/gtp_pillar_yellow.png
+      - block/gtp_pillar_yellow.png
+      - block/gtp_pillar_yellow.png
+      - block/gtp_pillar_yellow.png
+      - block/gtp_pillar_yellow_top.png
+      - block/gtp_pillar_yellow.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  infernal_lantern:
+    display_name: 地狱灯笼
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/infernal_lantern.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  jungle_boards:
+    display_name: 丛林木板
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/jungle_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  light_blue_purpur_block:
+    display_name: 浅蓝色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/light_blue_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  light_blue_terracotta_bricks:
+    display_name: 浅蓝色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/light_blue_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  light_gray_purpur_block:
+    display_name: 浅灰色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/light_gray_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  light_gray_terracotta_bricks:
+    display_name: 浅灰色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/light_gray_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  lime_purpur_block:
+    display_name: 青柠色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/lime_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  lime_terracotta_bricks:
+    display_name: 青柠色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/lime_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  magenta_purpur_block:
+    display_name: 品红色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/magenta_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  magenta_terracotta_bricks:
+    display_name: 品红色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/magenta_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  mossy_cobblestone_bricks:
+    display_name: 苔石砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/mossy_cobblestone_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  oak_boards:
+    display_name: 橡木板
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/oak_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  orange_purpur_block:
+    display_name: 橙色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/orange_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  orange_terracotta_bricks:
+    display_name: 橙色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/orange_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pink_purpur_block:
+    display_name: 粉色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/pink_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  pink_terracotta_bricks:
+    display_name: 粉色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/pink_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  polished_stone:
+    display_name: 抛光石头
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/polished_stone.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  prismarine_pillar:
+    display_name: 海晶石柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/prismarine_pillar.png
+      - block/prismarine_pillar.png
+      - block/prismarine_pillar.png
+      - block/prismarine_pillar.png
+      - block/prismarine_pillar_top.png
+      - block/prismarine_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  prismarine_tiles:
+    display_name: 海晶石瓷砖
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/prismarine_tiles.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  purple_purpur_block:
+    display_name: 紫色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/purple_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  purple_terracotta_bricks:
+    display_name: 紫色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/purple_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  red_purpur_block:
+    display_name: 红色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/red_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  red_terracotta_bricks:
+    display_name: 红色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/red_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  sandstone_pillar:
+    display_name: 砂石柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/sandstone_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  small_andesite_bricks:
+    display_name: 小安山岩砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/small_andesite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  small_diorite_bricks:
+    display_name: 小闪长岩砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/small_diorite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  small_end_stone_bricks:
+    display_name: 小末地石砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/small_end_stone_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  small_granite_bricks:
+    display_name: 小花岗岩砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/small_granite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  small_permafrost_bricks:
+    display_name: 小蓝冰砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/small_permafrost_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  small_stone_bricks:
+    display_name: 小石头砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/small_stone_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  smooth_stone:
+    display_name: 光滑的石头
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/smooth_stone.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  spruce_boards:
+    display_name: 云杉木板
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/spruce_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  stone_pillar:
+    display_name: 石头柱子
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/stone_pillar.png
+      - block/stone_pillar.png
+      - block/stone_pillar.png
+      - block/stone_pillar.png
+      - block/stone_pillar_top.png
+      - block/stone_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  terracotta_bricks:
+    display_name: 陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  white_purpur_block:
+    display_name: 白色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/white_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  white_terracotta_bricks:
+    display_name: 白色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/white_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  wisteria_boards:
+    display_name: 紫藤木板
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/wisteria_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  yellow_purpur_block:
+    display_name: 黄色紫珀块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/yellow_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+  yellow_terracotta_bricks:
+    display_name: 黄色陶瓦砖块
+    permission: itemsadder.player
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/yellow_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+recipes:
+  crafting_table:
+    abyssal_lantern:
+      permission: itemsadder.player.abyssal_lantern
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: SEA_LANTERN
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:abyssal_lantern
+        amount: 1  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1           
+    acacia_boards:
+      permission: itemsadder.player.acacia_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_ACACIA_WOOD
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:acacia_boards
+        amount: 1 
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1           
+    andesite_bricks:
+      permission: itemsadder.player.andesite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: POLISHED_ANDESITE        
+      result:
+        item: buildersbasics:andesite_bricks
+        amount: 4      
+    andesite_pillar:
+      permission: itemsadder.player.andesite_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: POLISHED_ANDESITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:andesite_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2          
+    birch_boards:
+      permission: itemsadder.player.birch_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_BIRCH_WOOD
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:birch_boards
+        amount: 1  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1          
+    black_purpur_block:
+      permission: itemsadder.player.black_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: BLACK_DYE        
+      result:
+        item: buildersbasics:black_purpur_block
+        amount: 1       
+    black_terracotta_bricks:
+      permission: itemsadder.player.black_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: BLACK_TERRACOTTA
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:black_terracotta_bricks
+        amount: 1    
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1    
+    light_gray_purpur_block:
+      permission: itemsadder.player.light_gray_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: SMOOTH_STONE      
+      result:
+        item: buildersbasics:light_gray_purpur_block
+        amount: 4   
+    dark_oak_boards:
+      permission: itemsadder.player.dark_oak_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_DARK_OAK_WOOD     
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:dark_oak_boards
+        amount: 1  
+    blue_purpur_block:
+      permission: itemsadder.player.blue_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: BLUE_DYE
+      result:
+        item: buildersbasics:blue_purpur_block
+        amount: 1
+    blue_terracotta_bricks:
+      permission: itemsadder.player.blue_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: BLUE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:blue_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1   
+    brown_purpur_block:
+      permission: itemsadder.player.brown_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: BROWN_DYE        
+      result:
+        item: buildersbasics:brown_purpur_block
+        amount: 1  
+    brown_terracotta_bricks:
+      permission: itemsadder.player.brown_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: BLUE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:brown_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1    
+    chiseled_andesite:
+      permission: itemsadder.player.chiseled_andesite
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: ANDESITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:chiseled_andesite
+        amount: 1  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    chiseled_dark_prismarine:
+      permission: itemsadder.player.chiseled_dark_prismarine
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: DARK_PRISMARINE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:chiseled_dark_prismarine
+        amount: 1  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    chiseled_diorite:
+      permission: itemsadder.player.chiseled_diorite
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: DIORITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:chiseled_diorite
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1 
+    chiseled_granite:
+      permission: itemsadder.player.chiseled_granite
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: GRANITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:chiseled_granite
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1     
+    chiseled_prismarine:
+      permission: itemsadder.player.chiseled_prismarine
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: PRISMARINE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:chiseled_prismarine
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    cobblestone_bricks:
+      permission: itemsadder.player.cobblestone_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: COBBLESTONE      
+      result:
+        item: buildersbasics:cobblestone_bricks
+        amount: 4  
+    cyan_purpur_block:
+      permission: itemsadder.player.cyan_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:cyan_purpur_block
+        C: CYAN_DYE        
+      result:
+        item: buildersbasics:cyan_purpur_block
+        amount: 1  
+    cyan_terracotta_bricks:
+      permission: itemsadder.player.cyan_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: CYAN_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:cyan_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1   
+    dark_prismarine_bricks:
+      permission: itemsadder.player.dark_prismarine_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: DARK_PRISMARINE      
+      result:
+        item: buildersbasics:dark_prismarine_bricks
+        amount: 4
+    dark_prismarine_pillar:
+      permission: itemsadder.player.dark_prismarine_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: DARK_PRISMARINE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:dark_prismarine_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2
+    dark_prismarine_tiles:
+      permission: itemsadder.player.dark_prismarine_tiles
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: buildersbasics:dark_prismarine_bricks
+      result:
+        item: buildersbasics:dark_prismarine_tiles
+        amount: 4          
+    diorite_bricks:
+      permission: itemsadder.player.diorite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: POLISHED_DIORITE  
+      result:
+        item: buildersbasics:diorite_bricks
+        amount: 4   
+    diorite_pillar:
+      permission: itemsadder.player.diorite_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: POLISHED_DIORITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:diorite_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2    
+    end_stone_pillar:
+      permission: itemsadder.player.end_stone_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: END_STONE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:end_stone_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2    
+    end_stone_tiles:
+      permission: itemsadder.player.end_stone_tiles
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: END_STONE
+      result:
+        item: buildersbasics:end_stone_tiles
+        amount: 4      
+    granite_bricks:
+      permission: itemsadder.player.granite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: POLISHED_GRANITE        
+      result:
+        item: buildersbasics:granite_bricks
+        amount: 4  
+    granite_pillar:
+      permission: itemsadder.player.granite_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: POLISHED_GRANITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:granite_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2   
+    gray_purpur_block:
+      permission: itemsadder.player.gray_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: GRAY_DYE        
+      result:
+        item: buildersbasics:gray_purpur_block
+        amount: 1  
+    gray_terracotta_bricks:
+      permission: itemsadder.player.gray_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: GRAY_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:gray_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1        
+    green_purpur_block:
+      permission: itemsadder.player.green_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: GREEN_DYE        
+      result:
+        item: buildersbasics:green_purpur_block
+        amount: 1 
+    green_terracotta_bricks:
+      permission: itemsadder.player.green_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: GREEN_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:green_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    infernal_lantern:
+      permission: infernal_lantern
+      enabled: true
+      pattern:
+      - SSS
+      - SGS
+      - SSS
+      ingredients:
+        S: NETHER_BRICKS
+        G: GLOWSTONE        
+      result:
+        item: buildersbasics:infernal_lantern
+        amount: 8   
+    jungle_boards:
+      permission: itemsadder.player.jungle_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_JUNGLE_WOOD
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:jungle_boards
+        amount: 1 
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    light_blue_purpur_block:
+      permission: itemsadder.player.light_blue_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: LIGHT_BLUE_DYE        
+      result:
+        item: buildersbasics:light_blue_purpur_block
+        amount: 1  
+    light_blue_terracotta_bricks:
+      permission: itemsadder.player.light_blue_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: LIGHT_BLUE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:light_blue_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1    
+    light_gray_terracotta_bricks:
+      permission: itemsadder.player.light_gray_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: LIGHT_GRAY_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:light_gray_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    lime_purpur_block:
+      permission: itemsadder.player.lime_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: LIME_DYE        
+      result:
+        item: buildersbasics:lime_purpur_block
+        amount: 1    
+    lime_terracotta_bricks:
+      permission: itemsadder.player.lime_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: LIME_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:lime_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1 
+    magenta_purpur_block:
+      permission: itemsadder.player.magenta_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: MAGENTA_DYE        
+      result:
+        item: buildersbasics:magenta_purpur_block
+        amount: 1  
+    magenta_terracotta_bricks:
+      permission: itemsadder.player.magenta_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: MAGENTA_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:magenta_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1       
+    mossy_cobblestone_bricks:
+      permission: itemsadder.player.mossy_cobblestone_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: MOSSY_COBBLESTONE      
+      result:
+        item: buildersbasics:mossy_cobblestone_bricks
+        amount: 4    
+    oak_boards:
+      permission: itemsadder.player.oak_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_OAK_WOOD
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:oak_boards
+        amount: 1 
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1   
+    orange_purpur_block:
+      permission: itemsadder.player.orange_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: ORANGE_DYE        
+      result:
+        item: buildersbasics:orange_purpur_block
+        amount: 1    
+    orange_terracotta_bricks:
+      permission: itemsadder.player.orange_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: ORANGE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:orange_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1               
+    pink_purpur_block:
+      permission: itemsadder.player.pink_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: PINK_DYE        
+      result:
+        item: buildersbasics:pink_purpur_block
+        amount: 1  
+    pink_terracotta_bricks:
+      permission: itemsadder.player.pink_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: PINK_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:pink_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1         
+    pink_terracotta_bricks:
+      permission: itemsadder.player.pink_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: PINK_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:pink_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    polished_stone:
+      permission: itemsadder.player.polished_stone
+      enabled: true
+      pattern:
+      - SSS
+      - SSS
+      - SSS
+      ingredients:
+        S: STONE        
+      result:
+        item: buildersbasics:polished_stone
+        amount: 9         
+    prismarine_pillar:
+      permission: itemsadder.player.prismarine_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: PRISMARINE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:prismarine_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2  
+    dark_prismarine_tiles:
+      permission: itemsadder.player.dark_prismarine_tiles
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: PRISMARINE_BRICKS
+      result:
+        item: buildersbasics:dark_prismarine_tiles
+        amount: 4  
+    purple_purpur_block:
+      permission: itemsadder.player.purple_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: PURPLE_DYE        
+      result:
+        item: buildersbasics:purple_purpur_block
+        amount: 1     
+    red_purpur_block:
+      permission: itemsadder.player.red_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: RED_DYE        
+      result:
+        item: buildersbasics:red_purpur_block
+        amount: 1      
+    red_terracotta_bricks:
+      permission: itemsadder.player.red_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: RED_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:red_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    purple_terracotta_bricks:
+      permission: itemsadder.player.purple_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: PURPLE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:purple_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1 
+    sandstone_pillar:
+      permission: itemsadder.player.sandstone_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: SANDSTONE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:sandstone_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2     
+    small_andesite_bricks:
+      permission: itemsadder.player.small_andesite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: buildersbasics:andesite_bricks        
+      result:
+        item: buildersbasics:small_andesite_bricks
+        amount: 4   
+    small_diorite_bricks:
+      permission: itemsadder.player.small_diorite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: buildersbasics:diorite_bricks       
+      result:
+        item: buildersbasics:small_diorite_bricks
+        amount: 4    
+    small_end_stone_bricks:
+      permission: itemsadder.player.small_end_stone_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: END_STONE_BRICKS       
+      result:
+        item: buildersbasics:small_end_stone_bricks
+        amount: 4    
+    small_granite_bricks:
+      permission: itemsadder.player.small_granite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: buildersbasics:granite_bricks     
+      result:
+        item: buildersbasics:small_granite_bricks
+        amount: 4    
+    small_permafrost_bricks:
+      permission: itemsadder.player.small_permafrost_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: BLUE_ICE   
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:small_permafrost_bricks
+        amount: 4  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1        
+    small_stone_bricks:
+      permission: itemsadder.player.small_stone_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: STONE_BRICKS    
+      result:
+        item: buildersbasics:small_stone_bricks
+        amount: 4 
+    spruce_boards:
+      permission: itemsadder.player.spruce_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_SPRUCE_WOOD
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:spruce_boards
+        amount: 1  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1       
+    stone_pillar:
+      permission: itemsadder.player.stone_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: STONE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:stone_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2              
+    terracotta_bricks:
+      permission: itemsadder.player.terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1 
+    white_purpur_block:
+      permission: itemsadder.player.white_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: WHITE_DYE        
+      result:
+        item: buildersbasics:white_purpur_block
+        amount: 1                
+    white_terracotta_bricks:
+      permission: itemsadder.player.white_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: WHITE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:white_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1 
+    yellow_purpur_block:
+      permission: itemsadder.player.yellow_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: YELLOW_DYE        
+      result:
+        item: buildersbasics:yellow_purpur_block
+        amount: 1 
+    yellow_terracotta_bricks:
+      permission: itemsadder.player.yellow_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: YELLOW_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:yellow_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1        

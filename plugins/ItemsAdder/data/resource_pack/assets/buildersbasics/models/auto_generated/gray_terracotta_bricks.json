@@ -1,0 +1,7 @@
+{
+  "parent": "block/base/block_real",
+  "textures": {
+    "all": "buildersbasics:block/gray_terracotta_bricks",
+    "particle": "buildersbasics:block/gray_terracotta_bricks"
+  }
+}

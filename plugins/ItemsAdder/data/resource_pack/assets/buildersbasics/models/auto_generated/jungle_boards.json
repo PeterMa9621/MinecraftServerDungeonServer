@@ -1,0 +1,7 @@
+{
+  "parent": "block/base/block_real",
+  "textures": {
+    "all": "buildersbasics:block/jungle_boards",
+    "particle": "buildersbasics:block/jungle_boards"
+  }
+}
