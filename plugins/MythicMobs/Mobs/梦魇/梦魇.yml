@@ -18,6 +18,7 @@
    - iron_BOOTS FEET
   Options:
    MovementSpeed: 0.4
+   Despawn: false
   Skills:
    - sound{s=entity.ghast.hurt} @self ~OnTimer:200
    - skill{s=NightSpawn} @self 0.1
