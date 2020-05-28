@@ -970,6 +970,10 @@ categories:
       - "mjy:longgu_chest"
       - "mjy:longgu_leg"
       - "mjy:longgu_feet"
+      - "mjy:mengyan_head"
+      - "mjy:mengyan_chest"
+      - "mjy:mengyan_leg"
+      - "mjy:mengyan_feet"
   buildersbasics:
     enabled: true
     icon: "buildersbasics:abyssal_lantern"
