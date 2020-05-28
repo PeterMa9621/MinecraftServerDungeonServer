@@ -1,0 +1,26 @@
+﻿小梦魇:
+  Type: ZOMBIE
+  Display: '小梦魇'
+  Health: 50
+  Damage: 35
+  BossBar:
+   Enabled: false
+   Title: 'EYE'
+   Range: 20
+   Color: BLUE
+   Style: SOLID
+  Equipment:
+   - SCP02:4
+  Armor: 0
+  Faction: mobs2
+  Skills:
+   - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+   - effect:sound{s=entity.phantom.hurt;v=1;p=0} @self ~onDamaged
+########################################################################
+###                                                                    #
+###   BOSS PACK                                                        #
+###                                                                    #
+###   Created by AliAlibekov                                           #
+###                                                                    #
+###                                                                    #
+########################################################################

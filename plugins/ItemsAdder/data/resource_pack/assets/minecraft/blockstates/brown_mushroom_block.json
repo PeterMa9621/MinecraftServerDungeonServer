@@ -36,12 +36,25 @@
         "down": true
       },
       "apply": {
-        "model": "buildersbasics:auto_generated/acacia_boards"
+        "model": "buildersbasics:auto_generated/abyssal_lantern_top"
       }
     },
     {
       "when": {
         "west": false,
+        "up": false,
+        "south": false,
+        "north": true,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "buildersbasics:auto_generated/acacia_boards"
+      }
+    },
+    {
+      "when": {
+        "west": true,
         "up": false,
         "south": false,
         "north": true,
@@ -54,8 +67,8 @@
     },
     {
       "when": {
-        "west": true,
-        "up": false,
+        "west": false,
+        "up": true,
         "south": false,
         "north": true,
         "east": false,
@@ -67,7 +80,7 @@
     },
     {
       "when": {
-        "west": false,
+        "west": true,
         "up": true,
         "south": false,
         "north": true,
@@ -80,9 +93,9 @@
     },
     {
       "when": {
-        "west": true,
-        "up": true,
-        "south": false,
+        "west": false,
+        "up": false,
+        "south": true,
         "north": true,
         "east": false,
         "down": true
@@ -93,7 +106,7 @@
     },
     {
       "when": {
-        "west": false,
+        "west": true,
         "up": false,
         "south": true,
         "north": true,
@@ -106,8 +119,8 @@
     },
     {
       "when": {
-        "west": true,
-        "up": false,
+        "west": false,
+        "up": true,
         "south": true,
         "north": true,
         "east": false,
@@ -119,7 +132,7 @@
     },
     {
       "when": {
-        "west": false,
+        "west": true,
         "up": true,
         "south": true,
         "north": true,
@@ -132,11 +145,11 @@
     },
     {
       "when": {
-        "west": true,
-        "up": true,
-        "south": true,
-        "north": true,
-        "east": false,
+        "west": false,
+        "up": false,
+        "south": false,
+        "north": false,
+        "east": true,
         "down": true
       },
       "apply": {
@@ -145,7 +158,7 @@
     },
     {
       "when": {
-        "west": false,
+        "west": true,
         "up": false,
         "south": false,
         "north": false,
@@ -158,8 +171,8 @@
     },
     {
       "when": {
-        "west": true,
-        "up": false,
+        "west": false,
+        "up": true,
         "south": false,
         "north": false,
         "east": true,
@@ -171,7 +184,7 @@
     },
     {
       "when": {
-        "west": false,
+        "west": true,
         "up": true,
         "south": false,
         "north": false,
@@ -184,9 +197,9 @@
     },
     {
       "when": {
-        "west": true,
-        "up": true,
-        "south": false,
+        "west": false,
+        "up": false,
+        "south": true,
         "north": false,
         "east": true,
         "down": true
@@ -197,7 +210,7 @@
     },
     {
       "when": {
-        "west": false,
+        "west": true,
         "up": false,
         "south": true,
         "north": false,
@@ -210,8 +223,8 @@
     },
     {
       "when": {
-        "west": true,
-        "up": false,
+        "west": false,
+        "up": true,
         "south": true,
         "north": false,
         "east": true,
@@ -223,7 +236,7 @@
     },
     {
       "when": {
-        "west": false,
+        "west": true,
         "up": true,
         "south": true,
         "north": false,
@@ -236,10 +249,10 @@
     },
     {
       "when": {
-        "west": true,
-        "up": true,
-        "south": true,
-        "north": false,
+        "west": false,
+        "up": false,
+        "south": false,
+        "north": true,
         "east": true,
         "down": true
       },
@@ -249,7 +262,7 @@
     },
     {
       "when": {
-        "west": false,
+        "west": true,
         "up": false,
         "south": false,
         "north": true,
@@ -262,8 +275,8 @@
     },
     {
       "when": {
-        "west": true,
-        "up": false,
+        "west": false,
+        "up": true,
         "south": false,
         "north": true,
         "east": true,
@@ -275,7 +288,7 @@
     },
     {
       "when": {
-        "west": false,
+        "west": true,
         "up": true,
         "south": false,
         "north": true,
@@ -288,9 +301,9 @@
     },
     {
       "when": {
-        "west": true,
-        "up": true,
-        "south": false,
+        "west": false,
+        "up": false,
+        "south": true,
         "north": true,
         "east": true,
         "down": true
@@ -301,7 +314,7 @@
     },
     {
       "when": {
-        "west": false,
+        "west": true,
         "up": false,
         "south": true,
         "north": true,
@@ -314,19 +327,6 @@
     },
     {
       "when": {
-        "west": true,
-        "up": false,
-        "south": true,
-        "north": true,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "buildersbasics:auto_generated/diorite_bricks"
-      }
-    },
-    {
-      "when": {
         "west": false,
         "up": true,
         "south": true,
@@ -335,7 +335,7 @@
         "down": true
       },
       "apply": {
-        "model": "buildersbasics:auto_generated/diorite_pillar"
+        "model": "buildersbasics:auto_generated/diorite_bricks"
       }
     },
     {

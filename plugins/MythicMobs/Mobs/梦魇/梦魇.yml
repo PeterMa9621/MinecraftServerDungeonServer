@@ -1,0 +1,34 @@
+﻿梦魇:
+  Type: ZOMBIE
+  Display: '&5梦魇'
+  Health: 1000
+  Damage: 32
+  BossBar:
+   Enabled: true
+   Title: '&5&l梦魇'
+   Range: 20
+   Color: RED
+   Style: SOLID
+  Armor: 0
+  Faction: pak1
+  Equipment:
+   - SCP01:4
+   - iron_CHESTPLATE CHEST
+   - iron_LEGGINGS LEGS
+   - iron_BOOTS FEET
+  Options:
+   MovementSpeed: 0.4
+  Skills:
+   - sound{s=entity.ghast.hurt} @self ~OnTimer:200
+   - skill{s=NightSpawn} @self 0.1
+   - skill{s=Night} @PlayersInRadius{r=15}
+   - skill{s=NightHurt} @target >0 0.2
+   - skill{s=NightTornado} 0.2
+########################################################################
+###                                                                    #
+###   BOSS PACK                                                        #
+###                                                                    #
+###   Created by AliAlibekov                                           #
+###                                                                    #
+###                                                                    #
+########################################################################

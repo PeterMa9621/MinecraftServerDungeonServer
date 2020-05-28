@@ -475,10 +475,14 @@ items:
       max_custom_durability: 1999
     attribute_modifiers:
       mainhand:
-        attackDamage: 17
+        attackDamage: 17.5
         attackSpeed: 1.3
     specific_properties:
       anvil_repair_item: mjy:zishuijing
+    events:
+      attack:
+        play_particle:
+          name: "ENCHANTMENT_TABLE"
   fenshixieyan_stick:
     display_name: '&8焚世&c邪焰'
     permission: itemsadder.player

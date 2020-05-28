@@ -1094,7 +1094,7 @@ items:
     attribute_modifiers:
       head:
         armor: 9
-        armorToughness: 3
+        armorToughness: 3.2
         maxHealth: -1
     level: 25
   baofeng_chest:
@@ -1115,7 +1115,7 @@ items:
     attribute_modifiers:
       chest:
         armor: 14
-        armorToughness: 3
+        armorToughness: 3.2
         maxHealth: -2
     level: 25
   baofeng_leg:
@@ -1136,7 +1136,7 @@ items:
     attribute_modifiers:
       legs:
         armor: 12
-        armorToughness: 3
+        armorToughness: 3.2
         maxHealth: -2
     level: 25
   baofeng_feet:
@@ -1157,7 +1157,7 @@ items:
     attribute_modifiers:
       feet:
         armor: 9
-        armorToughness: 3
+        armorToughness: 3.2
         maxHealth: -1
     level: 25
   longgu_head:
@@ -1244,7 +1244,91 @@ items:
     attribute_modifiers:
       feet:
         attackDamage: 1
-        armor: 16
+        armor: 6
         armorToughness: 2
         maxHealth: 1
     level: 27
+  mengyan_head:
+    display_name: '&e梦魇头盔'
+    permission: itemsadder.player
+    lore:
+    - '&6梦魇使用噩梦制作'
+    - '&6的头盔'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: 3c3333
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 8
+        armorToughness: 2.5
+        maxHealth: 2
+    level: 30
+  mengyan_chest:
+    display_name: '&e梦魇盔甲'
+    permission: itemsadder.player
+    lore:
+    - '&6梦魇使用噩梦制作'
+    - '&6的头盔'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: 3c3333
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 13
+        armorToughness: 2.5
+        maxHealth: 5
+    level: 30
+  mengyan_leg:
+    display_name: '&e梦魇护腿'
+    permission: itemsadder.player
+    lore:
+    - '&6梦魇使用噩梦制作'
+    - '&6的头盔'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: 3c3333
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 11
+        armorToughness: 2.5
+        maxHealth: 4
+    level: 30
+  mengyan_feet:
+    display_name: '&e梦魇战靴'
+    permission: itemsadder.player
+    lore:
+    - '&6梦魇使用噩梦制作'
+    - '&6的头盔'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: 3c3333
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 8
+        armorToughness: 2.5
+        maxHealth: 2
+    level: 30
