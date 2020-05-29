@@ -551,10 +551,9 @@ recipes:
       # permission: itemsadder.red_lightsaber
       # ingredient: REDSTONE_BLOCK
       # item: itemsadder:red_lightsaber
-    # masters_sword:
-      # permission: itemsadder.masters_sword
-      # ingredient: DIAMOND
-      # item: itemsadder:masters_sword
+    masters_sword:
+      ingredient: mjy:zishuijing
+      item: itemsadder:masters_sword
     # floating_sword:
       # permission: itemsadder.floating_sword
       # ingredient: DIAMOND
@@ -747,17 +746,17 @@ items:
             volume: 1
             pitch: 1
   masters_sword:
-    display_name: '&6&lMaster''s Sword'
+    display_name: '新手之剑'
     permission: masters_sword
     resource:
       material: DIAMOND_SWORD
       generate: false
       model_path: item/masters_sword
     durability:
-      max_custom_durability: 1756
+      max_custom_durability: 1024
     attribute_modifiers:
       mainhand:
-        attackDamage: 8.0
+        attackDamage: 7.0
   floating_sword:
     display_name: '&9&lFloating Sword'
     permission: floating_sword

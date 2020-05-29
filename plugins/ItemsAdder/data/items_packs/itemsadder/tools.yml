@@ -1,6 +1,6 @@
 info:
   namespace: itemsadder
-# recipes:
+recipes:
   # crafting_table:
     # ruby_axe:
       # permission: itemsadder.ruby_axe
@@ -434,8 +434,7 @@ info:
       ingredient: itemsadder:crystal
       item: itemsadder:crystal_axe
     spinel_axe:
-      permission: itemsadder.spinel_axe
-      ingredient: itemsadder:spinel
+      ingredient: mjy:huangshuijing
       item: itemsadder:spinel_axe
     turquoise_axe:
       permission: itemsadder.turquoise_axe
@@ -474,8 +473,7 @@ info:
       ingredient: itemsadder:crystal
       item: itemsadder:crystal_pickaxe
     spinel_pickaxe:
-      permission: itemsadder.spinel_pickaxe
-      ingredient: itemsadder:spinel
+      ingredient: mjy:huangshuijing
       item: itemsadder:spinel_pickaxe
     turquoise_pickaxe:
       permission: itemsadder.turquoise_pickaxe
@@ -502,8 +500,7 @@ info:
       ingredient: itemsadder:crystal
       item: itemsadder:crystal_hoe
     spinel_hoe:
-      permission: itemsadder.spinel_hoe
-      ingredient: itemsadder:spinel
+      ingredient: mjy:huangshuijing
       item: itemsadder:spinel_hoe
     turquoise_hoe:
       permission: itemsadder.turquoise_hoe
@@ -530,8 +527,7 @@ info:
       ingredient: itemsadder:crystal
       item: itemsadder:crystal_shovel
     spinel_shovel:
-      permission: itemsadder.spinel_shovel
-      ingredient: itemsadder:spinel
+      ingredient: mjy:huangshuijing
       item: itemsadder:spinel_shovel
     turquoise_shovel:
       permission: itemsadder.turquoise_shovel
@@ -571,8 +567,8 @@ items:
       textures:
       - item/crystal_axe.png
   spinel_axe:
-    display_name: Spinel Axe
-    permission: spinel_axe
+    display_name: 古铜斧
+    permission: itemsadder.player
     resource:
       material: DIAMOND_AXE
       generate: true
@@ -669,8 +665,8 @@ items:
       textures:
       - item/crystal_pickaxe.png
   spinel_pickaxe:
-    display_name: Spinel Pickaxe
-    permission: spinel_pickaxe
+    display_name: 古铜镐
+    permission: itemsadder.player
     resource:
       material: DIAMOND_PICKAXE
       generate: true
@@ -725,8 +721,8 @@ items:
       textures:
       - item/crystal_hoe.png
   spinel_hoe:
-    display_name: Spinel hoe
-    permission: spinel_hoe
+    display_name: 古铜锄
+    permission: itemsadder.player
     resource:
       material: DIAMOND_HOE
       generate: true
@@ -781,8 +777,8 @@ items:
       textures:
       - item/crystal_shovel.png
   spinel_shovel:
-    display_name: Spinel Shovel
-    permission: spinel_shovel
+    display_name: 古铜铲
+    permission: itemsadder.player
     resource:
       material: DIAMOND_SHOVEL
       generate: true
