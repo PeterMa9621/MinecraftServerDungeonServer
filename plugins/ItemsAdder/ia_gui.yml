@@ -974,6 +974,10 @@ categories:
       - "mjy:mengyan_chest"
       - "mjy:mengyan_leg"
       - "mjy:mengyan_feet"
+      - "mjy:aoding_head"
+      - "mjy:aoding_chest"
+      - "mjy:aoding_leg"
+      - "mjy:aoding_feet"
   buildersbasics:
     enabled: true
     icon: "buildersbasics:abyssal_lantern"
