@@ -482,7 +482,7 @@ items:
     events:
       attack:
         play_particle:
-          name: "ENCHANTMENT_TABLE"
+          name: ENCHANTMENT_TABLE
   fenshixieyan_stick:
     display_name: '&8焚世&c邪焰'
     permission: itemsadder.player

@@ -83,6 +83,7 @@ LEATHER_HELMET:
   mjy:baofeng_head: 23
   mjy:longgu_head: 24
   mjy:mengyan_head: 25
+  mjy:aoding_head: 26
 LEATHER_CHESTPLATE:
   itemsadder:ruby_chest: 1
   itemsadder:spinel_chest: 2
@@ -110,6 +111,7 @@ LEATHER_CHESTPLATE:
   mjy:baofeng_chest: 24
   mjy:longgu_chest: 25
   mjy:mengyan_chest: 26
+  mjy:aoding_chest: 27
 LEATHER_LEGGINGS:
   itemsadder:ruby_legs: 1
   itemsadder:spinel_legs: 2
@@ -137,6 +139,7 @@ LEATHER_LEGGINGS:
   mjy:baofeng_leg: 24
   mjy:longgu_leg: 25
   mjy:mengyan_leg: 26
+  mjy:aoding_leg: 27
 LEATHER_BOOTS:
   itemsadder:ruby_boots: 1
   itemsadder:spinel_boots: 2
@@ -166,6 +169,7 @@ LEATHER_BOOTS:
   mjy:baofeng_feet: 26
   mjy:longgu_feet: 27
   mjy:mengyan_feet: 28
+  mjy:aoding_feet: 29
 REDSTONE_BLOCK:
   itemsadder:ruby_block: 1
   itemsadder:spinel_block: 2

@@ -1,14 +1,15 @@
 奥丁:
   Type: SKELETON
   Display: "&b奥丁"
-  Health: 1000
-  Damage: 80
+  Health: 1200
+  Damage: 32
   Options:
     MovementSpeed: 0
     PreventSunburn: true
     MaxCombatDistance: 16
     PreventRandomEquipment: true
     PreventOtherDrops: true
+    Despawn: false
   DamageModifiers:
   - FALL 0
   - LIGHTNING 0

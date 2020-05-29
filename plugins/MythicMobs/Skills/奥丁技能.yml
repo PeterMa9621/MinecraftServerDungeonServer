@@ -42,7 +42,7 @@ OdinProjectileonHit:
   - effect:blockmask{m=ice;r=3;d=40}  @Origin
   - throw{v=10;vY=3} @target
   - effect:particles{particle=cloud;amount=50;hS=1;vS=3;speed=0.1} @Origin
-  - damage{a=50} @target
+  - damage{a=26} @target
 OdinBurst:
   Conditions:
   - targetwithin{d=6} true
@@ -67,7 +67,7 @@ OdinBurst:
   - delay 1
   - effect:particlesphere{particle=cloud;amount=210;radius=7} @Self
   - effect:blockmask{m=ice;r=7;d=40}  @Self
-  - damage{a=30} @target
+  - damage{a=26} @target
   - effect:lightning @RLNTE{r=10;minr=8}
   - throw{v=20;vY=5} @PIR{r=7}
 OdinAttack:
@@ -75,7 +75,7 @@ OdinAttack:
   - teleport @target
   - effect:particles{particle=cloud;amount=50;hS=1;vS=3;speed=0.1} @self
   - effect:blockmask{m=ice;r=4;d=60} @Self
-  - damage{a=50} @target
+  - damage{a=26} @target
   - throw{v=20;vY=5} @target
   - delay 8
   - effect:lightning @RLNTE{r=10;minr=8}
